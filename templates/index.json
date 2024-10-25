@@ -1,0 +1,1098 @@
+
+ {
+  "sections": {
+    "slideshow_dXGKyT": {
+      "type": "slideshow",
+      "blocks": {
+        "image_4cqeYX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SEG-B_16x9_15second.00_00_11_19.Still017_72426ec5-1646-4c07-8dc9-cdb1b9921df0.jpg",
+            "mobile_image": "shopify://shop_images/SEG-B_16x9_15second.00_00_11_19.Still017_23f3e58d-c89c-4ac0-b5fb-7d7efa3dcae5.jpg",
+            "caption": "SEG-B",
+            "title": "Elevate Your Back Health",
+            "link": "shopify://products/seg-b",
+            "button_label": "Buy Now",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "image_4cqeYX"
+      ],
+      "settings": {
+        "desktop_height": "100vh",
+        "mobile_height": "60vh",
+        "is_auto_height": false,
+        "autorotate_enable": false,
+        "autorotate_interval": 5,
+        "is_fullwidth": true,
+        "alignment": "horizontal-left align-content--vertical-top",
+        "caption_size": "text-size--large",
+        "title_size": "heading-size--regular",
+        "spacing": 18,
+        "width": "100%",
+        "text_blend_mode": "normal",
+        "button_style": "outline",
+        "border_radius": 0,
+        "remove_margin": false
+      }
+    },
+    "rich_text_Nd7KGr": {
+      "type": "rich-text",
+      "blocks": {
+        "title_wj838A": {
+          "type": "title",
+          "settings": {
+            "title": "Unlock the Full Potential of Your Spine",
+            "title_size": "heading-size--small",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_MH3Aja": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Discover the power of the SEG-B®️, a cutting-edge device designed to improve spinal health, mobility, and control.</p>",
+            "text_size": "large"
+          }
+        }
+      },
+      "block_order": [
+        "title_wj838A",
+        "text_MH3Aja"
+      ],
+      "settings": {
+        "video_controls": false,
+        "image_position": "top no-image",
+        "height": "small",
+        "image_crop": false,
+        "is_fullwidth": false,
+        "text_alignment": "horizontal-center",
+        "spacing": 24,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "border_radius": 0,
+        "color_hide_borders": true,
+        "gutter_decrease": true,
+        "remove_margin": false,
+        "remove_bottom_margin": true
+      }
+    },
+    "1662457498c47086cb": {
+      "type": "rich-text",
+      "blocks": {
+        "6bbf7a01-d3d2-4ead-90f4-4698d468453a": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Our brand</p>",
+            "text_size": "regular"
+          }
+        },
+        "166245749775e9bb81-0": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "title": "Your brand's tagline",
+            "title_size": "heading-size--regular",
+            "seo_h_tag": "h2"
+          }
+        },
+        "166245749775e9bb81-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements or welcome customers to your store.</p>",
+            "text_size": "large"
+          }
+        },
+        "166245749775e9bb81-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Show more",
+            "link": "",
+            "open_in_new_window": false,
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "6bbf7a01-d3d2-4ead-90f4-4698d468453a",
+        "166245749775e9bb81-0",
+        "166245749775e9bb81-1",
+        "166245749775e9bb81-2"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/SEG-B-3-no-shadows.png",
+        "video_controls": false,
+        "image_position": "top",
+        "height": "small",
+        "image_crop": false,
+        "is_fullwidth": false,
+        "text_alignment": "horizontal-center",
+        "spacing": 24,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "#ffffff",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "border_radius": 0,
+        "color_hide_borders": true,
+        "gutter_decrease": true,
+        "remove_margin": false,
+        "remove_bottom_margin": true
+      }
+    },
+    "a2fc738d-a3ef-4d4c-a4b8-23e75b776a2d": {
+      "type": "text-columns-icons",
+      "blocks": {
+        "template--16437919940841__a2fc738d-a3ef-4d4c-a4b8-23e75b776a2d-16653952481cdb62be-0": {
+          "type": "image",
+          "settings": {
+            "icon": "star",
+            "image": "shopify://shop_images/tactile.png",
+            "crop": false,
+            "title": "Tactile Feedback",
+            "caption": "The SEG-B's tactile feedback mechanism lets users feel each segment of their spine as they move, promoting awareness and control over spinal movements.",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "3e0a2bdb-d051-44e4-83f3-1afa320bde87": {
+          "type": "image",
+          "settings": {
+            "icon": "wallet",
+            "image": "shopify://shop_images/audio.png",
+            "crop": false,
+            "title": "Auditory Feedback",
+            "caption": "The SEG-B provides real-time auditory feedback through clicking sounds, helping users identify and correct improper spinal segmentation during exercises.",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "cb83a160-9292-467c-a153-9199925931bb": {
+          "type": "image",
+          "settings": {
+            "icon": "giftbox",
+            "image": "shopify://shop_images/visual.png",
+            "crop": true,
+            "title": "Visual Feedback",
+            "caption": "Visual indicators on the SEG-B allow users to see their spinal alignment and movement patterns, enabling precise adjustments for optimal performance.",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "template--16437919940841__a2fc738d-a3ef-4d4c-a4b8-23e75b776a2d-16653952481cdb62be-0",
+        "3e0a2bdb-d051-44e4-83f3-1afa320bde87",
+        "cb83a160-9292-467c-a153-9199925931bb"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "style": "grid",
+        "layout": "grid-3 grid-lap-2 grid-palm-1",
+        "border_radius": 10,
+        "hide_borders": true,
+        "opacity_on_hover": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": true,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "video_W7gQVi": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "video": "https://youtu.be/sxWWfK4SV5E?si=1C-wXK9SzRVex9zQ",
+        "image": "shopify://shop_images/SEG-B_16x9_15second.00_00_07_07.Still013.jpg",
+        "video_title": "",
+        "title_size": "heading-size--large",
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "seo_h_tag": "h3"
+      }
+    },
+    "166266065378da2b75": {
+      "type": "info-tabs",
+      "blocks": {
+        "ee1e988a-b615-4b5e-9679-53baf1a4972c": {
+          "type": "tab",
+          "settings": {
+            "title": "Precision-Powered Spinal Training",
+            "caption": "<p>Discover the next generation of spinal training with the SEG-B. Our unique design offers an unparalleled approach to spine health, allowing you to focus on specific spinal segments with precision.</p>",
+            "image": "shopify://shop_images/Bg.png",
+            "icon": "favorite"
+          }
+        },
+        "1662660652b48c92de-0": {
+          "type": "tab",
+          "settings": {
+            "title": "Multi-Sensory Feedback System",
+            "caption": "<p>Step into a world of certainty in your workouts. With SEG-B's auditory, visual, and tactile feedback, you'll know you're activating the right segments. This multi-sensory engagement aids in refining your movements, ensuring you train smarter, not harder.</p>",
+            "image": "shopify://shop_images/SEG-B_Still025.jpg",
+            "icon": "favorite"
+          }
+        },
+        "1662660652b48c92de-1": {
+          "type": "tab",
+          "settings": {
+            "title": "Elevate Spinal Health & Mobility",
+            "caption": "<p>Experience a revolutionary tool that emphasizes segmental spinal motion, promoting increased mobility and overall back health. With regular use, you'll find enhanced flexibility and improved spinal function.</p>",
+            "image": "shopify://shop_images/SEG-B_Still031.jpg",
+            "icon": "favorite"
+          }
+        },
+        "1662660652b48c92de-2": {
+          "type": "tab",
+          "settings": {
+            "title": "For Everyone, Everywhere",
+            "caption": "<p>Whether you're a seasoned athlete or just beginning your back health journey, SEG-B is adaptable and user-friendly. Its compact design means you can take it anywhere, ensuring consistent training at home, the gym, or on-the-go.</p>",
+            "image": "shopify://shop_images/SEG-B_16x9_15second.00_00_02_06.Still011-2.jpg",
+            "icon": "favorite"
+          }
+        },
+        "tab_99B8Xr": {
+          "type": "tab",
+          "settings": {
+            "title": "Research-Driven & User-Approved",
+            "caption": "<p>Backed by the latest insights in spine health and designed with user experience in mind, the SEG-B bridges the gap between science and practical application. Join the many who have integrated SEG-B into their health routines.</p>",
+            "image": "shopify://shop_images/A022_01070422_C0901.jpg",
+            "icon": "star"
+          }
+        }
+      },
+      "block_order": [
+        "ee1e988a-b615-4b5e-9679-53baf1a4972c",
+        "1662660652b48c92de-0",
+        "1662660652b48c92de-1",
+        "1662660652b48c92de-2",
+        "tab_99B8Xr"
+      ],
+      "settings": {
+        "heading": "Patent Pending Technology",
+        "subheading": "Elevate your movement journey and embrace a life <strong>free of limitations!</strong>",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "desktop_layout": "half",
+        "image_position": "left",
+        "image_aspect_ratio": "1",
+        "border_radius": 20,
+        "style": "list",
+        "autoplay_active": false,
+        "autoplay": 5,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "rich_text_739Yrb": {
+      "type": "rich-text",
+      "blocks": {
+        "title_78ifwH": {
+          "type": "title",
+          "settings": {
+            "title": "The World's First Spinal Segmentation Training Device",
+            "title_size": "heading-size--small",
+            "seo_h_tag": "h2"
+          }
+        },
+        "text_A9P7dR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With real-time auditory, tactile, and visual feedback, the SEG-B®️ guides you through targeted exercises to achieve a more resilient and flexible spine. Experience the freedom of a mobile, pain-free life.</p>",
+            "text_size": "regular"
+          }
+        },
+        "button_p6r3wb": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "link": "shopify://products/seg-b",
+            "open_in_new_window": false,
+            "button_style": "outline"
+          }
+        }
+      },
+      "block_order": [
+        "title_78ifwH",
+        "text_A9P7dR",
+        "button_p6r3wb"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/SEG-B_16x9_15second.00_00_08_20.Still014.jpg",
+        "video_controls": false,
+        "image_position": "right",
+        "height": "large",
+        "image_crop": true,
+        "is_fullwidth": false,
+        "text_alignment": "horizontal-left",
+        "spacing": 24,
+        "color_background_main": "rgba(0,0,0,0)",
+        "color_text_main": "rgba(0,0,0,0)",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "border_radius": 0,
+        "color_hide_borders": true,
+        "gutter_decrease": false,
+        "remove_margin": false,
+        "remove_bottom_margin": false
+      }
+    },
+    "16644327731b38e13b": {
+      "type": "testimonials",
+      "blocks": {
+        "166443277289597ba1-1": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Dr. Joe Gambino, DPT",
+            "author_title": "@joegambinodpt",
+            "quote": "<p>Spinal segmentation is an important quality for the spine to be healthier, less painful, and less stiff. The SEG-B from Backsync has been a great tool for me to highlight some of my own deficits so I can continue working on a more resilient spine.</p>",
+            "image": "shopify://shop_images/91346582_827988051022502_88240171815796736_n.jpg"
+          }
+        },
+        "166443277289597ba1-0": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Grace Witthuhn",
+            "author_title": "@thatcoachgrace",
+            "quote": "<p>This tool is so needed in our industry and I love that it promotes ACTIVE inputs from the user, instead of just some random percussion BS that you can do mindlessly.</p>",
+            "image": "shopify://shop_images/332916199_1140106500719808_6272202650707568782_n.jpg"
+          }
+        },
+        "7132688c-ac84-440d-aab1-88b359d1d273": {
+          "type": "testimonial",
+          "settings": {
+            "author_name": "Coach Dan Arnold",
+            "author_title": "@falsegrip",
+            "quote": "<p>As a coach, I’m always looking at ways to enhance cueing and feedback with my clients. The SEG-B provides me with another layer of tactile and audible feedback, for the process of developing controlled articulation of the spine</p>",
+            "image": "shopify://shop_images/Screenshot_2023-04-11_at_10.06.30_am.png"
+          }
+        },
+        "testimonial_dtFYHW": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "author_name": "Grayson Strange",
+            "author_title": "@strangegrayson",
+            "quote": "<p>It allows you to see, hear and feel where you are moving, which is always a challenge when learning to move your spine segmentally.</p>",
+            "image": "shopify://shop_images/11910162_1651869201760395_1834732964_a.jpg"
+          }
+        },
+        "testimonial_L8JGNJ": {
+          "type": "testimonial",
+          "disabled": true,
+          "settings": {
+            "author_name": "Michelle Drielsma",
+            "author_title": "@sydneystrengthconditioning",
+            "quote": "<p>It just provides really awesome feedback, which I haven’t actually seen before.</p>",
+            "image": "shopify://shop_images/272564601_118304777395916_1038222215716991867_n.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "166443277289597ba1-1",
+        "166443277289597ba1-0",
+        "7132688c-ac84-440d-aab1-88b359d1d273",
+        "testimonial_dtFYHW",
+        "testimonial_L8JGNJ"
+      ],
+      "settings": {
+        "heading": "Testimonials",
+        "subheading": "Hear from the <strong>Experts</strong>",
+        "section_heading_size": "text-size--large",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "layout_mode": "grid",
+        "content_alignment": "center",
+        "color_background_main": "#141d29",
+        "color_text_main": "#ffffff",
+        "color_borders_main": "#56afc2",
+        "border_radius": 20,
+        "color_hide_borders": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "video_axAM8k": {
+      "type": "video",
+      "settings": {
+        "heading": "Dr. Mike, MoveU",
+        "subheading": "\"An amazing product that we’ve been using for a while that helps you learn to segmentally control your spine! When you can articulate segments of the spine, it helps create body control and stabilization. It helps develop awareness between core and spine. It helps you keep the spine mobile. Ultimately you want to maintain a neutral curve to your spine most of the time. This helps you with balance and stability.\"",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--two-rows",
+        "video": "https://youtu.be/Mb1LhyHxEBI?si=xolQpW9OHd1bRsjD",
+        "image": "shopify://shop_images/videoframe_39346_bd31f353-33c4-46ac-a838-d2137d6b5635.png",
+        "video_title": "",
+        "title_size": "heading-size--large",
+        "color_background_main": "#141d29",
+        "color_text_main": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "seo_h_tag": "h3"
+      }
+    },
+    "text_columns_icons_77Dbpp": {
+      "type": "text-columns-icons",
+      "blocks": {
+        "image_9WRBrX": {
+          "type": "image",
+          "settings": {
+            "icon": "time-limit",
+            "image": "shopify://shop_images/San_Francisco_Giants_Logo.svg",
+            "crop": false,
+            "title": "",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_jAJQcx": {
+          "type": "image",
+          "settings": {
+            "icon": "earth-globe",
+            "image": "shopify://shop_images/penn_state_football_859abdf2-7e64-44a1-a069-a82d199ae070.png",
+            "crop": false,
+            "title": "",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_kY6yih": {
+          "type": "image",
+          "settings": {
+            "icon": "store",
+            "image": "shopify://shop_images/basisny_Logo.png",
+            "crop": false,
+            "title": "",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_yrmip3": {
+          "type": "image",
+          "settings": {
+            "icon": "earth-globe",
+            "image": "shopify://shop_images/royal-personal-training.png",
+            "crop": false,
+            "title": "",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_xMWMeK": {
+          "type": "image",
+          "settings": {
+            "icon": "earth-globe",
+            "image": "shopify://shop_images/falsegrip-logo-reverse-rgb-1000px_144ppi-768x289.png",
+            "crop": false,
+            "title": "",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_THpLma": {
+          "type": "image",
+          "settings": {
+            "icon": "earth-globe",
+            "image": "shopify://shop_images/2-1-e1676400797618.png",
+            "crop": false,
+            "title": "",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_jgWprB": {
+          "type": "image",
+          "settings": {
+            "icon": "earth-globe",
+            "image": "shopify://shop_images/IRONBODY_DIGITAL_LANDSCAPE_WHITE_ELEMENTS-1536x390.png",
+            "crop": false,
+            "title": "",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_kDzz6F": {
+          "type": "image",
+          "settings": {
+            "icon": "earth-globe",
+            "image": "shopify://shop_images/the_upgrade_guys.png",
+            "crop": false,
+            "title": "",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_MYR7KH": {
+          "type": "image",
+          "settings": {
+            "icon": "earth-globe",
+            "image": "shopify://shop_images/synergistic_body.png",
+            "crop": false,
+            "title": "",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_CHGEtN": {
+          "type": "image",
+          "settings": {
+            "icon": "earth-globe",
+            "image": "shopify://shop_images/slmgym_3153c649-3972-40d1-8049-9edb5780982c.png",
+            "crop": false,
+            "title": "",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_gKgWHx": {
+          "type": "image",
+          "settings": {
+            "icon": "earth-globe",
+            "image": "shopify://shop_images/parfourperformance_4e518e07-66fd-4ac3-a246-e06f50f60b28.png",
+            "crop": false,
+            "title": "",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_LwrTQm": {
+          "type": "image",
+          "settings": {
+            "icon": "earth-globe",
+            "image": "shopify://shop_images/steady_effort_yoga.png",
+            "crop": false,
+            "title": "",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_gWAVfw": {
+          "type": "image",
+          "settings": {
+            "icon": "earth-globe",
+            "image": "shopify://shop_images/BSM.png",
+            "crop": false,
+            "title": "",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_nTTihr": {
+          "type": "image",
+          "settings": {
+            "icon": "earth-globe",
+            "image": "shopify://shop_images/rebuilt.png",
+            "crop": false,
+            "title": "",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_hXjEUT": {
+          "type": "image",
+          "settings": {
+            "icon": "earth-globe",
+            "image": "shopify://shop_images/pilateshabitat-white.png",
+            "crop": false,
+            "title": "",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_PQcAhn": {
+          "type": "image",
+          "settings": {
+            "icon": "earth-globe",
+            "image": "shopify://shop_images/mocafit.png",
+            "crop": false,
+            "title": "",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_UBGWf6": {
+          "type": "image",
+          "settings": {
+            "icon": "earth-globe",
+            "image": "shopify://shop_images/294055129_465819348881350_4232725607061015440_n.png",
+            "crop": false,
+            "title": "",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_npmj64": {
+          "type": "image",
+          "settings": {
+            "icon": "delivery",
+            "image": "shopify://shop_images/bbox-logo-red-white-no-au.png",
+            "crop": false,
+            "title": "",
+            "caption": "",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_9WRBrX",
+        "image_jAJQcx",
+        "image_kY6yih",
+        "image_yrmip3",
+        "image_xMWMeK",
+        "image_THpLma",
+        "image_jgWprB",
+        "image_kDzz6F",
+        "image_MYR7KH",
+        "image_CHGEtN",
+        "image_gKgWHx",
+        "image_LwrTQm",
+        "image_gWAVfw",
+        "image_nTTihr",
+        "image_hXjEUT",
+        "image_PQcAhn",
+        "image_UBGWf6",
+        "image_npmj64"
+      ],
+      "settings": {
+        "heading": "Used & Trusted By",
+        "subheading": "",
+        "section_heading_size": "text-size--large",
+        "section_heading_layout": "section-heading--center section-heading--two-rows",
+        "cta_label": "",
+        "cta_url": "",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-palm-1",
+        "border_radius": 0,
+        "hide_borders": true,
+        "opacity_on_hover": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "content_toggles_bgcwe4": {
+      "type": "content-toggles",
+      "blocks": {
+        "text_9Edy7Y": {
+          "type": "text",
+          "settings": {
+            "title": "Shipping details",
+            "subtitle": "Fulfillment timeline?",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>All orders are processed and fulfilled within 3 to 5 business days from our California Warehouse. </p><p>Shipping cost is based on weight. Just add products to your cart and use the Shipping Calculator to see the shipping price.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_zpqwKT": {
+          "type": "text",
+          "settings": {
+            "title": "What is the return policy?",
+            "subtitle": "",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<p>We want you to be 100% satisfied with your purchase. Items can be returned or exchanged within 30 days of delivery.</p>",
+            "hide_block_if": false
+          }
+        },
+        "text_VbWqCP": {
+          "type": "text",
+          "settings": {
+            "title": "What are the main features of the Seg-B?",
+            "subtitle": "Product question",
+            "icon": "no-icon",
+            "button_label": "",
+            "button_link": "",
+            "body": "<ol><li>Segmental Mastery: Train specific vertebral levels, improving strength and control for optimal spinal wellness.</li><li>Instant Feedback: Benefit from immediate auditory, tactile, and visual feedback during spinal exercises, pinpointing areas that require attention and refinement.</li><li>Greater Mobility: Identify and address limitations in spinal mobility, leading to increased flexibility and a broader range of motion.</li><li>Universal Design: Suitable for users of all ages and fitness backgrounds, including injury recovery, postural improvement, and athletic performance enhancement.</li><li>User-friendly: Seamlessly integrate the SEG-B®️ into your daily routine and workout plan with its intuitive and easy-to-use design.</li></ol>",
+            "hide_block_if": false
+          }
+        }
+      },
+      "block_order": [
+        "text_9Edy7Y",
+        "text_zpqwKT",
+        "text_VbWqCP"
+      ],
+      "settings": {
+        "heading": "FAQs",
+        "subheading": "Our Team is available 24/7 to help answer any questions.",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "form_enable": false,
+        "form_title": "Contact form",
+        "style": "outline",
+        "open_first": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "promotion_cards_rqpzG7": {
+      "type": "promotion-cards",
+      "blocks": {
+        "card_eAkcWA": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Segmental_Sit_Up.00_00_29_21.Still001.jpg",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "button_label": "",
+            "button_link": "https://www.instagram.com/backsyncofficial/",
+            "open_in_new_window": true,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_ph4wFy": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/385577109_602672505186845_618388807534931430_n.jpg",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "button_label": "",
+            "button_link": "https://www.instagram.com/backsyncofficial/",
+            "open_in_new_window": true,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "seo_h_tag": "h3"
+          }
+        },
+        "card_QTjwP9": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/Coach_Dan.jpg",
+            "caption": "",
+            "title": "",
+            "subtitle": "",
+            "button_label": "",
+            "button_link": "https://www.instagram.com/backsyncofficial/",
+            "open_in_new_window": true,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "color_hide_borders": true,
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "card_eAkcWA",
+        "card_ph4wFy",
+        "card_QTjwP9"
+      ],
+      "settings": {
+        "heading": "SEG-B In Action",
+        "subheading": "Loved by our <strong>Community</strong>",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "layout": "grid-3 grid-lap-1",
+        "image_aspect_ratio": "1",
+        "text_alignment": "text-align--center",
+        "caption_size": "small increased-spacing",
+        "title_size": "100%",
+        "subtitle_size": "regular",
+        "spacing": 18,
+        "button_style": "outline",
+        "border_radius": 0,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": true,
+        "seo_h_tag": "h2"
+      }
+    },
+    "16643494714910a616": {
+      "type": "newsletter",
+      "settings": {
+        "title": "Subscribe to our newsletter",
+        "text": "<p>Invest in your spinal health and unlock your body's full potential with the Backsync SEG-B®️. Experience the difference and join the movement revolution today!</p>",
+        "is_fullwidth": true,
+        "color_background_main": "#141d29",
+        "color_text_main": "#ffffff",
+        "color_borders_main": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_margin": false,
+        "remove_bottom_margin": true,
+        "seo_h_tag": "h3"
+      }
+    },
+    "text_columns_icons_aNKgq8": {
+      "type": "text-columns-icons",
+      "blocks": {
+        "image_8ibUdy": {
+          "type": "image",
+          "settings": {
+            "icon": "delivery",
+            "crop": true,
+            "title": "Shipping",
+            "caption": "Useful information about your shipping details",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_pj7kqw": {
+          "type": "image",
+          "settings": {
+            "icon": "time-limit",
+            "crop": true,
+            "title": "Returns",
+            "caption": "Show how much time customers have for testing your products",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_RbxKRK": {
+          "type": "image",
+          "settings": {
+            "icon": "store",
+            "crop": true,
+            "title": "Pickup",
+            "caption": "Let your customers know about local pickup",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        },
+        "image_CBrJHX": {
+          "type": "image",
+          "settings": {
+            "icon": "earth-globe",
+            "crop": true,
+            "title": "Brand",
+            "caption": "Write your brand story and journey",
+            "link": "",
+            "open_in_new_window": false,
+            "color_background_main": "rgba(0,0,0,0)",
+            "color_icons_main": "rgba(0,0,0,0)",
+            "color_text_main": "rgba(0,0,0,0)",
+            "color_borders_main": "rgba(0,0,0,0)",
+            "seo_h_tag": "h3"
+          }
+        }
+      },
+      "block_order": [
+        "image_8ibUdy",
+        "image_pj7kqw",
+        "image_RbxKRK",
+        "image_CBrJHX"
+      ],
+      "disabled": true,
+      "settings": {
+        "heading": "Text columns with icons",
+        "subheading": "Describe your company with <strong>great</strong> detail!",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "style": "slider",
+        "layout": "grid-4 grid-portable-3 grid-lap-2 grid-palm-1",
+        "border_radius": 0,
+        "hide_borders": true,
+        "opacity_on_hover": false,
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false,
+        "seo_h_tag": "h2"
+      }
+    }
+  },
+  "order": [
+    "slideshow_dXGKyT",
+    "rich_text_Nd7KGr",
+    "1662457498c47086cb",
+    "a2fc738d-a3ef-4d4c-a4b8-23e75b776a2d",
+    "video_W7gQVi",
+    "166266065378da2b75",
+    "rich_text_739Yrb",
+    "16644327731b38e13b",
+    "video_axAM8k",
+    "text_columns_icons_77Dbpp",
+    "content_toggles_bgcwe4",
+    "promotion_cards_rqpzG7",
+    "16643494714910a616",
+    "text_columns_icons_aNKgq8"
+  ]
+}
