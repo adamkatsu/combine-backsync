@@ -6,9 +6,12 @@
     },
     "intro": {
       "type": "template-home-intro"
+    },
+    "vid-one": {
+      "type": "template-home-vid-full"
     }
   },
   "order": [
-    "hero", "intro"
+    "hero", "intro", "vid-one"
   ]
 }
