@@ -55,6 +55,9 @@
   justify-content: flex-start;
   gap: 32px;
 }
+.nav-logo-wrapper img {
+  width: 140px;
+}
 
 
 /* Text */
