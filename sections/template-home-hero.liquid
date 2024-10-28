@@ -1,71 +1,93 @@
-<!-- Swiper -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+{{ 'application.css' | asset_url | stylesheet_tag }}
+{{ 'home-hero.css' | asset_url | stylesheet_tag }}
 
-<div
-style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
-class="swiper swiper-show"
->
-<div class="swiper-wrapper">
-  <div class="swiper-slide">
-    <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/Rectangle_112.png?v=1730073429" />
-  </div>
-  <div class="swiper-slide">
-    <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-  </div>
-  <div class="swiper-slide">
-    <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/Rectangle_112.png?v=1730073429" />
-  </div>
-  <div class="swiper-slide">
-    <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-  </div>
-  <div class="swiper-slide">
-    <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/Rectangle_112.png?v=1730073429" />
-  </div>
-  <div class="swiper-slide">
-    <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-  </div>
-  <div class="swiper-slide">
-    <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/Rectangle_112.png?v=1730073429" />
-  </div>
-  <div class="swiper-slide">
-    <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
-  </div>
-</div>
-<div class="swiper-button-next"></div>
-<div class="swiper-button-prev"></div>
-</div>
-<div class="thumbnail-wrapper">
-<div thumbsSlider="" class="swiper swiper-thumbs">
-  <div class="swiper-wrapper">
-    <div class="swiper-slide">
-      <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/Rectangle_112.png?v=1730073429" />
-    </div>
-    <div class="swiper-slide">
-      <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-    </div>
-    <div class="swiper-slide">
-      <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/Rectangle_112.png?v=1730073429" />
-    </div>
-    <div class="swiper-slide">
-      <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-    </div>
-    <div class="swiper-slide">
-      <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/Rectangle_112.png?v=1730073429" />
-    </div>
-    <div class="swiper-slide">
-      <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-    </div>
-    <div class="swiper-slide">
-      <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/Rectangle_112.png?v=1730073429" />
-    </div>
-    <div class="swiper-slide">
-      <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+
+<div class="home-slider">
+  <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper swiper-show">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/Rectangle_112.png?v=1730073429" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/Rectangle_112.png?v=1730073429" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/Rectangle_112.png?v=1730073429" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/Rectangle_112.png?v=1730073429" />
+      </div>
+      <div class="swiper-slide">
+        <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+      </div>
     </div>
   </div>
-</div>
-<div class="pagination-wrapper">
-  <span>Showcase</span>
-  <div class="swiper-pagination"></div>
-</div>
+  <div class="container home-hero-cont">
+    <div class="hero-content">
+      <div class="hero-title">
+        <h1>Feel Better, Move Freely<br>Spine Health Made Easy</h1>
+        <span class="txt-400">In as little as 10 mins a day. Take control of your back health with precision and ease.</span>
+      </div>
+      <a href="#">
+        <button class="btn-primary">SHOP SEG-B®</button>
+      </a>
+    </div>
+    <div class="thumbnail-wrapper">
+      <div thumbsSlider="" class="swiper swiper-thumbs">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/Rectangle_112.png?v=1730073429" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/Rectangle_112.png?v=1730073429" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/Rectangle_112.png?v=1730073429" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/Rectangle_112.png?v=1730073429" />
+          </div>
+          <div class="swiper-slide">
+            <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="pagination-wrapper">
+        <span class="uppercase">Showcase</span>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M17.6743 12.8614L11.4868 19.0489C11.4229 19.1128 11.3471 19.1635 11.2637 19.1981C11.1802 19.2327 11.0907 19.2505 11.0004 19.2505C10.91 19.2505 10.8206 19.2327 10.7371 19.1981C10.6536 19.1635 10.5778 19.1128 10.514 19.0489L4.32648 12.8614C4.19747 12.7324 4.125 12.5574 4.125 12.375C4.125 12.1926 4.19747 12.0176 4.32648 11.8886C4.45548 11.7596 4.63044 11.6871 4.81288 11.6871C4.99532 11.6871 5.17029 11.7596 5.29929 11.8886L10.3129 16.903V3.4375C10.3129 3.25516 10.3853 3.0803 10.5142 2.95136C10.6432 2.82243 10.818 2.75 11.0004 2.75C11.1827 2.75 11.3576 2.82243 11.4865 2.95136C11.6154 3.0803 11.6879 3.25516 11.6879 3.4375V16.903L16.7015 11.8886C16.8305 11.7596 17.0054 11.6871 17.1879 11.6871C17.3703 11.6871 17.5453 11.7596 17.6743 11.8886C17.8033 12.0176 17.8758 12.1926 17.8758 12.375C17.8758 12.5574 17.8033 12.7324 17.6743 12.8614Z" fill="white"/>
+        </svg>
+    </div>
+  </div>
 </div>
 
-<script src="home-hero.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="{{ 'home-hero.js' | asset_url }}" defer></script>
