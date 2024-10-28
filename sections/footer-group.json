@@ -1,1 +1,12 @@
-{"type":"footer","name":"t:sections.refactor_words.labels.footer_group","sections":{"footer":{"type":"footer","blocks":{"newsletter":{"type":"newsletter","disabled":true,"settings":{"title":"NEWSLETTER"}},"image_UWzgAV":{"type":"image","disabled":true,"settings":{"title":"","image":"shopify:\/\/shop_images\/5086e450-c515-44b7-b961-1bd9096202bd_1.png","image_border_radius":20,"link":"","link_type":"_self"}},"text_M9V3GK":{"type":"text","settings":{"title":"Unlock the Power of Your Spine","image_heading_size":40,"content":"<p>Introducing the Backsync SEG-B®️, a groundbreaking device revolutionizing the way you approach spinal health, mobility, and control.<\/p>","show_social_icons":true}},"menu_Ge7wEa":{"type":"menu","settings":{"title":"Additional Information","menu":"information","menu_target":false,"menu_style":true}},"menu":{"type":"menu","settings":{"title":"Our Store","menu":"our-store","menu_target":false,"menu_style":true}}},"block_order":["newsletter","image_UWzgAV","text_M9V3GK","menu_Ge7wEa","menu"],"settings":{"layout":"grid-3 grid-lap-1","show_locale_selector":false,"show_country_selector":false,"seo_h_tag":"h2"}}},"order":["footer"]}
+{
+  "type": "footer",
+  "name": "t:sections.refactor_words.labels.footer_group",
+  "sections": {
+    "footer": {
+      "type": "template-footer"
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
