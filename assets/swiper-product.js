@@ -1,6 +1,7 @@
 var swiper = new Swiper(".swiper-product", {
   slidesPerView: "auto",
   centeredSlides: true,
+  allowTouchMove: false,
   speed: 500,
   autoplay: {
     delay: 3000,
