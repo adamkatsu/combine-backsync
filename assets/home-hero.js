@@ -8,6 +8,7 @@ var swiper = new Swiper(".swiper-thumbs", {
 var swiper2 = new Swiper(".swiper-show", {
   loop: true,
   spaceBetween: 8,
+  effect: "fade",
   autoplay: {
     delay: 5000,
     disableOnInteraction: false,

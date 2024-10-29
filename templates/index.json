@@ -9,9 +9,15 @@
     },
     "vid-one": {
       "type": "template-home-vid-full"
+    },
+    "seg-b-details": {
+      "type": "template-seg-b-details"
+    },
+    "product-slider": {
+      "type": "template-product-slider"
     }
   },
   "order": [
-    "hero", "intro", "vid-one"
+    "hero", "intro", "vid-one", "seg-b-details", "product-slider"
   ]
 }

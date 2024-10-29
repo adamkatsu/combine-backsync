@@ -10,7 +10,12 @@
   padding: 14px 24px;
   border-radius: 1000px;
   background: #fff;
+  color: #000000;
   font-weight: 500;
+}
+.btn-dark {
+  background-color: #000000;
+  color: #ffffff;
 }
 .uppercase {
   text-transform: uppercase;
@@ -62,6 +67,9 @@
 
 /* Text */
 
+h2 {
+  font-size: 60px;
+}
 .txt-400 {
   font-size: 16px;
   font-weight: 400;
@@ -73,6 +81,21 @@
   padding: 8px 24px;
   border: 1px solid #ffffff;
   border-radius: 1000px
+}
+.txt-blue {
+  color: #0FA9C1;
+}
+.txt-black {
+  color: #000000;
+}
+.txt-white {
+  color: #ffffff;
+}
+.txt-center {
+  text-align: center;
+}
+.txt-eyebrow {
+  font-size: 20px;
 }
 
 
@@ -90,5 +113,16 @@
 .flex-gap-16 {
   gap: 16px;
 }
+.flex-gap-20 {
+  gap: 20px;
+}
+.items-center {
+  align-items: center;
+}
 
+/* Icon */
 
+.icon-64 {
+  height: 64px;
+  width: 64px;
+}
