@@ -1,11 +1,127 @@
-<div class="section product-slider"></div>
+{{ 'swiper-product.css' | asset_url | stylesheet_tag }}
+
+<div class="section product-slider">
   <div class="container product-slider-cont">
-    <div class="product-slider-head flex-vertical flex-gap-20">
-      <span class="txt-eyebrow">Product</span>
-      <h2 class="product-slider-title">Take a Closer Look at the <span class="txt-blue">SEG-B®</span></h2>
+    <div class="product-slider-head">
+      <div class="flex-vertical flex-gap-20">
+        <span class="txt-eyebrow">Product</span>
+        <h2 class="product-slider-title">Take a Closer Look at the <span class="txt-blue">SEG-B®</span></h2>
+      </div>
+      <div class="product-slider-nav">
+        <div class="swiper-product-prev">
+          <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/chevron-prev.png?v=1730212341" alt="">
+        </div>
+        <div class="swiper-product-next">
+          <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/chevron-next.png?v=1730212341" alt="">
+        </div>
+      </div>
     </div>
     <div class="product-slider-main">
-      
+      <div class="tutorial-wrapper">
+        <div class="swiper swiper-product">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide swiper-product-slide">
+              <div class="swiper-product-video"></div>
+              <div class="swiper-product-details">
+                <h3 class="txt-swiper-product txt-white">
+                  Built for Everyday Use
+                </h3>
+                <span class="txt-400 txt-white"
+                  >Made with durable materials, the SEG-B® is portable and perfect
+                  for daily use at home or in professional settings.</span
+                >
+              </div>
+            </div>
+            <div class="swiper-slide swiper-product-slide">
+              <div class="swiper-product-video"></div>
+              <div class="swiper-product-details">
+                <h3 class="txt-swiper-product txt-white">
+                  Instant Feedback for Better Results
+                </h3>
+                <span class="txt-400 txt-white"
+                  >The SEG-B® provides real-time cues, allowing you to make
+                  immediate adjustments for better spinal mobility.</span
+                >
+              </div>
+            </div>
+            <div class="swiper-slide swiper-product-slide">
+              <div class="swiper-product-video"></div>
+              <div class="swiper-product-details">
+                <h3 class="txt-swiper-product txt-white">
+                  Rehabilitation to High Performance
+                </h3>
+                <span class="txt-400 txt-white"
+                  >Whether recovering from injury or boosting performance, the
+                  SEG-B® adapts to your needs for optimal spinal health.</span
+                >
+              </div>
+            </div>
+            <div class="swiper-slide swiper-product-slide">
+              <div class="swiper-product-video"></div>
+              <div class="swiper-product-details">
+                <h3 class="txt-swiper-product txt-white">
+                  Target Each Vertebra for Maximum Impact
+                </h3>
+                <span class="txt-400 txt-white"
+                  >Focus on each vertebra with the SEG-B® for improved mobility
+                  and flexibility, essential for long-term spinal health.</span
+                >
+              </div>
+            </div>
+            <div class="swiper-slide swiper-product-slide">
+              <div class="swiper-product-video"></div>
+              <div class="swiper-product-details">
+                <h3 class="txt-swiper-product txt-white">
+                  Built for Everyday Use
+                </h3>
+                <span class="txt-400 txt-white"
+                  >Made with durable materials, the SEG-B® is portable and perfect
+                  for daily use at home or in professional settings.</span
+                >
+              </div>
+            </div>
+            <div class="swiper-slide swiper-product-slide">
+              <div class="swiper-product-video"></div>
+              <div class="swiper-product-details">
+                <h3 class="txt-swiper-product txt-white">
+                  Rehabilitation to High Performance
+                </h3>
+                <span class="txt-400 txt-white"
+                  >Whether recovering from injury or boosting performance, the
+                  SEG-B® adapts to your needs for optimal spinal health.</span
+                >
+              </div>
+            </div>
+            <div class="swiper-slide swiper-product-slide">
+              <div class="swiper-product-video"></div>
+              <div class="swiper-product-details">
+                <h3 class="txt-swiper-product txt-white">
+                  Instant Feedback for Better Results
+                </h3>
+                <span class="txt-400 txt-white"
+                  >The SEG-B® provides real-time cues, allowing you to make
+                  immediate adjustments for better spinal mobility.</span
+                >
+              </div>
+            </div>
+            <div class="swiper-slide swiper-product-slide">
+              <div class="swiper-product-video"></div>
+              <div class="swiper-product-details">
+                <h3 class="txt-swiper-product txt-white">
+                  Target Each Vertebra for Maximum Impact
+                </h3>
+                <span class="txt-400 txt-white"
+                  >Focus on each vertebra with the SEG-B® for improved mobility
+                  and flexibility, essential for long-term spinal health.</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="{{ 'swiper-product.js' | asset_url }}" defer></script>
