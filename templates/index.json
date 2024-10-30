@@ -15,9 +15,21 @@
     },
     "product-slider": {
       "type": "template-product-slider"
+    },
+    "community": {
+      "type": "template-community"
+    },
+    "section-block": {
+      "type": "template-section-block"
     }
   },
   "order": [
-    "hero", "intro", "vid-one", "seg-b-details", "product-slider"
+    "hero", 
+    "intro", 
+    "vid-one", 
+    "seg-b-details", 
+    "product-slider", 
+    "community",
+    "section-block"
   ]
 }
