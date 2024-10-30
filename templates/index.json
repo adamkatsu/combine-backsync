@@ -27,6 +27,9 @@
     },
     "mission": {
       "type": "template-mission"
+    },
+    "partners": {
+      "type": "template-partners"
     }
   },
   "order": [
@@ -38,6 +41,7 @@
     "marquee-organization",
     "community",
     "section-block",
-    "mission"
+    "mission",
+    "partners"
   ]
 }
