@@ -16,11 +16,17 @@
     "product-slider": {
       "type": "template-product-slider"
     },
+    "marquee-organization": {
+      "type": "template-marquee-organization"
+    },
     "community": {
       "type": "template-community"
     },
     "section-block": {
       "type": "template-section-block"
+    },
+    "mission": {
+      "type": "template-mission"
     }
   },
   "order": [
@@ -29,7 +35,9 @@
     "vid-one", 
     "seg-b-details", 
     "product-slider", 
+    "marquee-organization",
     "community",
-    "section-block"
+    "section-block",
+    "mission"
   ]
 }
