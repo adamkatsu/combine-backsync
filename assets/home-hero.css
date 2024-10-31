@@ -811,12 +811,6 @@
   align-items: stretch;
   gap: 32px;
 }
-/* .socials-marquee-top {
-  align-self: flex-end;
-}
-.socials-marquee-bottom {
-  align-self: flex-start;
-} */
 .socials-marquee-image {
   width: 430px;
   height: 500px;
@@ -844,4 +838,95 @@
   100% {
     transform: translateX(calc(25% - 16px));
   }
+}
+
+
+/* Footer */
+
+.footer {
+  padding: 80px 48px;
+  background-color: #0C1118;
+  color: #ffffff;
+}
+.footer-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 32px;
+}
+.footer-top {
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+}
+.footer-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+}
+.footer-logo-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  max-width: 355px;
+}
+.footer-logo-img {
+  height: 32px;
+  object-fit: contain;
+}
+.footer-menu-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 32px;
+  width: 50%;
+  max-width: 684px;
+}
+.footer-menu-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+}
+.footer-menu-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+}
+.footer-menu-title {
+  color: rgba(255,255,255,0.5);
+}
+.footer-menu-link a {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 8px;
+}
+.footer-menu-link {
+  border-bottom: 1px solid transparent;
+}
+.footer-menu-link:hover {
+  border-bottom: 1px solid #ffffff;
+}
+.footer-menu-link:hover .icon-arrow-footer{
+  transform: translate(2px, -2px);
+  transition: all .2s ease;
+}
+.footer-menu-link .icon-arrow-footer{
+  transform: translate(0px, 0px);
+  transition: all .2s ease;
 }
