@@ -36,6 +36,12 @@
     },
     "purchase-protection": {
       "type": "template-purchase-protection"
+    },
+    "banner-shop": {
+      "type": "template-banner-shop"
+    },
+    "socials": {
+      "type": "template-socials"
     }
   },
   "order": [
@@ -50,6 +56,8 @@
     "mission",
     "partners",
     "tutorials",
-    "purchase-protection"
+    "purchase-protection",
+    "banner-shop",
+    "socials"
   ]
 }

@@ -682,3 +682,96 @@
   align-items: center;
   gap: 24px;
 }
+
+
+/* Purchase Protection */
+
+.purchase-protection {
+  background-color: #ffffff;
+  color: #000000;
+}
+.purchase-protection-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 60px;
+}
+.purchase-protection-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+}
+.purchase-protection-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  gap: 48px;
+}
+.purchase-protection-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  flex: 1
+}
+
+
+/* Banner Shop */
+
+.banner-shop {
+  color: #ffffff;
+  padding: 78px 40px;
+  min-height: 28vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://cdn.shopify.com/s/files/1/0728/2645/4272/files/banner-shop-bg.webp?v=1730335166");
+  background-size: cover;
+  background-position: center right;
+}
+.banner-shop-cont {
+  max-width: 1240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.banner-shop-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  max-width: 760px;
+}
+
+
+/* Socials */
+
+.socials {
+  background-color: #ffffff;
+  color: #000000;
+}
+.socials-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 60px;
+}
+.socials-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 24px;
+}

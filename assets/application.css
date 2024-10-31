@@ -6,6 +6,9 @@
 h1, h2, h3, h4, h5, h6, p, span {
   margin: 0;
 }
+h2, h3 {
+  line-height: 110%;
+}
 .section {
   padding: 150px 48px;
   background-color: #141D29;
