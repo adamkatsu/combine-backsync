@@ -30,6 +30,12 @@
     },
     "partners": {
       "type": "template-partners"
+    },
+    "tutorials": {
+      "type": "template-tutorials"
+    },
+    "purchase-protection": {
+      "type": "template-purchase-protection"
     }
   },
   "order": [
@@ -42,6 +48,8 @@
     "community",
     "section-block",
     "mission",
-    "partners"
+    "partners",
+    "tutorials",
+    "purchase-protection"
   ]
 }

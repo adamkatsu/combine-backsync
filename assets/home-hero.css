@@ -644,3 +644,41 @@
   height: 60px;
   object-fit: contain;
 }
+
+
+/* Tutorials */
+
+.tutorials {
+  background-color: #ffffff;
+  color: #000000;
+}
+.tutorials-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 60px;
+}
+.tutorials-head {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  max-width: 775px;
+}
+.tutorials-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 60px;
+}
+.tutorials-btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 24px;
+}
