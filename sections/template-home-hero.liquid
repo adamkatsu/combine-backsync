@@ -85,6 +85,13 @@
         </svg>
     </div>
   </div>
+  <div class="block-test">
+    <div class="block-test-item">
+      {% for block in section.blocks %}
+        {{ block.settings.home_hero_slide_image }}
+      {% endfor %}
+    </div>
+  </div>
 </div>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -116,8 +123,8 @@
        "settings": [
          {
            "type": "image_picker",
-           "id": "image",
-           "label": "Image"
+           "id": "home_hero_slide_image",
+           "label": "Slider Image"
          }
        ]
      }
