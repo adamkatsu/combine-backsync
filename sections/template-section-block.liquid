@@ -16,7 +16,7 @@
   </div>
 </div>
 
-<script>
+{% comment %} <script>
   document.getElementById('block-vid-play').addEventListener('click', () => {
     console.log('click ok');
     document.querySelector('.section-block-bg').src += "&autoplay=1";
@@ -26,7 +26,7 @@
     document.querySelector('.section-block-wrapper .btn-vid-play').style.opacity = '0';
   })
 
-</script>
+</script> {% endcomment %}
 
 {% schema %}
   {
