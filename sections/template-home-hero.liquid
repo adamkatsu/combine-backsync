@@ -88,7 +88,11 @@
   <div class="block-test">
     <div class="block-test-item">
       {% for block in section.blocks %}
-        {{ block.settings.home_hero_slide_image | image_url: width: 1920 }}
+        <img 
+          src="{{ block.settings.home_hero_slide_image | image_url: width: 1920 }}" 
+          alt=""
+        >
+        
       {% endfor %}
     </div>
   </div>
