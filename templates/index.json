@@ -11,6 +11,44 @@
   "sections": {
     "hero": {
       "type": "template-home-hero",
+      "blocks": {
+        "slide_DDC6kt": {
+          "type": "slide",
+          "settings": {
+            "home_hero_slide_image": "shopify://shop_images/Rectangle_112.webp"
+          }
+        },
+        "slide_kfErFc": {
+          "type": "slide",
+          "settings": {
+            "home_hero_slide_image": "shopify://shop_images/Group_35.webp"
+          }
+        },
+        "slide_Gfhxcm": {
+          "type": "slide",
+          "settings": {
+            "home_hero_slide_image": "shopify://shop_images/Rectangle_115.webp"
+          }
+        },
+        "slide_VW9hkU": {
+          "type": "slide",
+          "settings": {
+            "home_hero_slide_image": "shopify://shop_images/banner-shop-bg.webp"
+          }
+        },
+        "slide_rFqhiQ": {
+          "type": "slide",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "slide_DDC6kt",
+        "slide_kfErFc",
+        "slide_Gfhxcm",
+        "slide_VW9hkU",
+        "slide_rFqhiQ"
+      ],
       "settings": {
         "home-headline": "Feel Better, Move Freely<br>Spine Health Made Easy",
         "home-copy": "In as little as 10 mins a day. Take control of your back health with precision and ease."
