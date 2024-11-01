@@ -1,7 +1,7 @@
 <div class="section seg-b-details">
   <div class="container seg-b-details-cont">
     <div class="seg-b-details-head">
-      <h2 class="txt-black txt-center">Advanced Spinal Health, Tailored for You</h2>
+      <h2 class="txt-black txt-center">{{ section.settings.seg-b_heading }}</h2>
       <a href="#">
         <button class="btn-primary btn-dark uppercase">SHOP SEG-B®</button>
       </a>
@@ -25,24 +25,24 @@
         </div>
         <div class="seg-b-hover-bottom">
           <div class="seg-b-hover-item" data-index="0">
-            <div class="seg-b-hover-image"></div>
+            <div class="seg-b-hover-image" style="background-image: url('{{ section.settings.hover_image_one }}');"></div>
             <div class="seg-b-hover-content">
-              <h3 class="txt-500 fs-24">Feature A</h3>
-              <span>Lorem ipsum dolor sit amet consectetur. Faucibus lorem ac a nulla a ipsum phasellus sed dignissim. Lorem ipsum dolor sit amet consectetur.</span>
+              <h3 class="txt-500 fs-24">{{ section.settings.hover_title_one }}</h3>
+              <span>{{ section.settings.hover_text_one }}</span>
             </div>
           </div>
           <div class="seg-b-hover-item" data-index="1">
-            <div class="seg-b-hover-image"></div>
+            <div class="seg-b-hover-image" style="background-image: url('{{ section.settings.hover_image_two }}');"></div>
             <div class="seg-b-hover-content">
-              <h3 class="txt-500 fs-24">Feature B</h3>
-              <span>Lorem ipsum dolor sit amet consectetur. Faucibus lorem ac a nulla a ipsum phasellus sed dignissim. Lorem ipsum dolor sit amet consectetur. Faucibus lorem ac a nulla a ipsum phasellus sed dignissim.</span>
+              <h3 class="txt-500 fs-24">{{ section.settings.hover_title_two }}</h3>
+              <span>{{ section.settings.hover_text_two }}</span>
             </div>
           </div>
           <div class="seg-b-hover-item" data-index="2">
-            <div class="seg-b-hover-image"></div>
+            <div class="seg-b-hover-image" style="background-image: url('{{ section.settings.hover_image_three }}');"></div>
             <div class="seg-b-hover-content">
-              <h3 class="txt-500 fs-24">Feature C</h3>
-              <span>Lorem ipsum dolor sit amet consectetur. Faucibus lorem ac a nulla a ipsum phasellus sed dignissim.</span>
+              <h3 class="txt-500 fs-24">{{ section.settings.hover_title_three }}</h3>
+              <span>{{ section.settings.hover_text_three }}</span>
             </div>
           </div>
         </div>
@@ -55,7 +55,7 @@
           <h3 class="txt-seg-b-grid">
             <span class="txt-blue">Tactile</span> Feedback
           </h3>
-          <span class="txt-400">The SEG-B's tactile feedback mechanism lets users feel each segment of their spine as they move, promoting awareness and control over spinal movements.</span>
+          <span class="txt-400">{{ section.settings.grid_tactile }}</span>
         </div>
       </div>
       <div class="seg-b-grid-item">
@@ -64,7 +64,7 @@
           <h3 class="txt-seg-b-grid">
             <span class="txt-blue">Auditory</span> Feedback
           </h3>
-          <span class="txt-400">The SEG-B provides real-time auditory feedback through clicking sounds, helping users identify and correct improper spinal segmentation during exercises.</span>
+          <span class="txt-400">{{ section.settings.grid_auditory }}</span>
         </div>
       </div>
       <div class="seg-b-grid-item">
@@ -73,7 +73,7 @@
           <h3 class="txt-seg-b-grid">
             <span class="txt-blue">Visual</span> Feedback
           </h3>
-          <span class="txt-400">Visual indicators on the SEG-B allow users to see their spinal alignment and movement patterns, enabling precise adjustments for optimal performance.</span>
+          <span class="txt-400">{{ section.settings.grid_visual }}</span>
         </div>
       </div>
     </div>
@@ -114,3 +114,86 @@
     })
   }
 </script>
+
+{% schema %}
+{
+  "name": "SEG-B Product Showcase",
+  "settings": [
+    {
+      "type": "text",
+      "id": "seg-b_heading",
+      "label": "Section Heading",
+      "default": "Advanced Spinal Health, Tailored for You"  
+    },
+    {
+      "type": "text",
+      "id": "grid_tactile",
+      "label": "Tactile Description",
+      "default": "The SEG-B's tactile feedback mechanism lets users feel each segment of their spine as they move, promoting awareness and control over spinal movements."  
+    },
+    {
+      "type": "text",
+      "id": "grid_auditory",
+      "label": "Auditory Description",
+      "default": "The SEG-B provides real-time auditory feedback through clicking sounds, helping users identify and correct improper spinal segmentation during exercises."  
+    },
+    {
+      "type": "text",
+      "id": "grid_visual",
+      "label": "Visual Description",
+      "default": "Visual indicators on the SEG-B allow users to see their spinal alignment and movement patterns, enabling precise adjustments for optimal performance."  
+    },
+    {
+      "type": "text",
+      "id": "hover_title_one",
+      "label": "Hover Grid Title 1",
+      "default": "Feature A"  
+    },
+    {
+      "type": "text",
+      "id": "hover_text_one",
+      "label": "Hover Grid Description 1",
+      "default": "Lorem ipsum dolor sit amet consectetur. Faucibus lorem ac a nulla a ipsum phasellus sed dignissim. Lorem ipsum dolor sit amet consectetur."  
+    },
+    {
+      "type": "image_picker",
+      "id": "hover_image_one",
+      "label": "Hover Grid Image 1"
+    },
+    {
+      "type": "text",
+      "id": "hover_title_two",
+      "label": "Hover Grid Title 2",
+      "default": "Feature B"  
+    },
+    {
+      "type": "text",
+      "id": "hover_text_two",
+      "label": "Hover Grid Description 2",
+      "default": "Lorem ipsum dolor sit amet consectetur. Faucibus lorem ac a nulla a ipsum phasellus sed dignissim. Lorem ipsum dolor sit amet consectetur. Faucibus lorem ac a nulla a ipsum phasellus sed dignissim."  
+    },
+    {
+      "type": "image_picker",
+      "id": "hover_image_two",
+      "label": "Hover Grid Image 2"
+    },
+    {
+      "type": "text",
+      "id": "hover_title_three",
+      "label": "Hover Grid Title 3",
+      "default": "Feature C"  
+    },
+    {
+      "type": "text",
+      "id": "hover_text_three",
+      "label": "Hover Grid Description 3",
+      "default": "Lorem ipsum dolor sit amet consectetur. Faucibus lorem ac a nulla a ipsum phasellus sed dignissim."  
+    },
+    {
+      "type": "image_picker",
+      "id": "hover_image_three",
+      "label": "Hover Grid Image 3"
+    }
+  ]
+}
+{% endschema %}
