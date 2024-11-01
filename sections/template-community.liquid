@@ -1,8 +1,8 @@
 <div class="section community">
   <div class="container community-cont">
     <div class="community-head">
-      <span class="txt-eyebrow uppercase">#Backsync</span>
-      <h2 class="txt-center">Trusted By The Fitness Community</h2>
+      <span class="txt-eyebrow uppercase">{{ section.settings.community_title }}</span>
+      <h2 class="txt-center">{{ section.settings.community_heading }}</h2>
       <a href="#">
         <button class="btn-primary btn-dark uppercase">SHOP SEG-B®</button>
       </a>
@@ -10,94 +10,73 @@
     <div class="community-marquee">
       <div class="community-marquee-wrapper">
         <div class="community-marquee-item">
-          <div class="community-marquee-single">
-            <img class="community-marquee-image" src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/CleanShot_2024-10-22_at_23.21.12_2x_45d3afee-b97e-4c9d-9513-385495b2830c.webp?v=1730297312" alt="">
-            <div class="community-marquee-person">
-              <span class="txt-700 fs-32">MoveU</span>
-              <span class="txt-400 fs-18">Live your life in alignment!💥</span>
+          {% for block in section.blocks %}
+            <div class="community-marquee-single">
+              <img class="community-marquee-image" src="{{ block.settings.community_slide_image }}" alt="">
+              <div class="community-marquee-person">
+                <span class="txt-700 fs-32">{{ block.settings.community_slide_name }}</span>
+                <span class="txt-400 fs-18">{{ block.settings.community_slide_desc }}</span>
+              </div>
             </div>
-          </div>
-          <div class="community-marquee-single">
-            <img class="community-marquee-image" src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/CleanShot_2024-10-22_at_23.45.25_2x_aed36549-fa84-4427-81d2-298ce5ed8eec.webp?v=1730297311" alt="">
-            <div class="community-marquee-person">
-              <span class="txt-700 fs-32">Grayson Strange</span>
-              <span class="txt-400 fs-18">Gym/coach consultation</span>
-            </div>
-          </div>
-          <div class="community-marquee-single">
-            <img class="community-marquee-image" src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-3.webp?v=1730297311" alt="">
-            <div class="community-marquee-person">
-              <span class="txt-700 fs-32">Ravash Nahavandi</span>
-              <span class="txt-400 fs-18">I help humans become PAIN FREE</span>
-            </div>
-          </div>
-          <div class="community-marquee-single">
-            <img class="community-marquee-image" src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-2.webp?v=1730297312" alt="">
-            <div class="community-marquee-person">
-              <span class="txt-700 fs-32">Grace Witthuhn</span>
-              <span class="txt-400 fs-18">Mobility & Performance Coach</span>
-            </div>
-          </div>
-          <div class="community-marquee-single">
-            <img class="community-marquee-image" src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-1.webp?v=1730297311" alt="">
-            <div class="community-marquee-person">
-              <span class="txt-700 fs-32">Mike Piekarski, PT, DPT, OCS</span>
-              <span class="txt-400 fs-18">Doctor of Physical Therapy</span>
-            </div>
-          </div>
-          <div class="community-marquee-single">
-            <img class="community-marquee-image" src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image.webp?v=1730297311" alt="">
-            <div class="community-marquee-person">
-              <span class="txt-700 fs-32">Kat Iliff movere.wellness</span>
-              <span class="txt-400 fs-18">Certified Personal Trainer</span>
-            </div>
-          </div>
+          {% endfor %}
         </div>
         <div class="community-marquee-item">
-          <div class="community-marquee-single">
-            <img class="community-marquee-image" src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/CleanShot_2024-10-22_at_23.21.12_2x_45d3afee-b97e-4c9d-9513-385495b2830c.webp?v=1730297312" alt="">
-            <div class="community-marquee-person">
-              <span class="txt-700 fs-32">MoveU</span>
-              <span class="txt-400 fs-18">Live your life in alignment!💥</span>
+          {% for block in section.blocks %}
+            <div class="community-marquee-single">
+              <img class="community-marquee-image" src="{{ block.settings.community_slide_image }}" alt="">
+              <div class="community-marquee-person">
+                <span class="txt-700 fs-32">{{ block.settings.community_slide_name }}</span>
+                <span class="txt-400 fs-18">{{ block.settings.community_slide_desc }}</span>
+              </div>
             </div>
-          </div>
-          <div class="community-marquee-single">
-            <img class="community-marquee-image" src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/CleanShot_2024-10-22_at_23.45.25_2x_aed36549-fa84-4427-81d2-298ce5ed8eec.webp?v=1730297311" alt="">
-            <div class="community-marquee-person">
-              <span class="txt-700 fs-32">Grayson Strange</span>
-              <span class="txt-400 fs-18">Gym/coach consultation</span>
-            </div>
-          </div>
-          <div class="community-marquee-single">
-            <img class="community-marquee-image" src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-3.webp?v=1730297311" alt="">
-            <div class="community-marquee-person">
-              <span class="txt-700 fs-32">Ravash Nahavandi</span>
-              <span class="txt-400 fs-18">I help humans become PAIN FREE</span>
-            </div>
-          </div>
-          <div class="community-marquee-single">
-            <img class="community-marquee-image" src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-2.webp?v=1730297312" alt="">
-            <div class="community-marquee-person">
-              <span class="txt-700 fs-32">Grace Witthuhn</span>
-              <span class="txt-400 fs-18">Mobility & Performance Coach</span>
-            </div>
-          </div>
-          <div class="community-marquee-single">
-            <img class="community-marquee-image" src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-1.webp?v=1730297311" alt="">
-            <div class="community-marquee-person">
-              <span class="txt-700 fs-32">Mike Piekarski, PT, DPT, OCS</span>
-              <span class="txt-400 fs-18">Doctor of Physical Therapy</span>
-            </div>
-          </div>
-          <div class="community-marquee-single">
-            <img class="community-marquee-image" src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image.webp?v=1730297311" alt="">
-            <div class="community-marquee-person">
-              <span class="txt-700 fs-32">Kat Iliff movere.wellness</span>
-              <span class="txt-400 fs-18">Certified Personal Trainer</span>
-            </div>
-          </div>
+          {% endfor %}
         </div>
       </div>
     </div>
   </div>
 </div>
+
+{% schema %}
+{
+  "name": "Community Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "community_title",
+      "label": "Section Title",
+      "default": "#BACKSYNC"  
+    },
+    {
+      "type": "text",
+      "id": "community_heading",
+      "label": "Section Heading",
+      "default": "Trusted By The Fitness Community"  
+    }
+  ],
+  "blocks": [
+     {
+       "name": "Slide",
+       "type": "slide",
+       "settings": [
+        {
+          "type": "image_picker",
+          "id": "community_slide_image",
+          "label": "Slider Image"
+        },
+        {
+          "type": "text",
+          "id": "community_slide_name",
+          "label": "Name",
+          "default": "MoveU"  
+        },
+        {
+          "type": "text",
+          "id": "community_slide_desc",
+          "label": "Description",
+          "default": "Live your life in alignment!💥"  
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
