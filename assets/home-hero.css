@@ -1,9 +1,3 @@
-.block-test {
-  position: relative;
-  z-index: 999;
-}
-
-
 .home-slider {
   position: relative;
   height: calc(100vh - 34px);
