@@ -38,7 +38,7 @@
     <div class="hero-content">
       <div class="hero-title">
         <h1>{{ section.settings.home-headline }}</h1>
-        <span class="txt-400">In as little as 10 mins a day. Take control of your back health with precision and ease.</span>
+        <span class="txt-400">{{ section.settings.home-copy }}</span>
       </div>
       <a href="#">
         <button class="btn-primary">SHOP SEG-B®</button>
@@ -101,7 +101,13 @@
       "id": "home-headline",
       "label": "Headline",
       "default": "Feel Better, Move Freely<br>Spine Health Made Easy"  
-    }
+    },
+    {
+      "type": "text",
+      "id": "home-copy",
+      "label": "Body Copy",
+      "default": "In as little as 10 mins a day. Take control of your back health with precision and ease."  
+    },
   ]
 }
 {% endschema %}
