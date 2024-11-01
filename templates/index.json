@@ -1,55 +1,104 @@
-
- {
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
   "sections": {
     "hero": {
-      "type": "template-home-hero"
+      "type": "template-home-hero",
+      "blocks": {
+        "slide_ptJ9GH": {
+          "type": "slide",
+          "settings": {
+            "home_hero_slide_image": "shopify://shop_images/Rectangle_112.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_ptJ9GH"
+      ],
+      "settings": {
+        "home-headline": "Feel Better, Move Freely<br>Spine Health Made Easy",
+        "home-copy": "In as little as 10 mins a day. Take control of your back health with precision and ease."
+      }
     },
     "intro": {
-      "type": "template-home-intro"
+      "type": "template-home-intro",
+      "settings": {
+      }
     },
     "vid-one": {
-      "type": "template-home-vid-full"
+      "type": "template-home-vid-full",
+      "settings": {
+      }
     },
     "seg-b-details": {
-      "type": "template-seg-b-details"
+      "type": "template-seg-b-details",
+      "settings": {
+      }
     },
     "product-slider": {
-      "type": "template-product-slider"
+      "type": "template-product-slider",
+      "settings": {
+      }
     },
     "marquee-organization": {
-      "type": "template-marquee-organization"
+      "type": "template-marquee-organization",
+      "settings": {
+      }
     },
     "community": {
-      "type": "template-community"
+      "type": "template-community",
+      "settings": {
+      }
     },
     "section-block": {
-      "type": "template-section-block"
+      "type": "template-section-block",
+      "settings": {
+      }
     },
     "mission": {
-      "type": "template-mission"
+      "type": "template-mission",
+      "settings": {
+      }
     },
     "partners": {
-      "type": "template-partners"
+      "type": "template-partners",
+      "settings": {
+      }
     },
     "tutorials": {
-      "type": "template-tutorials"
+      "type": "template-tutorials",
+      "settings": {
+      }
     },
     "purchase-protection": {
-      "type": "template-purchase-protection"
+      "type": "template-purchase-protection",
+      "settings": {
+      }
     },
     "banner-shop": {
-      "type": "template-banner-shop"
+      "type": "template-banner-shop",
+      "settings": {
+      }
     },
     "socials": {
-      "type": "template-socials"
+      "type": "template-socials",
+      "settings": {
+      }
     }
   },
   "order": [
-    "hero", 
-    "intro", 
-    "vid-one", 
-    "seg-b-details", 
-    "product-slider", 
+    "hero",
+    "intro",
+    "vid-one",
+    "seg-b-details",
+    "product-slider",
     "marquee-organization",
     "community",
     "section-block",
