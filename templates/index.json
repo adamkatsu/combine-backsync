@@ -11,6 +11,17 @@
   "sections": {
     "hero": {
       "type": "template-home-hero",
+      "blocks": {
+        "slide_McTUf7": {
+          "type": "slide",
+          "settings": {
+            "home_hero_slide_image": "shopify://shop_images/Group_35.webp"
+          }
+        }
+      },
+      "block_order": [
+        "slide_McTUf7"
+      ],
       "settings": {
         "home-headline": "Feel Better, Move Freely<br>Spine Health Made Easy",
         "home-copy": "In as little as 10 mins a day. Take control of your back health with precision and ease."
