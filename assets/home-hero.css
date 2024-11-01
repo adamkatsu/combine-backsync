@@ -316,7 +316,7 @@
   background-color: #F8F8F8;
   border-radius: 32px;
   color: #000000;
-  
+  width: calc(33% - 12px);
 }
 .txt-seg-b-grid {
   font-size: 32px;
@@ -344,15 +344,38 @@
   align-items: stretch;
   gap: 24px; 
   margin-bottom: 20px;
-  opacity: .5;
+  /* opacity: 1; */
 }
 .seg-b-trigger {
   height: 18vw;
   max-height: 260px;
   width: 100%;
-  background-color: red;
+  /* background-color: red; */
   position: relative;
   z-index: 9;
+}
+.seg-b-trigger-img {
+  position: absolute;
+  object-fit: contain;
+  transition: all .5s ease;
+}
+.seg-b-trigger-img.trigger-a {
+  height: 125px;
+  left: 40%;
+  top: 3vw;
+}
+.seg-b-trigger-img.trigger-b {
+  height: 93px;
+  left: 30%;
+  bottom: 0;
+}
+.seg-b-trigger-img.trigger-c {
+  height: 104px;
+  left: 15%;
+  top: 3vw;
+}
+.seg-b-trigger-img.active {
+  opacity: 0;
 }
 .seg-b-hover-bottom {
   display: flex;
@@ -372,6 +395,8 @@
   transform: translateY(-20px);
   transition: all .3s ease;
   pointer-events: none;
+  width: calc(33% - 12px);
+  height: 100%;
 }
 .seg-b-hover-image {
   width: 100%;

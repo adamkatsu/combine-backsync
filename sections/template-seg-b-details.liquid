@@ -10,29 +10,38 @@
       <img class="seg-b-img" src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/seg-b-main.webp?v=1730159892" alt="">
       <div class="seg-b-hover">
         <div class="seg-b-hover-top">
-          <div class="seg-b-trigger" data-index="0"></div>
-          <div class="seg-b-trigger" data-index="1"></div>
-          <div class="seg-b-trigger" data-index="2"></div>
+          <div class="seg-b-trigger" data-index="0">
+            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/trigger-a.webp?v=1730421713" alt="" class="seg-b-trigger-img trigger trigger-a">
+            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/trigger-a-active.webp?v=1730421713" alt="" class="seg-b-trigger-img trigger-a active">
+          </div>
+          <div class="seg-b-trigger" data-index="1">
+            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/trigger-b.webp?v=1730421713" alt="" class="seg-b-trigger-img trigger trigger-b">
+            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/trigger-b-active.webp?v=1730421713" alt="" class="seg-b-trigger-img trigger-b active">
+          </div>
+          <div class="seg-b-trigger" data-index="2">
+            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/trigger-c.webp?v=1730421713" alt="" class="seg-b-trigger-img trigger trigger-c">
+            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/trigger-c-active.webp?v=1730421713" alt="" class="seg-b-trigger-img trigger-c active">
+          </div>
         </div>
         <div class="seg-b-hover-bottom">
           <div class="seg-b-hover-item" data-index="0">
             <div class="seg-b-hover-image"></div>
             <div class="seg-b-hover-content">
-              <h3 class="txt-500 fs-24">Feature B</h3>
-              <span>Lorem ipsum dolor sit amet consectetur. Faucibus lorem ac a nulla a ipsum phasellus sed dignissim.</span>
+              <h3 class="txt-500 fs-24">Feature A</h3>
+              <span>Lorem ipsum dolor sit amet consectetur. Faucibus lorem ac a nulla a ipsum phasellus sed dignissim. Lorem ipsum dolor sit amet consectetur.</span>
             </div>
           </div>
           <div class="seg-b-hover-item" data-index="1">
             <div class="seg-b-hover-image"></div>
             <div class="seg-b-hover-content">
               <h3 class="txt-500 fs-24">Feature B</h3>
-              <span>Lorem ipsum dolor sit amet consectetur. Faucibus lorem ac a nulla a ipsum phasellus sed dignissim.</span>
+              <span>Lorem ipsum dolor sit amet consectetur. Faucibus lorem ac a nulla a ipsum phasellus sed dignissim. Lorem ipsum dolor sit amet consectetur. Faucibus lorem ac a nulla a ipsum phasellus sed dignissim.</span>
             </div>
           </div>
           <div class="seg-b-hover-item" data-index="2">
             <div class="seg-b-hover-image"></div>
             <div class="seg-b-hover-content">
-              <h3 class="txt-500 fs-24">Feature B</h3>
+              <h3 class="txt-500 fs-24">Feature C</h3>
               <span>Lorem ipsum dolor sit amet consectetur. Faucibus lorem ac a nulla a ipsum phasellus sed dignissim.</span>
             </div>
           </div>
@@ -86,6 +95,8 @@
           feat.style.opacity = '1';
           feat.style.transform = 'translateY(0px)';
           segbOverlay.style.opacity = '.2';
+          btn.querySelector('.seg-b-trigger-img.trigger').style.opacity = '0';
+          btn.querySelector('.seg-b-trigger-img.active').style.opacity = '1';
         }
       }
 
@@ -96,6 +107,8 @@
         feat.style.opacity = '0';
         feat.style.transform = 'translateY(-20px)';
         segbOverlay.style.opacity = '0';
+        btn.querySelector('.seg-b-trigger-img.trigger').style.opacity = '1';
+        btn.querySelector('.seg-b-trigger-img.active').style.opacity = '0';
       }
 
     })
