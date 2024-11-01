@@ -25,21 +25,21 @@
         </div>
         <div class="seg-b-hover-bottom">
           <div class="seg-b-hover-item" data-index="0">
-            <div class="seg-b-hover-image" style="background-image: url('{{ section.settings.hover_image_one }}');"></div>
+            <div class="seg-b-hover-image" style="background-image: url('{{ section.settings.hover_image_one | image_url: width: 480 }}');"></div>
             <div class="seg-b-hover-content">
               <h3 class="txt-500 fs-24">{{ section.settings.hover_title_one }}</h3>
               <span>{{ section.settings.hover_text_one }}</span>
             </div>
           </div>
           <div class="seg-b-hover-item" data-index="1">
-            <div class="seg-b-hover-image" style="background-image: url('{{ section.settings.hover_image_two }}');"></div>
+            <div class="seg-b-hover-image" style="background-image: url('{{ section.settings.hover_image_two | image_url: width: 480 }}');"></div>
             <div class="seg-b-hover-content">
               <h3 class="txt-500 fs-24">{{ section.settings.hover_title_two }}</h3>
               <span>{{ section.settings.hover_text_two }}</span>
             </div>
           </div>
           <div class="seg-b-hover-item" data-index="2">
-            <div class="seg-b-hover-image" style="background-image: url('{{ section.settings.hover_image_three }}');"></div>
+            <div class="seg-b-hover-image" style="background-image: url('{{ section.settings.hover_image_three | image_url: width: 480 }}');"></div>
             <div class="seg-b-hover-content">
               <h3 class="txt-500 fs-24">{{ section.settings.hover_title_three }}</h3>
               <span>{{ section.settings.hover_text_three }}</span>
