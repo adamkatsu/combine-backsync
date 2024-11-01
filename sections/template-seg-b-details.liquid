@@ -8,6 +8,36 @@
     </div>
     <div class="seg-b-main">
       <img class="seg-b-img" src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/seg-b-main.webp?v=1730159892" alt="">
+      <div class="seg-b-hover">
+        <div class="seg-b-hover-top">
+          <div class="seg-b-trigger" data-index="0"></div>
+          <div class="seg-b-trigger" data-index="1"></div>
+          <div class="seg-b-trigger" data-index="2"></div>
+        </div>
+        <div class="seg-b-hover-bottom">
+          <div class="seg-b-hover-item" data-index="0">
+            <div class="seg-b-hover-image"></div>
+            <div class="seg-b-hover-content">
+              <h3 class="txt-500 fs-24">Feature B</h3>
+              <span>Lorem ipsum dolor sit amet consectetur. Faucibus lorem ac a nulla a ipsum phasellus sed dignissim.</span>
+            </div>
+          </div>
+          <div class="seg-b-hover-item" data-index="1">
+            <div class="seg-b-hover-image"></div>
+            <div class="seg-b-hover-content">
+              <h3 class="txt-500 fs-24">Feature B</h3>
+              <span>Lorem ipsum dolor sit amet consectetur. Faucibus lorem ac a nulla a ipsum phasellus sed dignissim.</span>
+            </div>
+          </div>
+          <div class="seg-b-hover-item" data-index="2">
+            <div class="seg-b-hover-image"></div>
+            <div class="seg-b-hover-content">
+              <h3 class="txt-500 fs-24">Feature B</h3>
+              <span>Lorem ipsum dolor sit amet consectetur. Faucibus lorem ac a nulla a ipsum phasellus sed dignissim.</span>
+            </div>
+          </div>
+        </div>
+      </div> 
     </div>
     <div class="seg-b-grid">
       <div class="seg-b-grid-item">
@@ -39,4 +69,35 @@
       </div>
     </div>
   </div>
+  <div class="seg-b-overlay"></div>
 </div>
+
+<script>
+  const segbTrigger = document.querySelectorAll('.seg-b-trigger');
+  const showFeat = document.querySelectorAll('.seg-b-hover-item');
+  const segbOverlay = document.querySelector('.seg-b-overlay');
+
+  for(const btn of segbTrigger) {
+    btn.addEventListener('mouseover', () => {
+      console.log(btn.getAttribute('data-index'))
+
+      for(const feat of showFeat) {
+        if(feat.getAttribute('data-index') === btn.getAttribute('data-index')) {
+          feat.style.opacity = '1';
+          feat.style.transform = 'translateY(0px)';
+          segbOverlay.style.opacity = '.2';
+        }
+      }
+
+    })
+    btn.addEventListener('mouseout', () => {
+
+      for(const feat of showFeat) {
+        feat.style.opacity = '0';
+        feat.style.transform = 'translateY(-20px)';
+        segbOverlay.style.opacity = '0';
+      }
+
+    })
+  }
+</script>
