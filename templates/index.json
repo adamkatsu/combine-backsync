@@ -77,6 +77,19 @@
     "seg-b-details": {
       "type": "template-seg-b-details",
       "settings": {
+        "seg-b_heading": "Advanced Spinal Health, Tailored for You",
+        "grid_tactile": "The SEG-B's tactile feedback mechanism lets users feel each segment of their spine as they move, promoting awareness and control over spinal movements.",
+        "grid_auditory": "The SEG-B provides real-time auditory feedback through clicking sounds, helping users identify and correct improper spinal segmentation during exercises.",
+        "grid_visual": "Visual indicators on the SEG-B allow users to see their spinal alignment and movement patterns, enabling precise adjustments for optimal performance.",
+        "hover_title_one": "Feature A",
+        "hover_text_one": "Lorem ipsum dolor sit amet consectetur. Faucibus lorem ac a nulla a ipsum phasellus sed dignissim. Lorem ipsum dolor sit amet consectetur.",
+        "hover_image_one": "shopify://shop_images/Rectangle_115.webp",
+        "hover_title_two": "Feature B",
+        "hover_text_two": "Lorem ipsum dolor sit amet consectetur. Faucibus lorem ac a nulla a ipsum phasellus sed dignissim. Lorem ipsum dolor sit amet consectetur. Faucibus lorem ac a nulla a ipsum phasellus sed dignissim.",
+        "hover_image_two": "shopify://shop_images/image-6.webp",
+        "hover_title_three": "Feature C",
+        "hover_text_three": "Lorem ipsum dolor sit amet consectetur. Faucibus lorem ac a nulla a ipsum phasellus sed dignissim.",
+        "hover_image_three": "shopify://shop_images/home-intro-left.webp"
       }
     },
     "product-slider": {
