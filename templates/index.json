@@ -58,6 +58,15 @@
     "intro": {
       "type": "template-home-intro",
       "settings": {
+        "home_intro_title": "Introduction",
+        "home_intro_heading": "Experience the benefits of the SEG-B® for your spinal health.",
+        "home_stats_one_num": "20",
+        "home_stats_one_text": "Simple daily movements for a healthy spine",
+        "home_stats_two_num": "5K",
+        "home_stats_two_text": "Satisfied users and counting",
+        "home_intro_card_tag": "Practical Daily Use",
+        "home_intro_card_title": "Perfect fit to your body",
+        "home_intro_card_body": "Experience the benefits of the SEG-B® for your spinal health."
       }
     },
     "vid-one": {
