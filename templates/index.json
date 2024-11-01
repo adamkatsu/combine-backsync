@@ -39,6 +39,7 @@
         "slide_rFqhiQ": {
           "type": "slide",
           "settings": {
+            "home_hero_slide_image": "shopify://shop_images/home-intro-right.webp"
           }
         }
       },
