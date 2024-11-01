@@ -1,8 +1,8 @@
 <div class="section home-intro">
   <div class="container home-intro-cont">
     <div class="home-intro-head">
-      <span>Introduction</span>
-      <h2>Experience the benefits of the SEG-B® for your spinal health.</h2>
+      <span>{{ section.settings.home_intro_title }}</span>
+      <h2>{{ section.settings.home_intro_heading }}</h2>
     </div>
     <div class="home-intro-content">
       <div class="home-intro-content-left">
@@ -10,28 +10,90 @@
         <div class="intro-stats">
           <div class="intro-stats-item">
             <div class="intro-stats-num">
-              <span class="txt-intro-num">20</span>
+              <span class="txt-intro-num">{{ section.settings.home_stats_one_num }}</span>
               <span class="txt-intro-plus">+</span>
             </div>
-            <span>Simple daily movements for a healthy spine</span>
+            <span>{{ section.settings.home_stats_one_text }}</span>
           </div>
           <div class="intro-stats-item">
             <div class="intro-stats-num">
-              <span class="txt-intro-num">5K</span>
+              <span class="txt-intro-num">{{ section.settings.home_stats_two_num }}</span>
               <span class="txt-intro-plus">+</span>
             </div>
-            <span class="intro-stats-desc-50">Satisfied users and counting.</span>
+            <span class="intro-stats-desc-50">{{ section.settings.home_stats_two_text }}</span>
           </div>
         </div>
       </div>
       <div class="home-intro-content-right">
-        <span class="txt-tag">Practical Daily Use</span>
+        <span class="txt-tag">{{ section.settings.home_intro_card_tag }}</span>
         <div class="flex-vertical flex-gap-8">
           <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/intro-heads.webp?v=1730128174" alt="">
-          <span class="txt-intro-right-title">Perfect fit to your body</span>
-          <span class="txt-400 fs-20">Experience the benefits of the SEG-B® for your spinal health.</span>
+          <span class="txt-intro-right-title">{{ section.settings.home_intro_card_title}}</span>
+          <span class="txt-400 fs-20">{{ section.settings.home_intro_card_body }}</span>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+{% schema %}
+{
+  "name": "Home Intro",
+  "settings": [
+    {
+      "type": "text",
+      "id": "home_intro_title",
+      "label": "Section Title",
+      "default": "Introduction"  
+    },
+    {
+      "type": "text",
+      "id": "home_intro_heading",
+      "label": "Section Heading",
+      "default": "Experience the benefits of the SEG-B® for your spinal health."  
+    },
+    {
+      "type": "text",
+      "id": "home_stats_one_num",
+      "label": "Statistic - One",
+      "default": "20"  
+    },
+    {
+      "type": "text",
+      "id": "home_stats_one_text",
+      "label": "Statistic Text - One",
+      "default": "Simple daily movements for a healthy spine"  
+    },
+    {
+      "type": "text",
+      "id": "home_stats_two_num",
+      "label": "Statistic - Two",
+      "default": "5"  
+    },
+    {
+      "type": "text",
+      "id": "home_stats_two_text",
+      "label": "Statistic Text - Two",
+      "default": "Satisfied users and counting"  
+    },
+    {
+      "type": "text",
+      "id": "home_intro_card_tag",
+      "label": "Card Tag",
+      "default": "Practical Daily Use"  
+    },
+    {
+      "type": "text",
+      "id": "home_intro_card_title",
+      "label": "Card Title",
+      "default": "Perfect fit to your body"  
+    },
+    {
+      "type": "text",
+      "id": "home_intro_card_body",
+      "label": "Card Body text",
+      "default": "Experience the benefits of the SEG-B® for your spinal health."  
+    },
+  ]
+}
+{% endschema %}
