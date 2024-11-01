@@ -19,3 +19,24 @@
   })
 
 </script>
+
+{% schema %}
+{
+  "name": "Full Screen Video",
+  "settings": [
+    {
+      "type": "video_url",
+      "id": "vid-url",
+      "label": "Video URL",
+      "accepts": [
+        "youtube"
+      ]
+    },
+    {
+      "type": "image_picker",
+      "id": "vid-thumbnail",
+      "label": "Video Thumbnail"
+    }
+  ]
+}
+{% endschema %}
