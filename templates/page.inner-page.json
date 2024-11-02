@@ -1,11 +1,11 @@
 {
   "sections": {
     "intro": {
-        "type": "template-home-intro",
-        "settings": {
-        }
-      },
-      "product-slider": {
+      "type": "template-home-intro",
+      "settings": {
+      }
+    },
+    "product-slider": {
       "type": "template-product-slider",
       "settings": {
       }
@@ -22,6 +22,6 @@
     }
   },
   "order": [
-    "intro", "purchase-protection", "banner-shop"
+    "intro","product-slider", "purchase-protection", "banner-shop"
   ]
 }
