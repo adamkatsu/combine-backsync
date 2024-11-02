@@ -13,7 +13,7 @@
           <div class="socials-marquee-item">
             {% for block in section.blocks %}
               {% case block.type %}
-                {% when slide_top %}
+                {% when 'slide_top' %}
                   <img src="{{ block.settings.slide_image_top }}" alt="" class="socials-marquee-image">
               {% endcase %}
             {% endfor %}
@@ -21,7 +21,7 @@
           <div class="socials-marquee-item">
             {% for block in section.blocks %}
               {% case block.type %}
-                {% when slide_top %}
+                {% when 'slide_top' %}
                   <img src="{{ block.settings.slide_image_top }}" alt="" class="socials-marquee-image">
               {% endcase %}
             {% endfor %}
@@ -29,7 +29,7 @@
           <div class="socials-marquee-item">
             {% for block in section.blocks %}
               {% case block.type %}
-                {% when slide_top %}
+                {% when 'slide_top' %}
                   <img src="{{ block.settings.slide_image_top }}" alt="" class="socials-marquee-image">
               {% endcase %}
             {% endfor %}
@@ -37,7 +37,7 @@
           <div class="socials-marquee-item">
             {% for block in section.blocks %}
               {% case block.type %}
-                {% when slide_top %}
+                {% when 'slide_top' %}
                   <img src="{{ block.settings.slide_image_top }}" alt="" class="socials-marquee-image">
               {% endcase %}
             {% endfor %}
@@ -47,7 +47,7 @@
           <div class="socials-marquee-item">
             {% for block in section.blocks %}
               {% case block.type %}
-                {% when slide_bottom %}
+                {% when 'slide_bottom' %}
                   <img src="{{ block.settings.slide_image_bottom }}" alt="" class="socials-marquee-image">
               {% endcase %}
             {% endfor %}
@@ -55,7 +55,7 @@
           <div class="socials-marquee-item">
             {% for block in section.blocks %}
               {% case block.type %}
-                {% when slide_bottom %}
+                {% when 'slide_bottom' %}
                   <img src="{{ block.settings.slide_image_bottom }}" alt="" class="socials-marquee-image">
               {% endcase %}
             {% endfor %}
@@ -63,7 +63,7 @@
           <div class="socials-marquee-item">
             {% for block in section.blocks %}
               {% case block.type %}
-                {% when slide_bottom %}
+                {% when 'slide_bottom' %}
                   <img src="{{ block.settings.slide_image_bottom }}" alt="" class="socials-marquee-image">
               {% endcase %}
             {% endfor %}
@@ -71,7 +71,7 @@
           <div class="socials-marquee-item">
             {% for block in section.blocks %}
               {% case block.type %}
-                {% when slide_bottom %}
+                {% when 'slide_bottom' %}
                   <img src="{{ block.settings.slide_image_bottom }}" alt="" class="socials-marquee-image">
               {% endcase %}
             {% endfor %}
@@ -98,6 +98,30 @@
       "id": "section_heading",
       "label": "Section Heading",
       "default": "Unlock next-gen spinal training with SEG-B, designed for precise spine health."  
+    }
+  ],
+  "blocks": [
+     {
+       "name": "Slide Top",
+       "type": "slide_top",
+       "settings": [
+        {
+          "type": "image_picker",
+          "id": "slide_image_top",
+          "label": "Slider Image Top"
+        }
+      ]
+    },
+    {
+       "name": "Slide Bottom",
+       "type": "slide_bottom",
+       "settings": [
+        {
+          "type": "image_picker",
+          "id": "slide_image_bottom",
+          "label": "Slider Image Bottom"
+        }
+      ]
     }
   ]
 }
