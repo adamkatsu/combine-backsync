@@ -1,0 +1,25 @@
+{
+  "sections": {
+  "intro": {
+        "type": "template-home-intro",
+        "settings": {
+        }
+      },
+      "product-slider": {
+      "type": "template-product-slider",
+      "settings": {
+      }
+    },
+    "purchase-protection": {
+      "type": "template-purchase-protection",
+      "settings": {
+      }
+    },
+    "banner-shop": {
+      "type": "template-banner-shop",
+      "settings": {
+      }
+    }
+  },
+  "order": []
+}
