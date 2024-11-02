@@ -211,11 +211,22 @@
     "purchase-protection": {
       "type": "template-purchase-protection",
       "settings": {
+        "section_heading": "Your Purchase Protection",
+        "section_subtitle": "We stand behind our product. Enjoy worry-free protection with a 30-day home trial and free delivery.",
+        "grid_title_one": "Worry - free protection",
+        "grid_text_one": "All BackSync products come with a warranty to protect your SEG-B®.",
+        "grid_title_two": "30-day home trial",
+        "grid_text_two": "Try it commitment-free. If it's not for you, send your SEG-B® and we’ll refund your purchase.",
+        "grid_title_three": "Free delivery to your home.",
+        "grid_text_three": "We'll deliver and install the BackSync Tread to your room of choice and get you ready to train."
       }
     },
     "banner-shop": {
       "type": "template-banner-shop",
       "settings": {
+        "section_title": "Shop Now",
+        "section_heading": "Ready to Take Control of Your Spinal Health?",
+        "section_bg": "shopify://shop_images/banner-shop-bg.webp"
       }
     },
     "socials": {
