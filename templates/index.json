@@ -231,7 +231,69 @@
     },
     "socials": {
       "type": "template-socials",
+      "blocks": {
+        "slide_top_cgxDdj": {
+          "type": "slide_top",
+          "settings": {
+            "slide_image_top": "shopify://shop_images/image_copy.webp"
+          }
+        },
+        "slide_top_Yr3ifL": {
+          "type": "slide_top",
+          "settings": {
+            "slide_image_top": "shopify://shop_images/image-1_copy.webp"
+          }
+        },
+        "slide_top_6WCVFa": {
+          "type": "slide_top",
+          "settings": {
+            "slide_image_top": "shopify://shop_images/image-2_copy.webp"
+          }
+        },
+        "slide_top_FryEig": {
+          "type": "slide_top",
+          "settings": {
+            "slide_image_top": "shopify://shop_images/image-3_copy.webp"
+          }
+        },
+        "slide_bottom_wnQk6e": {
+          "type": "slide_bottom",
+          "settings": {
+            "slide_image_bottom": "shopify://shop_images/image-4.webp"
+          }
+        },
+        "slide_bottom_eCkxnm": {
+          "type": "slide_bottom",
+          "settings": {
+            "slide_image_bottom": "shopify://shop_images/image-5.webp"
+          }
+        },
+        "slide_bottom_98fEC6": {
+          "type": "slide_bottom",
+          "settings": {
+            "slide_image_bottom": "shopify://shop_images/image-6.webp"
+          }
+        },
+        "slide_bottom_Bf43Uk": {
+          "type": "slide_bottom",
+          "settings": {
+            "slide_image_bottom": "shopify://shop_images/image-7.webp"
+          }
+        }
+      },
+      "block_order": [
+        "slide_top_cgxDdj",
+        "slide_top_Yr3ifL",
+        "slide_top_6WCVFa",
+        "slide_top_FryEig",
+        "slide_bottom_wnQk6e",
+        "slide_bottom_eCkxnm",
+        "slide_bottom_98fEC6",
+        "slide_bottom_Bf43Uk"
+      ],
       "settings": {
+        "section_title": "The Mission",
+        "section_heading": "Unlock next-gen spinal training with SEG-B, designed for precise spine health."
       }
     }
   },
