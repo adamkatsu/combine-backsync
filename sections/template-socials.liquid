@@ -1,8 +1,8 @@
 <div class="section socials">
   <div class="container socials-cont">
     <div class="socials-head">
-      <span class="txt-eyebrow">Social</span>
-      <h2 class="txt-center">Trusted by Experts, Loved by Users</h2>
+      <span class="txt-eyebrow">{{ section.settings.section_title }}</span>
+      <h2 class="txt-center">{{ section.settings.section_heading }}</h2>
       <a href="#">
         <button class="btn-primary btn-dark uppercase">SHOP SEG-B®</button>
       </a>
@@ -11,57 +11,118 @@
       <div class="socials-marquee">
         <div class="socials-marquee-top">
           <div class="socials-marquee-item">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image_copy.webp?v=1730378281" alt="" class="socials-marquee-image">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-1_copy.webp?v=1730378281" alt="" class="socials-marquee-image">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-2_copy.webp?v=1730378281" alt="" class="socials-marquee-image">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-3_copy.webp?v=1730378281" alt="" class="socials-marquee-image">
+            {% for block in section.blocks %}
+              {% case block.type %}
+                {% when slide_top %}
+                  <img src="{{ block.settings.slide_image_top }}" alt="" class="socials-marquee-image">
+              {% endcase %}
+            {% endfor %}
           </div>
           <div class="socials-marquee-item">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image_copy.webp?v=1730378281" alt="" class="socials-marquee-image">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-1_copy.webp?v=1730378281" alt="" class="socials-marquee-image">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-2_copy.webp?v=1730378281" alt="" class="socials-marquee-image">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-3_copy.webp?v=1730378281" alt="" class="socials-marquee-image">
+            {% for block in section.blocks %}
+              {% case block.type %}
+                {% when slide_top %}
+                  <img src="{{ block.settings.slide_image_top }}" alt="" class="socials-marquee-image">
+              {% endcase %}
+            {% endfor %}
           </div>
           <div class="socials-marquee-item">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image_copy.webp?v=1730378281" alt="" class="socials-marquee-image">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-1_copy.webp?v=1730378281" alt="" class="socials-marquee-image">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-2_copy.webp?v=1730378281" alt="" class="socials-marquee-image">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-3_copy.webp?v=1730378281" alt="" class="socials-marquee-image">
+            {% for block in section.blocks %}
+              {% case block.type %}
+                {% when slide_top %}
+                  <img src="{{ block.settings.slide_image_top }}" alt="" class="socials-marquee-image">
+              {% endcase %}
+            {% endfor %}
           </div>
           <div class="socials-marquee-item">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image_copy.webp?v=1730378281" alt="" class="socials-marquee-image">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-1_copy.webp?v=1730378281" alt="" class="socials-marquee-image">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-2_copy.webp?v=1730378281" alt="" class="socials-marquee-image">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-3_copy.webp?v=1730378281" alt="" class="socials-marquee-image">
+            {% for block in section.blocks %}
+              {% case block.type %}
+                {% when slide_top %}
+                  <img src="{{ block.settings.slide_image_top }}" alt="" class="socials-marquee-image">
+              {% endcase %}
+            {% endfor %}
           </div>
         </div>
         <div class="socials-marquee-bottom">
           <div class="socials-marquee-item">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-4.webp?v=1730378281" alt="" class="socials-marquee-image">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-5.webp?v=1730378281" alt="" class="socials-marquee-image">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-6.webp?v=1730378281" alt="" class="socials-marquee-image">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-7.webp?v=1730378281" alt="" class="socials-marquee-image">
+            {% for block in section.blocks %}
+              {% case block.type %}
+                {% when slide_bottom %}
+                  <img src="{{ block.settings.slide_image_bottom }}" alt="" class="socials-marquee-image">
+              {% endcase %}
+            {% endfor %}
           </div>
           <div class="socials-marquee-item">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-4.webp?v=1730378281" alt="" class="socials-marquee-image">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-5.webp?v=1730378281" alt="" class="socials-marquee-image">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-6.webp?v=1730378281" alt="" class="socials-marquee-image">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-7.webp?v=1730378281" alt="" class="socials-marquee-image">
+            {% for block in section.blocks %}
+              {% case block.type %}
+                {% when slide_bottom %}
+                  <img src="{{ block.settings.slide_image_bottom }}" alt="" class="socials-marquee-image">
+              {% endcase %}
+            {% endfor %}
           </div>
           <div class="socials-marquee-item">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-4.webp?v=1730378281" alt="" class="socials-marquee-image">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-5.webp?v=1730378281" alt="" class="socials-marquee-image">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-6.webp?v=1730378281" alt="" class="socials-marquee-image">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-7.webp?v=1730378281" alt="" class="socials-marquee-image">
+            {% for block in section.blocks %}
+              {% case block.type %}
+                {% when slide_bottom %}
+                  <img src="{{ block.settings.slide_image_bottom }}" alt="" class="socials-marquee-image">
+              {% endcase %}
+            {% endfor %}
           </div>
           <div class="socials-marquee-item">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-4.webp?v=1730378281" alt="" class="socials-marquee-image">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-5.webp?v=1730378281" alt="" class="socials-marquee-image">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-6.webp?v=1730378281" alt="" class="socials-marquee-image">
-            <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image-7.webp?v=1730378281" alt="" class="socials-marquee-image">
+            {% for block in section.blocks %}
+              {% case block.type %}
+                {% when slide_bottom %}
+                  <img src="{{ block.settings.slide_image_bottom }}" alt="" class="socials-marquee-image">
+              {% endcase %}
+            {% endfor %}
           </div>
         </div>
       </div>
     </div>
   </div>
 </div>
+
+
+{% schema %}
+{
+  "name": "Socials Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title",
+      "default": "The Mission"  
+    },
+    {
+      "type": "text",
+      "id": "section_heading",
+      "label": "Section Heading",
+      "default": "Unlock next-gen spinal training with SEG-B, designed for precise spine health."  
+    },
+  ],
+  "blocks": [
+     {
+       "name": "Slide Top",
+       "type": "slide_top",
+       "settings": [
+        {
+          "type": "image_picker",
+          "id": "slide_image_top",
+          "label": "Slider Image Top"
+        }
+      ]
+    }
+    {
+       "name": "Slide Bottom",
+       "type": "slide_bottom",
+       "settings": [
+        {
+          "type": "image_picker",
+          "id": "slide_image_bottom",
+          "label": "Slider Image Bottom"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
