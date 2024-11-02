@@ -478,7 +478,6 @@
   flex-wrap: nowrap;
   gap: 72px;
   padding: 32px 0;
-  animation: marquee-organization 25s linear infinite ;
 }
 .marquee-organization-item {
   display: flex;

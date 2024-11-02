@@ -1,10 +1,9 @@
-
 <div class="section marquee-organization">
   <div class="container marquee-organization-cont">
     <div class="marquee-organization-head">
-      <span class="txt-400">Used by Elite Organizations</span>
+      <span class="txt-400">{{ section.settings.section_title }}</span>
     </div>
-    <div class="marquee-organization-wrapper">
+    <div class="marquee-organization-wrapper" style="animation: marquee-organization {{ section.settings.animation_speed }}s linear infinite;">
       <div class="marquee-organization-item">
         <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image_16.png?v=1730293268" alt="" class="marquee-organization-image">
         <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image_17.png?v=1730293269" alt="" class="marquee-organization-image">
@@ -56,3 +55,26 @@
     </div>
   </div>
 </div>
+
+{% schema %}
+{
+  "name": "Marquee Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title",
+      "default": "Used by Elite Organization"  
+    },
+    {
+      "type": "range",
+      "id": "animation_speed",
+      "label": "Animation Speed",
+      "min": 1,
+      "max": 60,
+      "step": 1,
+      "default": 25
+    }
+  ]
+}
+{% endschema %}
