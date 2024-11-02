@@ -1,26 +1,82 @@
 <div class="section purchase-protection">
   <div class="container purchase-protection-cont">
     <div class="purchase-protection-head">
-      <h2>Your Purchase Protection</h2>
-      <span>We stand behind our product. Enjoy worry-free protection with a 30-day home trial and free delivery.</span>
+      <h2>{{ section.settings.section_heading }}</h2>
+      <span>{{ section.settings.section_subtitle }}</span>
     </div>
     <div class="purchase-protection-main">
       <div class="purchase-protection-item">
         <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/Frame.png?v=1730333184" alt="" class="icon-48">
-        <h3 class="txt-700 fs-32">Worry - free protection</h3>
-        <span>All BackSync products come with a warranty to protect your SEG-B®.</span>
+        <h3 class="txt-700 fs-32">{{ section.settings.grid_title_one }}</h3>
+        <span>{{ section.settings.grid_text_one }}</span>
       </div>
       <div class="purchase-protection-item">
         <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/Frame-1.png?v=1730333184" alt="" class="icon-48">
-        <h3 class="txt-700 fs-32">30-day home trial</h3>
-        <span>Try it commitment-free. If it's not
-          for you, send your SEG-B® and we’ll refund your purchase.</span>
+        <h3 class="txt-700 fs-32">{{ section.settings.grid_title_two }}</h3>
+        <span>{{ section.settings.grid_text_two }}</span>
       </div>
       <div class="purchase-protection-item">
         <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/Frame-2.png?v=1730333184" alt="" class="icon-48">
-        <h3 class="txt-700 fs-32">Free delivery to your home.</h3>
-        <span>We'll deliver and install the BackSync Tread to your room of choice and get you ready to train.</span>
+        <h3 class="txt-700 fs-32">{{ section.settings.grid_title_three }}</h3>
+        <span>{{ section.settings.grid_text_three }}</span>
       </div>
     </div>
   </div>
 </div>
+
+        
+{% schema %}
+{
+  "name": "Purchase Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_heading",
+      "label": "Section Heading",
+      "default": "Your Purchase Protection"  
+    },
+    {
+      "type": "text",
+      "id": "section_subtitle",
+      "label": "Section Subtitle",
+      "default": "We stand behind our product. Enjoy worry-free protection with a 30-day home trial and free delivery."  
+    },
+    {
+      "type": "text",
+      "id": "grid_title_one",
+      "label": "Grid Title One",
+      "default": "Worry - free protection"  
+    },
+    {
+      "type": "text",
+      "id": "grid_text_one",
+      "label": "Grid Body Copy One",
+      "default": "All BackSync products come with a warranty to protect your SEG-B®."  
+    },
+    {
+      "type": "text",
+      "id": "grid_title_two",
+      "label": "Grid Title Two",
+      "default": "30-day home trial"  
+    },
+    {
+      "type": "text",
+      "id": "grid_text_two",
+      "label": "Grid Body Copy Two",
+      "default": "Try it commitment-free. If it's not for you, send your SEG-B® and we’ll refund your purchase."
+    },
+    {
+      "type": "text",
+      "id": "grid_title_three",
+      "label": "Grid Title Three",
+      "default": "Free delivery to your home."  
+    },
+    {
+      "type": "text",
+      "id": "grid_text_three",
+      "label": "Grid Body Copy Three",
+      "default": "We'll deliver and install the BackSync Tread to your room of choice and get you ready to train."
+    }
+  ]
+}
+{% endschema %}
