@@ -72,6 +72,8 @@
     "vid-one": {
       "type": "template-home-vid-full",
       "settings": {
+        "vid_thumbnail": "shopify://shop_images/Rectangle_105.webp",
+        "vid_url": "https://www.youtube.com/watch?v=sxWWfK4SV5E"
       }
     },
     "seg-b-details": {
@@ -170,6 +172,8 @@
     "section-block": {
       "type": "template-section-block",
       "settings": {
+        "vid_thumbnail": "shopify://shop_images/CleanShot_2024-10-21_at_02.06.16.webp",
+        "vid_url": "https://www.youtube.com/watch?v=Mb1LhyHxEBI"
       }
     },
     "mission": {
