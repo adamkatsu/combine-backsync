@@ -101,7 +101,167 @@
     },
     "marquee-organization": {
       "type": "template-marquee-organization",
+      "blocks": {
+        "logo_D7tayE": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/image_27.png"
+          }
+        },
+        "logo_CwM4C6": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/image_28.png"
+          }
+        },
+        "logo_dKxxwN": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/image_29_afcb6cdc-72a0-4126-80d4-aa267bb8e0f2.png"
+          }
+        },
+        "logo_ETzBHN": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/image_7.png"
+          }
+        },
+        "logo_fRJGLq": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/image_30.png"
+          }
+        },
+        "logo_78aift": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/image_31.png"
+          }
+        },
+        "logo_ezbwkW": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/image_4.png"
+          }
+        },
+        "logo_qhaJRQ": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/image_5.png"
+          }
+        },
+        "logo_zcKU99": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/image_6.png"
+          }
+        },
+        "logo_Bnb3Cw": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/2-1_from_perfectstridept_1.png"
+          }
+        },
+        "logo_RFJmXP": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/image_8.png"
+          }
+        },
+        "logo_EdyJmC": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/image_9.png"
+          }
+        },
+        "logo_bQ6ifC": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/image_10.png"
+          }
+        },
+        "logo_w9aJz8": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/image_11.png"
+          }
+        },
+        "logo_gx7nCP": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/image_12.png"
+          }
+        },
+        "logo_RUNwUT": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/image_13.png"
+          }
+        },
+        "logo_ccphFc": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/image_14.png"
+          }
+        },
+        "logo_kwppM6": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/image_15.png"
+          }
+        },
+        "logo_Gzea3H": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/image_16.png"
+          }
+        },
+        "logo_DwjUMP": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/image_17.png"
+          }
+        },
+        "logo_yjyrqf": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/image_18.png"
+          }
+        },
+        "logo_D96LRi": {
+          "type": "logo",
+          "settings": {
+            "logo_image": "shopify://shop_images/image_19.png"
+          }
+        }
+      },
+      "block_order": [
+        "logo_D7tayE",
+        "logo_CwM4C6",
+        "logo_dKxxwN",
+        "logo_ETzBHN",
+        "logo_fRJGLq",
+        "logo_78aift",
+        "logo_ezbwkW",
+        "logo_qhaJRQ",
+        "logo_zcKU99",
+        "logo_Bnb3Cw",
+        "logo_RFJmXP",
+        "logo_EdyJmC",
+        "logo_bQ6ifC",
+        "logo_w9aJz8",
+        "logo_gx7nCP",
+        "logo_RUNwUT",
+        "logo_ccphFc",
+        "logo_kwppM6",
+        "logo_Gzea3H",
+        "logo_DwjUMP",
+        "logo_yjyrqf",
+        "logo_D96LRi"
+      ],
       "settings": {
+        "section_title": "Used by Elite Organization",
+        "animation_speed": 25
       }
     },
     "community": {
