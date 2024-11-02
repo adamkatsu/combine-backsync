@@ -179,11 +179,28 @@
     "mission": {
       "type": "template-mission",
       "settings": {
+        "section_title": "The Mission",
+        "section_heading": "Unlock next-gen spinal training with SEG-B, designed for precise spine health.",
+        "body_image_one": "shopify://shop_images/Group_35.webp",
+        "body_text_one": "Effective, efficient, and simple – SEG-B® exercises enhance your mobility with just 10 minutes of daily training.",
+        "body_image_two": "shopify://shop_images/Rectangle_115.webp",
+        "body_text_two": "Advanced spinal training with SEG-B, for targeted spine health."
       }
     },
     "partners": {
       "type": "template-partners",
       "settings": {
+        "grid_block_image_one": "shopify://shop_images/image_32.png",
+        "grid_block_text_one": "AO Startups partners with exceptionally talented founders building groundbreaking technology in the following verticals across sport, health and entertainment.",
+        "grid_block_image_two": "shopify://shop_images/image_29_afcb6cdc-72a0-4126-80d4-aa267bb8e0f2.png",
+        "grid_block_text_two": "The SEG-B from Backsync is essential in our Athletic Training Room at Penn State, offering simple, versatile support for spinal assessments, treatments, and rehab.",
+        "partners_list_title": "Used by the Best in Sports and Therapy",
+        "partners_image_one": "shopify://shop_images/image_27.png",
+        "partners_image_two": "shopify://shop_images/image_29_afcb6cdc-72a0-4126-80d4-aa267bb8e0f2.png",
+        "partners_image_threee": "shopify://shop_images/Group_53.png",
+        "partners_image_four": "shopify://shop_images/image_28.png",
+        "partners_image_five": "shopify://shop_images/image_7.png",
+        "partners_image_six": "shopify://shop_images/image_31.png"
       }
     },
     "tutorials": {
