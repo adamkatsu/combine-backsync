@@ -14,7 +14,7 @@
             {% for block in section.blocks %}
               {% case block.type %}
                 {% when 'slide_top' %}
-                  <img src="{{ block.settings.slide_image_top }}" alt="" class="socials-marquee-image">
+                  <img src="{{ block.settings.slide_image_top }} | image_url: width: 600" alt="" class="socials-marquee-image">
               {% endcase %}
             {% endfor %}
           </div>
@@ -22,7 +22,7 @@
             {% for block in section.blocks %}
               {% case block.type %}
                 {% when 'slide_top' %}
-                  <img src="{{ block.settings.slide_image_top }}" alt="" class="socials-marquee-image">
+                  <img src="{{ block.settings.slide_image_top }} | image_url: width: 600" alt="" class="socials-marquee-image">
               {% endcase %}
             {% endfor %}
           </div>
@@ -30,7 +30,7 @@
             {% for block in section.blocks %}
               {% case block.type %}
                 {% when 'slide_top' %}
-                  <img src="{{ block.settings.slide_image_top }}" alt="" class="socials-marquee-image">
+                  <img src="{{ block.settings.slide_image_top }} | image_url: width: 600" alt="" class="socials-marquee-image">
               {% endcase %}
             {% endfor %}
           </div>
@@ -38,7 +38,7 @@
             {% for block in section.blocks %}
               {% case block.type %}
                 {% when 'slide_top' %}
-                  <img src="{{ block.settings.slide_image_top }}" alt="" class="socials-marquee-image">
+                  <img src="{{ block.settings.slide_image_top }} | image_url: width: 600" alt="" class="socials-marquee-image">
               {% endcase %}
             {% endfor %}
           </div>
@@ -48,7 +48,7 @@
             {% for block in section.blocks %}
               {% case block.type %}
                 {% when 'slide_bottom' %}
-                  <img src="{{ block.settings.slide_image_bottom }}" alt="" class="socials-marquee-image">
+                  <img src="{{ block.settings.slide_image_bottom | image_url: width: 600 }}" alt="" class="socials-marquee-image">
               {% endcase %}
             {% endfor %}
           </div>
@@ -56,7 +56,7 @@
             {% for block in section.blocks %}
               {% case block.type %}
                 {% when 'slide_bottom' %}
-                  <img src="{{ block.settings.slide_image_bottom }}" alt="" class="socials-marquee-image">
+                  <img src="{{ block.settings.slide_image_bottom | image_url: width: 600 }}" alt="" class="socials-marquee-image">
               {% endcase %}
             {% endfor %}
           </div>
@@ -64,7 +64,7 @@
             {% for block in section.blocks %}
               {% case block.type %}
                 {% when 'slide_bottom' %}
-                  <img src="{{ block.settings.slide_image_bottom }}" alt="" class="socials-marquee-image">
+                  <img src="{{ block.settings.slide_image_bottom | image_url: width: 600 }}" alt="" class="socials-marquee-image">
               {% endcase %}
             {% endfor %}
           </div>
@@ -72,7 +72,7 @@
             {% for block in section.blocks %}
               {% case block.type %}
                 {% when 'slide_bottom' %}
-                  <img src="{{ block.settings.slide_image_bottom }}" alt="" class="socials-marquee-image">
+                  <img src="{{ block.settings.slide_image_bottom | image_url: width: 600 }}" alt="" class="socials-marquee-image">
               {% endcase %}
             {% endfor %}
           </div>
