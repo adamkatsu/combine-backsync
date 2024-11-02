@@ -1,25 +1,68 @@
 <div class="section mission">
   <div class="container mission-cont">
     <div class="mission-head">
-      <span>The Mission</span>
-      <h2>Unlock next-gen spinal training with SEG-B, designed for precise spine health.</h2>
+      <span>{{ section.settings.section_title }}</span>
+      <h2>{{ section.settings.section_heading }}</h2>
     </div>
     <div class="mission-content">
       <div class="mission-content-top">
         <div class="mission-img-wrapper">
-          <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/Group_35.webp?v=1730294935" alt="">
+          <img src="{{ section.settings.body_image_one | image_url: width: 900 }}" alt="">
         </div>
-        <p class="txt-400">Effective, efficient, and simple – SEG-B® exercises enhance your mobility with just 10 minutes of daily training.</p>
+        <p class="txt-400">{{ section.settings.body_text_one }}</p>
       </div>
       <div class="mission-content-bottom">
         <div class="mission-text-wrapper">
-          <span class="mission-bottom-txt">Advanced spinal training with SEG-B, for targeted spine health.</span>
+          <span class="mission-bottom-txt">{{ section.settings.body_text_two }}</span>
           <button class="btn-primary btn-dark uppercase">SHOP SEG-B®</button>
         </div>
         <div class="mission-img-wrapper-bottom">
-          <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/Rectangle_115.webp?v=1730294935" alt="">
+          <img src="{{ section.settings.body_image_two | image_url: width: 900 }}" alt="">
         </div>
       </div>
     </div>
   </div>
 </div>
+
+{% schema %}
+{
+  "name": "Mission Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title",
+      "default": "The Mission"  
+    },
+    {
+      "type": "text",
+      "id": "section_heading",
+      "label": "Section Heading",
+      "default": "Unlock next-gen spinal training with SEG-B, designed for precise spine health."  
+    },  
+    {
+      "type": "image_picker",
+      "id": "body_image_one",
+      "label": "Image One"
+    },   
+    {
+      "type": "text",
+      "id": "body_text_one",
+      "label": "Body Text One",
+      "default": "Effective, efficient, and simple – SEG-B® exercises enhance your mobility with just 10 minutes of daily training."  
+    },
+    {
+      "type": "image_picker",
+      "id": "body_image_two",
+      "label": "Image Two"
+    },   
+    {
+      "type": "text",
+      "id": "body_text_two",
+      "label": "Body Text Two",
+      "default": "Advanced spinal training with SEG-B, for targeted spine health."  
+    }
+    
+  ]
+}
+{% endschema %}

@@ -3,27 +3,93 @@
     <div class="partners-grid">
       <div class="partners-grid-item">
         <span class="partners-grid-txt">
-          AO Startups partners with exceptionally talented founders building groundbreaking technology in the following verticals across sport, health and entertainment.
+          {{ section.settings.grid_block_text_one }}
         </span>
-        <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image_32.png?v=1730299139" alt="">
+        <img src="{{ section.settings.grid_block_image_one | image_url: width: 900 }}" alt="">
       </div>
       <div class="partners-grid-item bg-tosca">
         <span class="partners-grid-txt">
-          The SEG-B from Backsync is essential in our Athletic Training Room at Penn State, offering simple, versatile support for spinal assessments, treatments, and rehab.
+          {{ section.settings.grid_block_text_two }}
         </span>
-        <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image_29_afcb6cdc-72a0-4126-80d4-aa267bb8e0f2.png?v=1730300776" alt="">
+        <img src="{{ section.settings.grid_block_image_two | image_url: width: 900 }}" alt="">
       </div>
     </div>
     <div class="partners-list-wrapper">
-      <span>Used by the Best in Sports and Therapy</span>
+      <span>{{ section.settings.partners_list_title }}</span>
       <div class="partners-list">
-        <img class="partners-list-image" src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image_27.png?v=1730293268" alt="">
-        <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image_29.png?v=1730293268" alt="" class="partners-list-image">
-        <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/Group_53.png?v=1730299042" alt="" class="partners-list-image">
-        <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image_28.png?v=1730293269" alt="" class="partners-list-image">
-        <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/2-1_from_perfectstridept_1.png?v=1730293269" alt="" class="partners-list-image">
-        <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/image_31.png?v=1730293269" alt="" class="partners-list-image">
+        <img class="partners-list-image" src="{{ section.settings.partners_image_one | image_url: width: 160 }}" alt="">
+        <img class="partners-list-image" src="{{ section.settings.partners_image_two | image_url: width: 160 }}" alt="">
+        <img class="partners-list-image" src="{{ section.settings.partners_image_three | image_url: width: 160 }}" alt="">
+        <img class="partners-list-image" src="{{ section.settings.partners_image_four | image_url: width: 160 }}" alt="">
+        <img class="partners-list-image" src="{{ section.settings.partners_image_five | image_url: width: 160 }}" alt="">
+        <img class="partners-list-image" src="{{ section.settings.partners_image_six | image_url: width: 160 }}" alt="">
       </div>
     </div>
   </div>
 </div>
+
+{% schema %}
+{
+  "name": "Partners Section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "grid_block_image_one",
+      "label": "Grid Block Image one"
+    }, 
+    {
+      "type": "text",
+      "id": "grid_block_text_one",
+      "label": "Grid Block Text One",
+      "default": "AO Startups partners with exceptionally talented founders building groundbreaking technology in the following verticals across sport, health and entertainment."  
+    },   
+    {
+      "type": "image_picker",
+      "id": "grid_block_image_two",
+      "label": "Grid Block Image Two"
+    },
+    {
+      "type": "text",
+      "id": "grid_block_text_two",
+      "label": "Grid Block Text Two",
+      "default": "The SEG-B from Backsync is essential in our Athletic Training Room at Penn State, offering simple, versatile support for spinal assessments, treatments, and rehab."  
+    },
+    {
+      "type": "text",
+      "id": "partners_list_title",
+      "label": "Partners List Title",
+      "default": "Used by the Best in Sports and Therapy"
+    },
+    {
+      "type": "image_picker",
+      "id": "partners_image_one",
+      "label": "Partner Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "partners_image_two",
+      "label": "Partner Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "partners_image_threee",
+      "label": "Partner Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "partners_image_four",
+      "label": "Partner Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "partners_image_five",
+      "label": "Partner Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "partners_image_six",
+      "label": "Partner Image"
+    }
+  ]
+}
+{% endschema %}
