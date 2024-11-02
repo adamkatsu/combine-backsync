@@ -2,8 +2,8 @@
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 />
-{{ 'application.css' | asset_url | stylesheet_tag }}
-{{ 'home-hero.css' | asset_url | stylesheet_tag }}
+{% comment %} {{ 'application.css' | asset_url | stylesheet_tag }}
+{{ 'home-hero.css' | asset_url | stylesheet_tag }} {% endcomment %}
 
 <div class="home-slider">
   <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper swiper-show">
@@ -82,6 +82,11 @@
           "label": "Slider Image"
         }
       ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Home Hero Section"
     }
   ]
 }
