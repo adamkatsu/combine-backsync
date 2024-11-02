@@ -72,8 +72,8 @@
     "vid-one": {
       "type": "template-home-vid-full",
       "settings": {
-        "vid_thumbnail": "shopify://shop_images/banner-shop-bg.webp",
-        "vid_url": "https://www.youtube.com/watch?v=1dznKWXkL3E"
+        "vid_thumbnail": "shopify://shop_images/Rectangle_105.webp",
+        "vid_url": "https://www.youtube.com/watch?v=sxWWfK4SV5E"
       }
     },
     "seg-b-details": {
