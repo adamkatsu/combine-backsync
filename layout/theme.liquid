@@ -49,7 +49,8 @@
     {%- render 'head-preloader' -%}
   
     {{ 'theme.css' | asset_url | stylesheet_tag }}
-    {% comment %} {{ 'application.css' | asset_url | stylesheet_tag }} {% endcomment %}
+    {{ 'application.css' | asset_url | stylesheet_tag }}
+    {{ 'home-hero.css' | asset_url | stylesheet_tag }}
   
     {{ content_for_header }}
   
