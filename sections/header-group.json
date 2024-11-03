@@ -1,12 +1,28 @@
- {
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
   "type": "header",
   "name": "t:sections.refactor_words.labels.header_group",
   "sections": {
     "announcement": {
-      "type": "template-announcement"
+      "type": "template-announcement",
+      "settings": {
+        "show_country_selector": true,
+        "show_locale_selector": true
+      }
     },
     "header": {
-      "type": "template-navbar"
+      "type": "template-navbar",
+      "settings": {
+        "nav_logo": "my-page"
+      }
     }
   },
   "order": [
