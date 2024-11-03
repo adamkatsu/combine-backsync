@@ -21,7 +21,7 @@
         <h1>{{ section.settings.home-headline }}</h1>
         <span class="txt-400">{{ section.settings.home-copy }}</span>
       </div>
-      <a href="{{ section.settings.product_link }}">
+      <a href="products/{{ section.settings.product_link }}">
         <button class="btn-primary">SHOP SEG-B®</button>
       </a>
     </div>
@@ -59,7 +59,7 @@
   "tag": "section",
   "settings": [
     {
-      "type": "text",
+      "type": "textarea",
       "id": "home-headline",
       "label": "Headline",
       "default": "Feel Better, Move Freely<br>Spine Health Made Easy"  
