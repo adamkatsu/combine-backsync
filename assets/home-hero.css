@@ -1029,3 +1029,30 @@
   transform: translate(0px, 0px);
   transition: all .2s ease;
 }
+.footer-newsletter {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+  min-width: 100%;
+}
+.footer-newsletter-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 12px;
+  width: 100%;
+}
+.form-input {
+  color: #ffffff;
+  border-radius: 1000px;
+  border: 1px solid #ffffff;
+  font-size: 14px;
+  padding: 10px 20px;
+}
+.input-newsletter-email {
+  width: 240px;
+  flex-shrink: 0;
+}

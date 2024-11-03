@@ -4,9 +4,15 @@
       <div class="footer-logo-wrapper">
         <img class="footer-logo-img" src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/nav-logo.webp?v=1730130534" alt="">
         <p>Introducing the Backsync SEG-B®️, a groundbreaking device revolutionizing the way you approach spinal health, mobility, and control.</p>
-        <div class="footer-newsletter">
-          <span class="txt-500">Our Newsletter</span>
-        </div>
+        {% form 'contact' %} 
+          <div class="footer-newsletter">
+            <label for="newsletter-email" class="newsletter-label">Our Newsletter</label>
+            <div class="footer-newsletter-form">
+              <input class="form-input input-newsletter-email" type="email" name="contact[email]" id="newsletter-email" placeholder="Enter email" required>
+              <input class="btn-primary btn-submit txt-300" type="submit" value="Submit">
+            </div>
+          </div>
+        {% endform %}
       </div>
       <div class="footer-menu-wrapper">
         <div class="footer-menu-item">

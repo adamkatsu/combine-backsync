@@ -5,7 +5,7 @@
     </div>
     <div class="menu-wrapper">
       <ul class="nav-menu">
-        {% for link in linklist.custom-menu.links %}
+        {% for link in linklists['custom-menu'].links %}
           <li>{{ link.title | link_to: link.url }}</li>
         {% endfor %}
         {% comment %} <li>Buy Now</li>

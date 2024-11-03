@@ -30,6 +30,9 @@ h2, h3 {
   align-items: center;
   gap: 8px;
 }
+.btn-primary:hover {
+  cursor: pointer;
+}
 .btn-dark {
   background-color: #000000;
   color: #ffffff;
@@ -51,6 +54,9 @@ h2, h3 {
   opacity: 1;
   pointer-events: none;
   transition: all 1s ease;
+}
+.btn-submit {
+  padding: 8px 24px;
 }
 .uppercase {
   text-transform: uppercase;
@@ -104,6 +110,9 @@ h2, h3 {
 
 h2 {
   font-size: 60px;
+}
+.txt-300 {
+  font-weight: 300;
 }
 .txt-400 {
   font-size: 16px;
