@@ -21,7 +21,7 @@
         <h1>{{ section.settings.home-headline }}</h1>
         <span class="txt-400">{{ section.settings.home-copy }}</span>
       </div>
-      <a href="#">
+      <a href="{{ section.settings.product_link }}">
         <button class="btn-primary">SHOP SEG-B®</button>
       </a>
     </div>
@@ -69,6 +69,12 @@
       "id": "home-copy",
       "label": "Body Copy",
       "default": "In as little as 10 mins a day. Take control of your back health with precision and ease."  
+    },
+    {
+      "type": "product",
+      "id": "product_link",
+      "label": "Product Link",
+      "info": "Select a product to link to."
     }
   ],
   "blocks": [
