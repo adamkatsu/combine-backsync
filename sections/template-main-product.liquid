@@ -1,1 +1,17 @@
-Product template Under Construction
+
+{{ 'application.css' | asset_url | stylesheet_tag }}
+{{ 'home-hero.css' | asset_url | stylesheet_tag }}
+{{ 'template-product.css' | asset_url | stylesheet_tag }}
+
+<div class="section product-single">
+  <h1 style="text-align: center; margin-bottom: 80px">-- Under Construction --</h1>
+  <div class="container product-single-cont">
+    <div class="product-single-gallery">
+      <img src="{{ product.featured_image |  image_url: width: 720 }}" alt="">
+    </div>
+    <div class="product-single-details">
+      <h2>{{ product.title }}</h2>
+      <h2>{{ product.price | money }}</h2>
+    </div>
+  </div>
+</div>

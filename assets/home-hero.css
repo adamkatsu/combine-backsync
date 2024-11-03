@@ -110,7 +110,7 @@
   flex-direction: column;
   gap: 20px;
 }
-.hero-title span {
+.hero-title p {
   max-width: 366px;
 }
 .scroll-indicator {

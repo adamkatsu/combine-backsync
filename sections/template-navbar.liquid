@@ -1,7 +1,9 @@
 <div class="section-navbar">
   <div class="container-navbar">
     <div class="nav-logo-wrapper">
-      <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/nav-logo.webp?v=1730130534" alt="">
+      <a href="{{ section.settings.nav_logo |  url_param_escape }}">
+        <img src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/nav-logo.webp?v=1730130534" alt="">
+      </a>
     </div>
     <div class="menu-wrapper">
       <ul class="nav-menu">
@@ -21,3 +23,16 @@
     </div>
   </div>
 </div>
+
+{% schema %}
+{
+  "name": "Navbar",
+  "settings": [
+    {
+      "type": "page",
+      "id": "nav_logo",
+      "label": "Link to page"
+    }  
+  ]
+}
+{% endschema %}

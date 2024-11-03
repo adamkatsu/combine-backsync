@@ -1,0 +1,11 @@
+.product-single {
+  background-color: #fff;
+  color: #000000
+}
+.product-single-cont {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 40px;
+}
