@@ -120,6 +120,7 @@ h2 {
 }
 .txt-500 {
   font-weight: 500;
+  line-height: 120%;
 }
 .txt-700 {
   font-size: 32px;

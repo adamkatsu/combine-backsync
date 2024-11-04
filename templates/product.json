@@ -12,11 +12,30 @@
     "product": {
       "type": "template-main-product",
       "settings": {
-        
+
+      }
+    },
+    "tutorials": {
+      "type": "template-tutorials",
+      "settings": {
+
+      }
+    },
+    "section-block": {
+      "type": "template-section-block",
+      "settings": {
+        "vid_thumbnail": "shopify://shop_images/CleanShot_2024-10-21_at_02.06.16.webp",
+        "vid_url": "https://www.youtube.com/watch?v=Mb1LhyHxEBI"
+      }
+    },
+    "community": {
+      "type": "template-community",
+      "settings": {
+
       }
     }
   },
   "order": [
-    "product"
+    "product", "tutorials", "section-block", "community"
   ]
 }

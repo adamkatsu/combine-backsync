@@ -1,4 +1,7 @@
-
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 {{ 'application.css' | asset_url | stylesheet_tag }}
 {{ 'home-hero.css' | asset_url | stylesheet_tag }}
 {{ 'template-product.css' | asset_url | stylesheet_tag }}
@@ -6,12 +9,100 @@
 <div class="section product-single">
   <h1 style="text-align: center; margin-bottom: 80px">-- Under Construction --</h1>
   <div class="container product-single-cont">
-    <div class="product-single-gallery">
-      <img src="{{ product.featured_image |  image_url: width: 720 }}" alt="">
+    <div class="product-gallery">
+      <div
+        style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff"
+        class="swiper product-gallery-main"
+      >
+        <div class="swiper-wrapper product-gallery-wrapper">
+          <div class="swiper-slide product-main-slide">
+            <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          </div>
+          <div class="swiper-slide product-main-slide">
+            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          </div>
+          <div class="swiper-slide product-main-slide">
+            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          </div>
+          <div class="swiper-slide product-main-slide">
+            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+          </div>
+          <div class="swiper-slide product-main-slide">
+            <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+          </div>
+          <div class="swiper-slide product-main-slide">
+            <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+          </div>
+        </div>
+      </div>
+      <div thumbsSlider="" class="swiper product-gallery-thumbs">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide product-thumbs-slide">
+            <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          </div>
+          <div class="swiper-slide product-thumbs-slide">
+            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          </div>
+          <div class="swiper-slide product-thumbs-slide">
+            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          </div>
+          <div class="swiper-slide product-thumbs-slide">
+            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+          </div>
+          <div class="swiper-slide product-thumbs-slide">
+            <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+          </div>
+          <div class="swiper-slide product-thumbs-slide">
+            <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="product-single-details">
-      <h2>{{ product.title }}</h2>
-      <h2>{{ product.price | money }}</h2>
+    {% comment %} <div class="product-single-gallery">
+      <img src="{{ product.featured_image |  image_url: width: 720 }}" alt="">
+    </div> {% endcomment %}
+    <div class="product-single-info">
+      <span>Backsync</span>
+      <h2 class="product-single-title">{{ product.title }}</h2>
+      <div class="review-wrapper">-- space for reviews --</div>
+      <div class="product-single-price-wrapper">
+        <span class="txt-product-price">{{ product.price | money }}</span>
+        <span class="txt-product-price-compare">{{ product.compare_at_price_max | money }}</span>
+      </div>
+      <div class="product-action-wrapper"></div>
+      <div class="product-details-wrapper">
+        <div class="product-details-head">
+          <div class="product-details-head-item">
+            <span class="product-details-head-title">Details</span>
+          </div>
+          <div class="product-details-head-item">
+            <span class="product-details-head-title">Key Features</span>
+          </div>
+          <div class="product-details-head-item">
+            <span class="product-details-head-title">Shipping & Returns</span>
+          </div>
+        </div>
+        <div class="product-details-body">
+          {{ product.metafields.custom.key_features | metafield_tag }}
+        </div>
+      </div>
+      <div class="product-single-tutorial">
+        <div class="product-single-tutorial-title">
+          <span class="txt-500 fs-32">5 Min⚡ Quick Workout</span>
+          <span class="txt-400 fs-14">Easy to Use Daily</span>
+        </div>
+        <div class="product-single-tutorial-video">
+          <a href="#">
+            <button class="btn-primary txt-400">
+              Watch Video
+              <img class="icon-14" src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/arrow-green.png?v=1730332241" alt="">
+            </button>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="{{ 'template-product.js' | asset_url }}" defer></script>
