@@ -7,7 +7,6 @@
 {{ 'template-product.css' | asset_url | stylesheet_tag }}
 
 <div class="section product-single">
-  <h1 style="text-align: center; margin-bottom: 80px">-- Under Construction --</h1>
   <div class="container product-single-cont">
     <div class="product-gallery">
       <div
@@ -62,25 +61,29 @@
       <img src="{{ product.featured_image |  image_url: width: 720 }}" alt="">
     </div> {% endcomment %}
     <div class="product-single-info">
-      <span>Backsync</span>
+      <span class="txt-500">Backsync</span>
       <h2 class="product-single-title">{{ product.title }}</h2>
       <div class="review-wrapper">-- space for reviews --</div>
       <div class="product-single-price-wrapper">
         <span class="txt-product-price">{{ product.price | money }}</span>
         <span class="txt-product-price-compare">{{ product.compare_at_price_max | money }}</span>
       </div>
-      <div class="product-action-wrapper"></div>
+      <div class="product-action-wrapper">
+        
+      </div>
+
       <div class="product-details-wrapper">
         <div class="product-details-head">
           <div class="product-details-head-item">
-            <span class="product-details-head-title">Details</span>
+            <span class="product-details-head-title" >Details</span>
           </div>
-          <div class="product-details-head-item">
+          <div class="product-details-head-item  product-head-active">
             <span class="product-details-head-title">Key Features</span>
           </div>
           <div class="product-details-head-item">
             <span class="product-details-head-title">Shipping & Returns</span>
           </div>
+          <div class="product-head-indicator"></div>
         </div>
         <div class="product-details-body">
           {{ product.metafields.custom.key_features | metafield_tag }}
