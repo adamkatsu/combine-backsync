@@ -24,24 +24,6 @@
               {% endif %}
             </div>
           {% endfor %}
-          {% comment %} <div class="swiper-slide product-main-slide">
-            <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-          </div>
-          <div class="swiper-slide product-main-slide">
-            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-          </div>
-          <div class="swiper-slide product-main-slide">
-            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-          </div>
-          <div class="swiper-slide product-main-slide">
-            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-          </div>
-          <div class="swiper-slide product-main-slide">
-            <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-          </div>
-          <div class="swiper-slide product-main-slide">
-            <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-          </div> {% endcomment %}
         </div>
       </div>
       <div thumbsSlider="" class="swiper product-gallery-thumbs">
@@ -56,24 +38,6 @@
               {% endif %}
             </div>
           {% endfor %}
-          {% comment %} <div class="swiper-slide product-thumbs-slide">
-            <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
-          </div>
-          <div class="swiper-slide product-thumbs-slide">
-            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-          </div>
-          <div class="swiper-slide product-thumbs-slide">
-            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-          </div>
-          <div class="swiper-slide product-thumbs-slide">
-            <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-          </div>
-          <div class="swiper-slide product-thumbs-slide">
-            <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
-          </div>
-          <div class="swiper-slide product-thumbs-slide">
-            <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-          </div> {% endcomment %}
         </div>
       </div>
     </div>
@@ -90,19 +54,18 @@
       </div>
       <div class="product-details-wrapper">
         <div class="product-details-head">
-          <div class="product-details-head-item">
+          <div class="product-details-head-item product-head-active" data-index="0">
             <span class="product-details-head-title" >Details</span>
           </div>
-          <div class="product-details-head-item  product-head-active">
+          <div class="product-details-head-item" data-index="1">
             <span class="product-details-head-title">Key Features</span>
           </div>
-          <div class="product-details-head-item">
+          <div class="product-details-head-item" data-index="2">
             <span class="product-details-head-title">Shipping & Returns</span>
           </div>
-          <div class="product-head-indicator"></div>
         </div>
         <div class="product-details-body">
-          {{ product.metafields.custom.key_features | metafield_tag }}
+          {{ product.description }}
         </div>
       </div>
       <div class="product-single-tutorial">
@@ -122,6 +85,32 @@
     </div>
   </div>
 </div>
+
+<script>
+
+const tabHead = document.querySelectorAll('.product-details-head-item');
+const tabCont = document.querySelector('.product-details-body');
+
+
+for (const tab of tabHead) {
+  tab.addEventListener('click', () => {
+    tabHead.forEach((x) => {
+      x.classList.remove('product-head-active');
+    })
+    tab.classList.add('product-head-active');
+    console.log(tab.getAttribute('data-index'))
+
+    if(tab.getAttribute('data-index') == 0) {
+      tabCont.innerHTML = `{{ product.description }}`
+    } else if(tab.getAttribute('data-index') == 1) {
+      tabCont.innerHTML = `{{ product.metafields.custom.key_features | metafield_tag }}`
+    } else if(tab.getAttribute('data-index') == 2) {
+      tabCont.innerHTML = `{{ product.metafields.custom.shipping_returns | metafield_tag }}`
+    } 
+  })
+}
+
+</script>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="{{ 'template-product.js' | asset_url }}" defer></script>

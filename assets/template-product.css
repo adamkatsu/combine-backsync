@@ -113,18 +113,13 @@
   text-align: center;
   width: fit-content;
   font-weight: 500;
-}
-.product-head-indicator {
-  position: absolute;
-  bottom: -1px;
-  left: 0;
-  height: 1px;
-  width: 100px;
-  background-color: #0FA9C1;
-  z-index: 2;
+  border-bottom: 1px solid #cecece;
+  cursor: pointer;
+  margin-bottom: -1px;
 }
 .product-head-active {
   color: #0FA9C1;
+  border-bottom: 1px solid #0FA9C1;
 }
 .product-details-body {
   font-size: 14px;
