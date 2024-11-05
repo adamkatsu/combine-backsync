@@ -393,12 +393,52 @@
             "card_title": "Sit-Ups",
             "card_desc": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."
           }
+        },
+        "card_jwnEDt": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/videoframe_17911_0e7f3d69-855d-411d-8264-c674b0b23faf.webp",
+            "vid_url": "https://youtu.be/5WuNmFmZ4dY?si=b8T6ja3DeZTaIXsP",
+            "card_title": "Poor Man’s Reverse Hyper",
+            "card_desc": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."
+          }
+        },
+        "card_77KU6C": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/videoframe_9393.webp",
+            "vid_url": "https://youtu.be/aojOijyT4No?si=r8GgaSMaH_JjBk8x",
+            "card_title": "Segmental Extension",
+            "card_desc": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."
+          }
+        },
+        "card_Adbzr7": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/videoframe_38997.webp",
+            "vid_url": "https://youtu.be/bz9lBHWqwH0?si=BsQCo807h8Ip0T6E",
+            "card_title": "Advanced Sit-up",
+            "card_desc": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."
+          }
+        },
+        "card_P3N6hz": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/videoframe_2778.webp",
+            "vid_url": "https://youtu.be/ZvJvxYyJM1s?si=BqgPvX7rire_f3Q_",
+            "card_title": "Weighted Glute Bridge",
+            "card_desc": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."
+          }
         }
       },
       "block_order": [
         "card_N7CMtX",
         "card_xKpBez",
-        "card_E9Et8Q"
+        "card_E9Et8Q",
+        "card_jwnEDt",
+        "card_77KU6C",
+        "card_Adbzr7",
+        "card_P3N6hz"
       ],
       "settings": {
         "section_title": "Daily Exercises Backed By Experts",
