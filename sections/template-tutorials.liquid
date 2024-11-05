@@ -1,5 +1,11 @@
 {{ 'swiper-tutorials.css' | asset_url | stylesheet_tag }}
 
+<style>
+  .swiper-slide.swiper-tutorials-slide {
+    
+  }
+</style>
+
 <div class="section tutorials">
   <div class="container tutorials-cont">
     <div class="tutorials-head">
@@ -13,11 +19,14 @@
       <div class="swiper swiper-tutorials">
         <div class="swiper-wrapper swiper-tutorials-wrapper">
           {% for blocks in section.blocks %}
-            <div class="swiper-slide swiper-tutorials-slide" style="background-image: {{ block.settings.card_image |  image_url: width: 480 }}">
+            <div 
+              class="swiper-slide swiper-tutorials-slide" 
+              style="background-image: url({{ blocks.settings.card_image | image_url: width: 480 }});"
+            >
             <div class="swiper-tutorials-content">
               <h3 class="txt-700 fs-32">{{ blocks.settings.card_title }}</h3>
               <span>{{ blocks.settings.card_desc }}</span>
-              <a href="{{ blocks.settings.vid_url }}">
+              <a href="{{ blocks.settings.vid_url }}" target="_blank">
                 <button class="btn-primary txt-400">
                   Watch Video
                   <img class="icon-14" src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/arrow-green.png?v=1730332241" alt="">
