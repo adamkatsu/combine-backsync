@@ -6,10 +6,10 @@ var swiper = new Swiper(".product-gallery-thumbs", {
 });
 var swiper2 = new Swiper(".product-gallery-main", {
   loop: true,
-  autoplay: {
-    delay: 3000,
-    disableOnInteraction: false,
-  },
+  // autoplay: {
+  //   delay: 3000,
+  //   disableOnInteraction: false,
+  // },
   spaceBetween: 8,
   thumbs: {
     swiper: swiper,

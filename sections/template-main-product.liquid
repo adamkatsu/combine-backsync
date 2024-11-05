@@ -14,7 +14,17 @@
         class="swiper product-gallery-main"
       >
         <div class="swiper-wrapper product-gallery-wrapper">
-          <div class="swiper-slide product-main-slide">
+          {% for media in product.media %}
+            <div class="swiper-slide product-thumbs-slide">
+              {% if media.media_type == 'video' %}
+                {{ media | video_tag: image_size: 480, controls: true, class: 'product-media-video' }}
+              {% endif %}
+              {% if media.media_type == 'image' %}
+                <img src="{{ shop.url }}{{ media | image_url }}" alt="" class="product-media-image">
+              {% endif %}
+            </div>
+          {% endfor %}
+          {% comment %} <div class="swiper-slide product-main-slide">
             <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
           </div>
           <div class="swiper-slide product-main-slide">
@@ -31,12 +41,22 @@
           </div>
           <div class="swiper-slide product-main-slide">
             <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-          </div>
+          </div> {% endcomment %}
         </div>
       </div>
       <div thumbsSlider="" class="swiper product-gallery-thumbs">
         <div class="swiper-wrapper">
-          <div class="swiper-slide product-thumbs-slide">
+          {% for media in product.media %}
+            <div class="swiper-slide product-main-slide">
+              {% if media.media_type == 'video' %}
+                {{ media | video_tag: image_size: 480, class: 'product-media-video' }}
+              {% endif %}
+              {% if media.media_type == 'image' %}
+                <img src="{{ shop.url }}{{ media | image_url }}" alt="" class="product-media-image">
+              {% endif %}
+            </div>
+          {% endfor %}
+          {% comment %} <div class="swiper-slide product-thumbs-slide">
             <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
           </div>
           <div class="swiper-slide product-thumbs-slide">
@@ -53,13 +73,10 @@
           </div>
           <div class="swiper-slide product-thumbs-slide">
             <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
-          </div>
+          </div> {% endcomment %}
         </div>
       </div>
     </div>
-    {% comment %} <div class="product-single-gallery">
-      <img src="{{ product.featured_image |  image_url: width: 720 }}" alt="">
-    </div> {% endcomment %}
     <div class="product-single-info">
       <span class="txt-500">Backsync</span>
       <h2 class="product-single-title">{{ product.title }}</h2>
@@ -71,7 +88,6 @@
       <div class="product-action-wrapper">
         
       </div>
-
       <div class="product-details-wrapper">
         <div class="product-details-head">
           <div class="product-details-head-item">

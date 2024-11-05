@@ -30,8 +30,67 @@
     },
     "community": {
       "type": "template-community",
+      "blocks": {
+        "slide_nTH3k3": {
+          "type": "slide",
+          "settings": {
+            "community_slide_image": "shopify://shop_images/CleanShot_2024-10-22_at_23.21.12_2x_45d3afee-b97e-4c9d-9513-385495b2830c.webp",
+            "community_slide_name": "MoveU",
+            "community_slide_desc": "Live your life in alignment!💥"
+          }
+        },
+        "slide_XtwqjW": {
+          "type": "slide",
+          "settings": {
+            "community_slide_image": "shopify://shop_images/CleanShot_2024-10-22_at_23.45.25_2x_aed36549-fa84-4427-81d2-298ce5ed8eec.webp",
+            "community_slide_name": "Grayson Strange",
+            "community_slide_desc": "Gym/coach consultation"
+          }
+        },
+        "slide_cfVbGw": {
+          "type": "slide",
+          "settings": {
+            "community_slide_image": "shopify://shop_images/image-3.webp",
+            "community_slide_name": "Ravash Nahavandi",
+            "community_slide_desc": "I help humans become PAIN FREE"
+          }
+        },
+        "slide_KaFwaF": {
+          "type": "slide",
+          "settings": {
+            "community_slide_image": "shopify://shop_images/image-2.webp",
+            "community_slide_name": "Grace Witthuhn",
+            "community_slide_desc": "Mobility & Performance Coach"
+          }
+        },
+        "slide_Jx3wbq": {
+          "type": "slide",
+          "settings": {
+            "community_slide_image": "shopify://shop_images/image-1.webp",
+            "community_slide_name": "Mike Piekarski, PT, DPT, OCS",
+            "community_slide_desc": "Doctor of Physical Therapy"
+          }
+        },
+        "slide_q7z9AA": {
+          "type": "slide",
+          "settings": {
+            "community_slide_image": "shopify://shop_images/image.webp",
+            "community_slide_name": "Kat Iliff movere.wellness",
+            "community_slide_desc": "Certified Personal Trainer"
+          }
+        }
+      },
+      "block_order": [
+        "slide_nTH3k3",
+        "slide_XtwqjW",
+        "slide_cfVbGw",
+        "slide_KaFwaF",
+        "slide_Jx3wbq",
+        "slide_q7z9AA"
+      ],
       "settings": {
-
+        "community_title": "#BACKSYNC",
+        "community_heading": "Trusted By The Fitness Community"
       }
     }
   },

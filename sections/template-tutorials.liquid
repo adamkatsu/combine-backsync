@@ -112,3 +112,48 @@
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <script src="{{ 'swiper-tutorials.js' | asset_url }}" defer></script>
+
+
+{% schema %}
+{
+  "name": "Tutorials Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section_title",
+      "label": "Section Title",
+      "default": "Daily Exercises Backed By Experts"  
+    },
+    {
+      "type": "text",
+      "id": "section_heading",
+      "label": "Section Heading",
+      "default": "Improve Your Back Health in Just 10 Minutes A Day"  
+    }
+  ],
+  "blocks": [
+     {
+       "name": "Card",
+       "type": "card",
+       "settings": [
+        {
+          "type": "image_picker",
+          "id": "card_image",
+          "label": "Card Image"
+        },
+        {
+          "type": "video_url",
+          "id": "vid_url",
+          "label": "YouTube Video URL",
+          "accept": ["youtube"]
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Tutorials Section"
+    }
+  ]
+}
+{% endschema %}
