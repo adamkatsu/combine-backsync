@@ -366,7 +366,23 @@
     },
     "tutorials": {
       "type": "template-tutorials",
+      "blocks": {
+        "card_N7CMtX": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/videoframe_8134.webp",
+            "vid_url": "https://youtu.be/VGfRoY51_B0?si=v49DaXl8jBCtzcxe",
+            "card_title": "SEG-B Set Up",
+            "card_desc": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."
+          }
+        }
+      },
+      "block_order": [
+        "card_N7CMtX"
+      ],
       "settings": {
+        "section_title": "Daily Exercises Backed By Experts",
+        "section_heading": "Improve Your Back Health in Just 10 Minutes A Day"
       }
     },
     "purchase-protection": {
