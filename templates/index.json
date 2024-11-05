@@ -384,11 +384,21 @@
             "card_title": "Glute Bridge",
             "card_desc": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."
           }
+        },
+        "card_E9Et8Q": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/videoframe_18987.webp",
+            "vid_url": "https://youtu.be/HDQUdseJcKE?si=zvairtsBNw48DSga",
+            "card_title": "Sit-Ups",
+            "card_desc": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."
+          }
         }
       },
       "block_order": [
         "card_N7CMtX",
-        "card_xKpBez"
+        "card_xKpBez",
+        "card_E9Et8Q"
       ],
       "settings": {
         "section_title": "Daily Exercises Backed By Experts",
