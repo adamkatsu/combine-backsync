@@ -3,8 +3,8 @@
 <div class="section tutorials">
   <div class="container tutorials-cont">
     <div class="tutorials-head">
-      <span class="txt-eyebrow uppercase">Daily Exercises Backed By Experts</span>
-      <h2 class="txt-center">Improve Your Back Health in Just 10 Minutes A Day</h2>
+      <span class="txt-eyebrow uppercase">{{ section.settings.section_title }}</span>
+      <h2 class="txt-center">{{ section.settings.section_heading }}</h2>
       <a href="#">
         <button class="btn-primary btn-dark uppercase">SHOP SEG-B®</button>
       </a>
@@ -12,6 +12,20 @@
     <div class="tutorials-main">
       <div class="swiper swiper-tutorials">
         <div class="swiper-wrapper swiper-tutorials-wrapper">
+          {% for blocks in section.blocks %}
+            <div class="swiper-slide swiper-tutorials-slide" style="background-image: {{ block.settings.card_image }}">
+            <div class="swiper-tutorials-content">
+              <h3 class="txt-700 fs-32">{{ blocks.settings.card_title }}</h3>
+              <span>{{ blocks.settings.card_desc }}</span>
+              <a href="{{ blocks.settings.vid_url }}">
+                <button class="btn-primary txt-400">
+                  Watch Video
+                  <img class="icon-14" src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/arrow-green.png?v=1730332241" alt="">
+                </button>
+              </a>
+            </div>
+          </div>
+          {% endfor %}
           <div class="swiper-slide swiper-tutorials-slide">
             <div class="swiper-tutorials-content">
               <h3 class="txt-700 fs-32">Seg-B Set Up</h3>
@@ -136,6 +150,18 @@
        "name": "Card",
        "type": "card",
        "settings": [
+        {
+          "type": "text",
+          "id": "card_title",
+          "label": "Card Title",
+          "default": "SEG-B Set Up"  
+        },
+        {
+          "type": "text",
+          "id": "card_desc",
+          "label": "Card Description",
+          "default": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."  
+        },
         {
           "type": "image_picker",
           "id": "card_image",
