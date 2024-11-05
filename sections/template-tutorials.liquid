@@ -26,7 +26,7 @@
             </div>
           </div>
           {% endfor %}
-          <div class="swiper-slide swiper-tutorials-slide">
+          {% comment %} <div class="swiper-slide swiper-tutorials-slide">
             <div class="swiper-tutorials-content">
               <h3 class="txt-700 fs-32">Seg-B Set Up</h3>
               <span>Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras.</span>
@@ -109,7 +109,7 @@
                 </button>
               </a>
             </div>
-          </div>
+          </div> {% endcomment %}
         </div>
       </div>
       <div class="tutorials-btn-wrapper">
@@ -151,6 +151,17 @@
        "type": "card",
        "settings": [
         {
+          "type": "image_picker",
+          "id": "card_image",
+          "label": "Card Image"
+        },
+        {
+          "type": "video_url",
+          "id": "vid_url",
+          "label": "YouTube Video URL",
+          "accept": ["youtube"]
+        },
+        {
           "type": "text",
           "id": "card_title",
           "label": "Card Title",
@@ -162,17 +173,6 @@
           "label": "Card Description",
           "default": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."  
         },
-        {
-          "type": "image_picker",
-          "id": "card_image",
-          "label": "Card Image"
-        },
-        {
-          "type": "video_url",
-          "id": "vid_url",
-          "label": "YouTube Video URL",
-          "accept": ["youtube"]
-        }
       ]
     }
   ],
