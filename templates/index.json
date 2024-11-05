@@ -375,10 +375,20 @@
             "card_title": "SEG-B Set Up",
             "card_desc": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."
           }
+        },
+        "card_xKpBez": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/videoframe_19155.webp",
+            "vid_url": "https://youtu.be/GTMn9LA8HEo?si=AQWN5zd1t9v-jEIx",
+            "card_title": "Glute Bridge",
+            "card_desc": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."
+          }
         }
       },
       "block_order": [
-        "card_N7CMtX"
+        "card_N7CMtX",
+        "card_xKpBez"
       ],
       "settings": {
         "section_title": "Daily Exercises Backed By Experts",
