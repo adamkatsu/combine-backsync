@@ -34,7 +34,7 @@
                 {{ media | video_tag: image_size: 480, class: 'product-media-video' }}
               {% endif %}
               {% if media.media_type == 'image' %}
-                <img src="{{ shop.url }}{{ media | image_url }}" alt="" class="product-media-image">
+                <img src="{{ media | image_url }}" alt="" class="product-media-image">
               {% endif %}
             </div>
           {% endfor %}
