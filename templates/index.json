@@ -53,6 +53,7 @@
       "settings": {
         "home-headline": "Feel Better, Move Freely <br>\nSpine Health Made Easy",
         "home-copy": "In as little as 10 mins a day. Take control of your back health with precision and ease.",
+        "btn_text": "SHOP SEG-B®",
         "product_link": "seg-b"
       }
     },
@@ -74,12 +75,13 @@
       "type": "template-home-vid-full",
       "settings": {
         "vid_thumbnail": "shopify://shop_images/Rectangle_105.webp",
-        "vid_url": "https://www.youtube.com/watch?v=sxWWfK4SV5E"
+        "video_file_link": ""
       }
     },
     "seg-b-details": {
       "type": "template-seg-b-details",
       "settings": {
+        "product_link": "seg-b",
         "seg-b_heading": "Advanced Spinal Health, Tailored for You",
         "grid_tactile": "The SEG-B's tactile feedback mechanism lets users feel each segment of their spine as they move, promoting awareness and control over spinal movements.",
         "grid_auditory": "The SEG-B provides real-time auditory feedback through clicking sounds, helping users identify and correct improper spinal segmentation during exercises.",
@@ -327,19 +329,23 @@
       ],
       "settings": {
         "community_title": "#BACKSYNC",
-        "community_heading": "Trusted By The Fitness Community"
+        "community_heading": "Trusted By The Fitness Community",
+        "btn_text": "SHOP SEG-B®",
+        "product_link": "seg-b"
       }
     },
     "section-block": {
       "type": "template-section-block",
       "settings": {
         "vid_thumbnail": "shopify://shop_images/CleanShot_2024-10-21_at_02.06.16.webp",
-        "vid_url": "https://www.youtube.com/watch?v=Mb1LhyHxEBI"
+        "video_file_link": ""
       }
     },
     "mission": {
       "type": "template-mission",
       "settings": {
+        "btn_text": "SHOP SEG-B®",
+        "product_link": "seg-b",
         "section_title": "The Mission",
         "section_heading": "Unlock next-gen spinal training with SEG-B, designed for precise spine health.",
         "body_image_one": "shopify://shop_images/Group_35.webp",
@@ -441,6 +447,8 @@
         "card_P3N6hz"
       ],
       "settings": {
+        "btn_text": "SHOP SEG-B®",
+        "product_link": "seg-b",
         "section_title": "Daily Exercises Backed By Experts",
         "section_heading": "Improve Your Back Health in Just 10 Minutes A Day"
       }
@@ -461,6 +469,8 @@
     "banner-shop": {
       "type": "template-banner-shop",
       "settings": {
+        "btn_text": "SHOP Now",
+        "product_link": "seg-b",
         "section_title": "Shop Now",
         "section_heading": "Ready to Take Control of Your Spinal Health?",
         "section_bg": "shopify://shop_images/banner-shop-bg.webp"
@@ -529,6 +539,8 @@
         "slide_bottom_Bf43Uk"
       ],
       "settings": {
+        "btn_text": "SHOP SEG-B®",
+        "product_link": "seg-b",
         "section_title": "The Mission",
         "section_heading": "Unlock next-gen spinal training with SEG-B, designed for precise spine health."
       }
