@@ -469,7 +469,7 @@
     "banner-shop": {
       "type": "template-banner-shop",
       "settings": {
-        "btn_text": "SHOP Now",
+        "btn_text": "Shop Now",
         "product_link": "seg-b",
         "section_title": "Shop Now",
         "section_heading": "Ready to Take Control of Your Spinal Health?",
