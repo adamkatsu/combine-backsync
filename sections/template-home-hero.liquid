@@ -22,7 +22,7 @@
         <p class="txt-400">{{ section.settings.home-copy }}</p>
       </div>
       <a href="products/{{ section.settings.product_link }}">
-        <button class="btn-primary">SHOP SEG-B®</button>
+        <button class="btn-primary">{{ section.settings.btn_text }}</button>
       </a>
     </div>
     <div class="thumbnail-wrapper">
@@ -71,10 +71,16 @@
       "default": "In as little as 10 mins a day. Take control of your back health with precision and ease."  
     },
     {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button Text",
+      "default": "SHOP SEG-B®"  
+    },
+    {
       "type": "product",
       "id": "product_link",
       "label": "Product Link",
-      "info": "Select a product to link to."
+      "info": "Select a Product to Link To"
     }
   ],
   "blocks": [

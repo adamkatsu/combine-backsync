@@ -1,5 +1,6 @@
 <div class="home-vid">
-  <iframe src="{{ section.settings.vid_url | replace: 'watch?v=', 'embed/' }}?enablejsapi=1&amp;" class="home-vid-full js-youtube video-popup__iframe" allow="encrypted-media" allowfullscreen="" title=""></iframe>
+  {% assign video_url = section.settings.video_file_link  | default: 'https://cdn.shopify.com/videos/c/o/v/20fd3bae8ba841fc946a759be3d42092.mp4' %}
+  <video src={{ video_url }} class="home-vid-full" controls></video>
   <img src="{{ section.settings.vid_thumbnail | image_url: width: 1920 }}" alt="" class="vid-overlay" id="home-vid-play">
   <div class="btn-vid-play">
     <svg width="18" height="22" viewBox="0 0 18 22" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -20,10 +21,14 @@
       "label": "Video Thumbnail"
     },
     {
-      "type": "video_url",
-      "id": "vid_url",
-      "label": "YouTube Video URL",
-      "accept": ["youtube"]
+      "type": "url",
+      "id": "video_file_link",
+      "label": "Video File URL"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Full Width Video"
     }
   ]
 }
