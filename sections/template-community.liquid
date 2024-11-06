@@ -3,8 +3,8 @@
     <div class="community-head">
       <span class="txt-eyebrow uppercase">{{ section.settings.community_title }}</span>
       <h2 class="txt-center">{{ section.settings.community_heading }}</h2>
-      <a href="#">
-        <button class="btn-primary btn-dark uppercase">SHOP SEG-B®</button>
+      <a href="products/{{ section.settings.product_link }}">
+        <button class="btn-primary btn-dark">{{ section.settings.btn_text }}</button>
       </a>
     </div>
     <div class="community-marquee">
@@ -51,6 +51,18 @@
       "id": "community_heading",
       "label": "Section Heading",
       "default": "Trusted By The Fitness Community"  
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button Text",
+      "default": "SHOP SEG-B®"  
+    },
+    {
+      "type": "product",
+      "id": "product_link",
+      "label": "Product Link",
+      "info": "Select a Product to Link To"
     }
   ],
   "blocks": [

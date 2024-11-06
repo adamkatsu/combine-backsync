@@ -3,8 +3,8 @@
     <div class="banner-shop-content">
       <span class="txt-eyebrow">{{ section.settings.section_title }}</span>
       <h2 class="">{{ section.settings.section_heading }}</h2>
-      <a href="#">
-        <button class="btn-primary">Shop Now</button>
+      <a href="products/{{ section.settings.product_link }}">
+        <button class="btn-primary">{{ section.settings.btn_text }}</button>
       </a>
     </div>
   </div>
@@ -15,6 +15,18 @@
 {
   "name": "Banner Section",
   "settings": [
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button Text",
+      "default": "SHOP Now"  
+    },
+    {
+      "type": "product",
+      "id": "product_link",
+      "label": "Product Link",
+      "info": "Select a Product to Link To"
+    },
     {
       "type": "text",
       "id": "section_title",

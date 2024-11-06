@@ -2,7 +2,7 @@
   <div class="container seg-b-details-cont">
     <div class="seg-b-details-head">
       <h2 class="txt-black txt-center">{{ section.settings.seg-b_heading }}</h2>
-      <a href="#">
+      <a href="products/{{ section.settings.product_link }}">
         <button class="btn-primary btn-dark uppercase">SHOP SEG-B®</button>
       </a>
     </div>
@@ -119,6 +119,12 @@
 {
   "name": "SEG-B Product Showcase",
   "settings": [
+    {
+      "type": "product",
+      "id": "product_link",
+      "label": "Product Link",
+      "info": "Select a Product to Link To"
+    },
     {
       "type": "text",
       "id": "seg-b_heading",

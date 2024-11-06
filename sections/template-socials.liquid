@@ -3,8 +3,8 @@
     <div class="socials-head">
       <span class="txt-eyebrow">{{ section.settings.section_title }}</span>
       <h2 class="txt-center">{{ section.settings.section_heading }}</h2>
-      <a href="#">
-        <button class="btn-primary btn-dark uppercase">SHOP SEG-B®</button>
+      <a href="products/{{ section.settings.product_link }}">
+        <button class="btn-primary btn-dark">{{ section.settings.btn_text }}</button>
       </a>
     </div>
     <div class="socials-main">
@@ -87,6 +87,18 @@
 {
   "name": "Socials Section",
   "settings": [
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button Text",
+      "default": "SHOP SEG-B®"  
+    },
+    {
+      "type": "product",
+      "id": "product_link",
+      "label": "Product Link",
+      "info": "Select a Product to Link To"
+    },
     {
       "type": "text",
       "id": "section_title",

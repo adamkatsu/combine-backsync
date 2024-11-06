@@ -14,6 +14,9 @@
       <div class="mission-content-bottom">
         <div class="mission-text-wrapper">
           <span class="mission-bottom-txt">{{ section.settings.body_text_two }}</span>
+          <a href="products/{{ section.settings.product_link }}">
+            <button class="btn-primary btn-dark">{{ section.settings.btn_text }}</button>
+          </a>
           <button class="btn-primary btn-dark uppercase">SHOP SEG-B®</button>
         </div>
         <div class="mission-img-wrapper-bottom">
@@ -28,6 +31,18 @@
 {
   "name": "Mission Section",
   "settings": [
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button Text",
+      "default": "SHOP SEG-B®"  
+    },
+    {
+      "type": "product",
+      "id": "product_link",
+      "label": "Product Link",
+      "info": "Select a Product to Link To"
+    },
     {
       "type": "text",
       "id": "section_title",
