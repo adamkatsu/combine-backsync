@@ -86,6 +86,22 @@ h3 {
   padding: 24px 40px;
   position: fixed;
   z-index: 999;
+  transition: all .3s ease;
+}
+.section-navbar.scrolled {
+  background-color: #fff;
+  transform: translateY(-40px);
+  border-bottom: 1px solid #cecece;
+  transition: all .3s ease;
+}
+.section-navbar.scrolled a {
+  color: #000000 !important;
+}
+.section-navbar svg {
+  color: #ffffff;
+}
+.section-navbar.scrolled svg {
+  color: #000000;
 }
 .container-navbar {
   width: 100%;
@@ -104,8 +120,22 @@ h3 {
   justify-content: flex-start;
   gap: 32px;
 }
+.nav-logo-wrapper {
+  position: relative;
+}
 .nav-logo-wrapper img {
   width: 140px;
+}
+.nav-logo-black {
+  position: absolute;
+  left: 0;
+  z-index: 2;
+  opacity: 0;
+  transition: all .5s ease;
+}
+.section-navbar.scrolled .nav-logo-black {
+  opacity: 1;
+  transition: all .5s ease;
 }
 
 
