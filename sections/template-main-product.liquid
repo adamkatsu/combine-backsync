@@ -50,7 +50,32 @@
         <span class="txt-product-price-compare">{{ product.compare_at_price_max | money }}</span>
       </div>
       <div class="product-action-wrapper">
-        
+        <form id="product-form-{{ product.id }}" action="/cart/add" method="post" enctype="multipart/form-data">
+          <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
+
+          <!-- Quantity Selector -->
+          <label for="quantity">Quantity:</label>
+          <div class="quantity-selector">
+              <button type="button" id="decrement-btn">-</button>
+              <input type="number" id="quantity-input" name="quantity" value="1" min="1" max="{{ product.variants.first.inventory_quantity }}" />
+              <button type="button" id="increment-btn">+</button>
+          </div>
+
+          <!-- Stock Amount Display -->
+          <p id="stock-amount">Stock: {{ product.variants.first.inventory_quantity }}</p>
+
+          <!-- Subtotal Display -->
+          <p id="subtotal">Subtotal: {{ product.price | money }}</p>
+
+          <!-- Add to Cart Button -->
+          <button type="submit" class="btn add-to-cart">Add to Cart</button>
+
+          <!-- Buy with Shop Pay Button -->
+          <div class="shop-pay-button">
+              {{ form | shopify_payment_button }}
+          </div>
+      </form>
+
       </div>
       <div class="product-details-wrapper">
         <div class="product-details-head">
@@ -91,24 +116,67 @@
 const tabHead = document.querySelectorAll('.product-details-head-item');
 const tabCont = document.querySelector('.product-details-body');
 
+document.addEventListener("DOMContentLoaded", function() {
+  const incrementBtn = document.getElementById("increment-btn");
+  const decrementBtn = document.getElementById("decrement-btn");
+  const quantityInput = document.getElementById("quantity-input");
+  const stockAmount = {{ product.variants.first.inventory_quantity }};
+  const productPrice = {{ product.price | divided_by: 100 }};
+  const subtotalDisplay = document.getElementById("subtotal");
 
-for (const tab of tabHead) {
-  tab.addEventListener('click', () => {
-    tabHead.forEach((x) => {
-      x.classList.remove('product-head-active');
+  // Update subtotal
+  function updateSubtotal() {
+      const quantity = parseInt(quantityInput.value);
+      const subtotal = (quantity * productPrice).toFixed(2);
+      subtotalDisplay.textContent = `Subtotal: $${subtotal}`;
+  }
+
+  // Increment quantity
+  incrementBtn.addEventListener("click", function() {
+    console.log('add')
+      let quantity = parseInt(quantityInput.value);
+      if (quantity < stockAmount) {
+          quantity++;
+          quantityInput.value = quantity;
+          updateSubtotal();
+      }
+  });
+
+  // Decrement quantity
+  decrementBtn.addEventListener("click", function() {
+    console.log('substract')
+      let quantity = parseInt(quantityInput.value);
+      if (quantity > 1) {
+          quantity--;
+          quantityInput.value = quantity;
+          updateSubtotal();
+      }
+  });
+
+  // Update subtotal on quantity input change
+  quantityInput.addEventListener("input", updateSubtotal);
+
+
+  for (const tab of tabHead) {
+    tab.addEventListener('click', () => {
+      tabHead.forEach((x) => {
+        x.classList.remove('product-head-active');
+      })
+      tab.classList.add('product-head-active');
+      console.log(tab.getAttribute('data-index'))
+
+      if(tab.getAttribute('data-index') == 0) {
+        tabCont.innerHTML = `{{ product.description }}`
+      } else if(tab.getAttribute('data-index') == 1) {
+        tabCont.innerHTML = `{{ product.metafields.custom.key_features | metafield_tag }}`
+      } else if(tab.getAttribute('data-index') == 2) {
+        tabCont.innerHTML = `{{ product.metafields.custom.shipping_returns | metafield_tag }}`
+      } 
     })
-    tab.classList.add('product-head-active');
-    console.log(tab.getAttribute('data-index'))
+  }
+});
 
-    if(tab.getAttribute('data-index') == 0) {
-      tabCont.innerHTML = `{{ product.description }}`
-    } else if(tab.getAttribute('data-index') == 1) {
-      tabCont.innerHTML = `{{ product.metafields.custom.key_features | metafield_tag }}`
-    } else if(tab.getAttribute('data-index') == 2) {
-      tabCont.innerHTML = `{{ product.metafields.custom.shipping_returns | metafield_tag }}`
-    } 
-  })
-}
+
 
 </script>
 

@@ -1,36 +1,36 @@
 @font-face {
   font-family: 'Aeonik';
-  src: url('{{ "assets/font/Aeonik-Bold.ttf" | asset_url }}') format('ttf');
+  src: url('{{ "assets/Aeonik-Bold.ttf" | asset_url }}') format('ttf');
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: 'Aeonik';
-  src: url('{{ "assets/font/ Aeonik-Light.ttf" | asset_url }}') format('ttf');
+  src: url('{{ "assets/ Aeonik-Light.ttf" | asset_url }}') format('ttf');
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: 'Aeonik';
-  src: url('{{ "assets/font/Aeonik-Medium.ttf" | asset_url }}') format('ttf');
+  src: url('{{ "assets/Aeonik-Medium.ttf" | asset_url }}') format('ttf');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: 'Aeonik';
-  src: url('{{ "assets/font/Aeonik-Regular.ttf" | asset_url }}') format('ttf');
+  src: url('{{ "assets/Aeonik-Regular.ttf" | asset_url }}') format('ttf');
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: 'Rubik';
-  src: url('{{ "assets/font/Rubik-Medium.ttf" | asset_url }}') format('ttf');
+  src: url('{{ "assets/Rubik-Medium.ttf" | asset_url }}') format('ttf');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: 'Rubik';
-  src: url('{{ "assets/font/Rubik-Regular.ttf" | asset_url }}') format('ttf');
+  src: url('{{ "assets/Rubik-Regular.ttf" | asset_url }}') format('ttf');
   font-weight: 400;
   font-style: normal;
 }
@@ -141,7 +141,7 @@ h3 {
   color: #000000 !important;
 }
 .nav-white svg {
-  color: #000000;
+  color: #000000 !important;
 }
 .section-navbar.scrolled {
   background-color: #fff;
