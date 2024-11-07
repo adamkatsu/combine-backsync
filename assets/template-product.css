@@ -10,10 +10,10 @@
   gap: 40px;
 }
 .product-gallery {
-  width: 60%;
+  width: 55%;
 }
 .product-single-details {
-  width: 40%;
+  width: 45%;
 }
 .product-main-slide img,
 .product-thumbs-slide img {
@@ -83,12 +83,6 @@
   justify-content: flex-start;
   align-items: center;
   gap: 16px;
-}
-.product-action-wrapper {
-  width: 100%;
-  height: 320px;
-  border: 1px solid #cecece;
-  border-radius: 24px;
 }
 .product-details-wrapper {
   display: flex;
@@ -164,6 +158,7 @@
   align-items: center;
 }
 .txt-product-price {
+  font-family: 'Aeonik', Sans-serif !important;
   font-size: 60px;
   font-weight: 700;
   line-height: 120%;
@@ -176,3 +171,96 @@
   text-decoration: line-through;
 }
 
+.product-action-wrapper {
+  width: 100%;
+  border: 1px solid #cecece;
+  border-radius: 24px;
+  padding: 24px;
+}
+.product-action-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+.product-quantity-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #cecece;
+}
+.product-quantity {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+}
+.product-bottom-wrapper {
+  padding-top: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  gap: 16px;
+}
+.product-btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.product-btn-wrapper > button {
+  width: 100%;
+}
+.product-warranty-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.product-warranty-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.product-subtotal-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  gap: 8px;
+}
+.quantity-selector {
+  border: 1px solid #cecece;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.quantity-selector input {
+  background-color: transparent;
+  color: #000000;
+  text-align: center;
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+  padding: 0px;
+}
+.quantity-selector #increment-btn,
+.quantity-selector #decrement-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
