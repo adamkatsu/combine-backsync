@@ -81,7 +81,11 @@
           <div class="product-bottom-wrapper">
             <div class="product-subtotal-wrapper">
               <p>Subtotal:</p>
-              <p id="subtotal">{{ product.price |  money }}</p>
+              {% assign price_with_currency = product.price | money %}
+              {% assign price_without_currency = product.price | money_without_currency %}
+              {% assign currency_symbol = price_with_currency | remove: price_without_currency %}
+
+              <p>{{ currency_symbol }}<span id="subtotal">{{ product.price | money_without_currency }}</span></p>
             </div>
             <!-- Subtotal Display -->
             
@@ -135,9 +139,9 @@
           <span class="txt-500 fs-32">5 Min⚡ Quick Workout</span>
           <span class="txt-400 fs-14">Easy to Use Daily</span>
         </div>
-        <div class="product-single-tutorial-video">
-          <a href="#">
-            <button class="btn-primary txt-400">
+        <div class="product-single-tutorial-video" style="background-image: url('{{ product.featured_image |  image_url: width: 480}}')">
+          <a href="{{ product.metafields.custom.video_workout }}" target="_blank">
+            <button class="btn-primary txt-400" >
               Watch Video
               <img class="icon-14" src="https://cdn.shopify.com/s/files/1/0728/2645/4272/files/arrow-green.png?v=1730332241" alt="">
             </button>
