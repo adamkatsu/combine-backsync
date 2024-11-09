@@ -135,9 +135,10 @@ h3 {
   transition: all .3s ease;
 }
 .nav-white {
-  background-color: #ffffff;;
+  background-color: #ffffff;
 }
-.nav-white a {
+.nav-white a,
+.nav-white span {
   color: #000000 !important;
 }
 .nav-white svg {
@@ -191,6 +192,24 @@ h3 {
 .section-navbar.scrolled .nav-logo-black {
   opacity: 1;
   transition: all .5s ease;
+}
+.navbar-cart {
+  position: relative;
+}
+.nav-cart-count {
+  position: absolute;
+  padding: 5px;
+  border-radius: 100%;
+  background-color: #EB5959;
+  aspect-ratio: 1 / 1;
+  width: 100%;
+  top: -12px;
+  right: -12px;
+  font-size: 10px;
+  text-align: center;
+}
+span#nav-cart-count.nav-cart-count {
+  color: #ffffff !important;
 }
 
 

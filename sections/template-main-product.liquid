@@ -49,6 +49,7 @@
         <span class="txt-product-price">{{ product.price | money }}</span>
         <span class="txt-product-price-compare">{{ product.compare_at_price_max | money }}</span>
       </div>
+      <span>Variant: Black</span>
       <div class="product-action-wrapper">
         <form id="product-form-{{ product.id }}" action="/cart/add" method="post" enctype="multipart/form-data" class="product-action-form">
           <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
@@ -92,7 +93,7 @@
 
             <div class="product-btn-wrapper">
                <!-- Add to Cart Button -->
-              <button type="submit" class="btn add-to-cart btn-primary btn-dark uppercase txt-center">Add to Cart</button>
+              <button type="submit" class="btn add-to-cart btn-primary btn-dark uppercase txt-center {% unless product.variants.first.inventory_quantity > 0 %} disabled {% endunless %}%}">Add to Cart</button>
               <!-- Buy with Shop Pay Button -->
               <div class="shop-pay-button">
                   {{ form | shopify_payment_button }}
@@ -196,6 +197,52 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Update subtotal on quantity input change
   quantityInput.addEventListener("input", updateSubtotal);
+
+  // Add to Cart Button
+
+  function openSidebarCart() {
+    document.getElementById('site-cart-sidebar').classList.add('sidebar--opened');
+    document.getElementById('site-cart-sidebar').style.display = 'grid'
+  }
+
+  document.querySelectorAll("form[action='/cart/add']").forEach(form => {
+        form.addEventListener("submit", function(event) {
+            event.preventDefault(); // Prevent the default form submission
+            const formData = new FormData(form);
+
+            // Send AJAX request to add the product to the cart
+            fetch('/cart/add.js', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                // Update the cart subtotal and open the sidebar cart
+                updateSidebarCart();
+                openSidebarCart();
+            })
+            .catch(error => console.error('Error adding item to cart:', error));
+        });
+    });
+  function updateSidebarCart() {
+        fetch('/cart.js')
+            .then(response => response.json())
+            .then(cart => {
+                let cartItemsHTML = '';
+                cart.items.forEach(item => {
+                    cartItemsHTML += `
+                        <div class="cart-item">
+                            <p>${item.title}</p>
+                            <p>Quantity: ${item.quantity}</p>
+                            <p>Price: ${item.line_price / 100}</p>
+                        </div>
+                    `;
+                });
+                document.querySelector(".cart-items").innerHTML = cartItemsHTML;
+                cartSubtotal.textContent = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(cart.total_price / 100);
+            })
+            .catch(error => console.error('Error fetching cart:', error));
+    }
 
 
   for (const tab of tabHead) {
