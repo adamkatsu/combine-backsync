@@ -14,15 +14,18 @@
     "announcement": {
       "type": "announcement-bar",
       "settings": {
+        "visibility": "all",
+        "show_locale_selector": true,
         "show_country_selector": true,
-        "show_locale_selector": true
+        "show_social_icons": false,
+        "bar_bgcolor": "#111111",
+        "bar_txtcolor": "#ffffff",
+        "border_color": "rgba(0,0,0,0)"
       }
     },
     "header": {
       "type": "template-navbar",
-      "settings": {
-        "nav_logo": "my-page"
-      }
+      "settings": {}
     }
   },
   "order": [
