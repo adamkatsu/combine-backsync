@@ -11,9 +11,7 @@
   "sections": {
     "product": {
       "type": "template-main-product",
-      "settings": {
-
-      }
+      "settings": {}
     },
     "tutorials": {
       "type": "template-tutorials",
@@ -101,8 +99,10 @@
     "section-block": {
       "type": "template-section-block",
       "settings": {
-        "vid_thumbnail": "shopify://shop_images/CleanShot_2024-10-21_at_02.06.16.webp",
-        "vid_url": "https://www.youtube.com/watch?v=Mb1LhyHxEBI"
+        "vid_thumbnail": "shopify://shop_images/CleanShot_2024-10-21_at_02.06.16_38a5679d-2186-4f34-b289-97f59d09c21d.webp",
+        "video_file_link": "",
+        "block_title": "Product Tutorials",
+        "block_description": "Discover the next generation of spinal training with the SEG-B. Our unique design offers an unparalleled approach to spine health, allowing you to focus on specific spinal segments with precision."
       }
     },
     "community": {
@@ -167,11 +167,16 @@
       ],
       "settings": {
         "community_title": "#BACKSYNC",
-        "community_heading": "Trusted By The Fitness Community"
+        "community_heading": "Trusted By The Fitness Community",
+        "btn_text": "SHOP SEG-B®",
+        "product_link": ""
       }
     }
   },
   "order": [
-    "product", "tutorials", "section-block", "community"
+    "product",
+    "tutorials",
+    "section-block",
+    "community"
   ]
 }
