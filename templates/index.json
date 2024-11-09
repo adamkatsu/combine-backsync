@@ -99,8 +99,7 @@
     },
     "product-slider": {
       "type": "template-product-slider",
-      "settings": {
-      }
+      "settings": {}
     },
     "marquee-organization": {
       "type": "template-marquee-organization",
@@ -338,7 +337,9 @@
       "type": "template-section-block",
       "settings": {
         "vid_thumbnail": "shopify://shop_images/CleanShot_2024-10-21_at_02.06.16.webp",
-        "video_file_link": ""
+        "video_file_link": "",
+        "block_title": "Dr. Mike, MoveU",
+        "block_description": "\"An amazing product that we’ve been using for a while that helps you learn to segmentally control your spine! When you can articulate segments of the spine, it helps create body control and stabilization. It helps develop awareness between core and spine. It helps you keep the spine mobile. Ultimately you want to maintain a neutral curve to your spine most of the time. This helps you with balance and stability.\""
       }
     },
     "mission": {
