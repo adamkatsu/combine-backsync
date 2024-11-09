@@ -6,7 +6,7 @@
         <video src={{ video_url }} class="section-block-bg" controls></video>
         <div class="section-block-content">
           <span class="section-block-title">{{ section.settings.block_title }}</span>
-          <span class="txt-400">"{{ section.settings.block_description }}</span>
+          <span class="txt-400">{{ section.settings.block_description }}</span>
         </div>
         <img src="{{ section.settings.vid_thumbnail | image_url: width: 1920 }}" alt="" class="vid-overlay" id="block-vid-play">
         <div class="vid-overlay-gradient"></div>
@@ -18,7 +18,7 @@
       {% else %}
         <div class="section-block-content">
           <span class="section-block-title">{{ section.settings.block_title }}</span>
-          <span class="txt-400">"{{ section.settings.block_description }}</span>
+          <span class="txt-400">{{ section.settings.block_description }}</span>
         </div>
         <img src="{{ section.settings.vid_thumbnail | image_url: width: 1920 }}" alt="" class="vid-overlay" id="block-vid-play">
         <div class="vid-overlay-gradient"></div>
