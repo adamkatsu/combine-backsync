@@ -5,8 +5,8 @@
         {% assign video_url = section.settings.video_file_link  | default: 'https://cdn.shopify.com/videos/c/o/v/ae0007e47fd24f3ab6138ec550f1f1bd.mp4' %}
         <video src={{ video_url }} class="section-block-bg" controls></video>
         <div class="section-block-content">
-          <span class="section-block-title">Dr. Mike, MoveU</span>
-          <span class="txt-400">"An amazing product that we’ve been using for a while that helps you learn to segmentally control your spine! When you can articulate segments of the spine, it helps create body control and stabilization. It helps develop awareness between core and spine. It helps you keep the spine mobile. Ultimately you want to maintain a neutral curve to your spine most of the time. This helps you with balance and stability."</span>
+          <span class="section-block-title">{{ section.settings.block_title }}</span>
+          <span class="txt-400">"{{ section.settings.block_description }}</span>
         </div>
         <img src="{{ section.settings.vid_thumbnail | image_url: width: 1920 }}" alt="" class="vid-overlay" id="block-vid-play">
         <div class="vid-overlay-gradient"></div>
@@ -17,8 +17,8 @@
         </div>
       {% else %}
         <div class="section-block-content">
-          <span class="section-block-title">Dr. Mike, MoveU</span>
-          <span class="txt-400">"An amazing product that we’ve been using for a while that helps you learn to segmentally control your spine! When you can articulate segments of the spine, it helps create body control and stabilization. It helps develop awareness between core and spine. It helps you keep the spine mobile. Ultimately you want to maintain a neutral curve to your spine most of the time. This helps you with balance and stability."</span>
+          <span class="section-block-title">{{ section.settings.block_title }}</span>
+          <span class="txt-400">"{{ section.settings.block_description }}</span>
         </div>
         <img src="{{ section.settings.vid_thumbnail | image_url: width: 1920 }}" alt="" class="vid-overlay" id="block-vid-play">
         <div class="vid-overlay-gradient"></div>
