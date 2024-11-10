@@ -55,3 +55,47 @@
 .swiper-slide-active .swiper-product-details {
   display: flex;
 }
+.product-slider-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.product-slider-nav > div {
+  cursor: pointer;
+}
+
+@media(max-width: 1024px) {
+  .tutorial-wrapper {
+    width: 100%;
+    margin-left: 0;
+  }
+  .swiper-product-slide {
+    width: 320px;
+  }
+  .swiper-slide-active {
+    width: 480px;
+    margin-right: 24px;
+  }
+}
+@media(max-width: 768px) {
+  .swiper-product-next img,
+  .swiper-product-prev img {
+    width: 50px;
+  }
+  .product-slider-nav {
+    gap: 8px;
+  }
+  .product-slider-head {
+    gap: 32px;
+  }
+}
+@media(max-width: 480px) {
+  .product-slider-head {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .swiper-product-details {
+    padding: 32px 16px 0;
+  }
+}

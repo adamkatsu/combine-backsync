@@ -12,15 +12,9 @@
   "name": "t:sections.refactor_words.labels.header_group",
   "sections": {
     "announcement": {
-      "type": "announcement-bar",
+      "type": "template-announcement",
       "settings": {
-        "visibility": "all",
-        "show_locale_selector": true,
-        "show_country_selector": true,
-        "show_social_icons": false,
-        "bar_bgcolor": "#111111",
-        "bar_txtcolor": "#ffffff",
-        "border_color": "rgba(0,0,0,0)"
+
       }
     },
     "header": {

@@ -50,7 +50,7 @@
             <span class="announcement-bar__content-nav announcement-bar__content-nav--left announcement-bar__content-nav--disabled">{%- render 'theme-symbols', icon: 'chevron' -%}</span>
           {%- endif -%}
 
-          <div class="announcement-bar__slider" data-js-slider>
+          <div class="announcement-bar__slider" data-js-slider style="text-align: center">
             {% comment %} {%- for block in section.blocks -%}
               <span class="announcement" {{ block.shopify_attributes }}>
                 {%- if block.settings.link != blank -%}
@@ -60,7 +60,11 @@
                 {%- if block.settings.link != blank -%} </a> {%- endif -%}
               </span>
             {%- endfor -%} {% endcomment %}
-            Hello World
+            <span style="text-align: center; margin: auto">
+              Limited Time
+              <span style="font-weight: 700">Free Shipping</span>
+              on all US Orders!
+            </span>
           </div>
 
           {%- if section.blocks.size > 1 -%}

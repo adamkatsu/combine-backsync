@@ -88,6 +88,7 @@ if ( typeof CartForm !== 'function' ) {
 					document.querySelectorAll('[data-header-cart-total').forEach(elm=>{
 						elm.textContent = cartItems.querySelector('[data-cart-total]').textContent;
 					});
+					document.getElementById('nav-cart-count').textContent = cartItems.querySelector('[data-cart-count]').textContent;
 
 					if ( alert !== null ) {
 						this.form.prepend(alert);
@@ -165,6 +166,7 @@ if ( ! window.refreshCart ) {
 			document.querySelectorAll('[data-header-cart-total').forEach(elm=>{
 				elm.textContent = cartItems.querySelector('[data-cart-total]').textContent;
 			})
+			document.getElementById('nav-cart-count').textContent = cartItems.querySelector('[data-cart-total]').textContent;
 			
 			document.getElementById('AjaxCartSubtotal').innerHTML = cartSubtotalInnerHTML;
 			if ( document.querySelector('[data-js-site-cart-sidebar]') ) {

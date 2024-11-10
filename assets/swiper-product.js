@@ -1,5 +1,5 @@
 var swiper = new Swiper(".swiper-product", {
-  slidesPerView: "auto",
+  slidesPerView: "1",
   centeredSlides: true,
   allowTouchMove: false,
   navigation: {
@@ -8,4 +8,11 @@ var swiper = new Swiper(".swiper-product", {
   },
   loop: true,
   spaceBetween: 24,
+  breakpoints: {
+    // when window width is >= 480px
+    720: {
+      slidesPerView: 'auto',
+      spaceBetween: 24
+    },
+  }
 });
