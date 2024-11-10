@@ -9,7 +9,7 @@ var swiper = new Swiper(".swiper-product", {
   loop: true,
   spaceBetween: 24,
   breakpoints: {
-    // when window width is >= 480px
+    // when window width is >= 720px
     720: {
       slidesPerView: 'auto',
       spaceBetween: 24

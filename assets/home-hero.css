@@ -747,6 +747,42 @@
   font-weight: 500;
   line-height: 120%;
 }
+@media(max-width: 1024px) {
+  .section-block {
+    padding: 100px 48px;
+  }
+}
+@media(max-width: 768px) {
+  .section-block {
+    padding: 0;
+  }
+  .section-block-wrapper {
+    border-radius: 0;
+    height: 420px;
+  }
+  .section-block-content {
+    padding: 32px;
+  }
+  .section-block-content .section-block-title {
+    font-size: 28px;
+  }
+  .section-block-content .txt-400 {
+    font-size: 14px;
+  }
+}
+@media(max-width: 480px) {
+  .section-block-content {
+    padding: 16px;
+    align-items: flex-start
+  }
+  .section-block-content .section-block-title {
+    font-size: 24px;
+  }
+  .section-block-content .txt-400 {
+    font-size: 12px;
+    text-align: left;
+  }
+}
 
 
 /* Mission */
@@ -780,6 +816,7 @@
   justify-content: flex-start;
   align-items: flex-start;
   gap: 24px;
+  width: 100%;
 }
 .mission-content img {
   border-radius: 32px;
@@ -815,8 +852,48 @@
   gap: 80px;
 }
 .mission-bottom-txt {
+  font-family: 'Aeonik', sans-serif !important;
   font-weight: 500;
   font-size: 40px;
+}
+@media(max-width: 1024px) {
+  .mission-content {
+    gap: 60px;
+  }
+  .mission-content-top .txt-400 {
+    width: 30%;
+    flex-shrink: 1;
+  }
+  .mission-bottom-txt {
+    font-size: 32px;
+  }
+  .mission-content-bottom {
+    flex-direction: column-reverse;
+    gap: 40px;
+    align-items: flex-start;
+  }
+  .mission-img-wrapper-bottom {
+    width: 100%;
+    gap: 40px;
+  }
+  .mission-text-wrapper {
+    gap: 40px;
+    max-width: 480px;
+  }
+}
+@media(max-width: 680px) {
+  .mission-content-top {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .mission-content-top .txt-400 {
+    width: 100%;
+    max-width: 520px;
+  }
+  .mission-content img {
+    height: 380px;
+    object-fit: cover;
+  }
 }
 
 
@@ -881,6 +958,27 @@
   height: 60px;
   object-fit: contain;
 }
+@media(max-width: 990px) {
+  .partners-grid-txt {
+    font-size: 24px;
+  }
+}
+@media(max-width: 840px) {
+  .partners-grid {
+    flex-direction: column;
+  }
+  .partners-grid-item {
+    padding: 64px 32px;
+  }
+}
+@media(max-width: 480px) {
+  .partners-grid-item {
+    padding: 40px 24px;
+  }
+  .partners-list {
+    gap: 24px;
+  }
+}
 
 
 /* Tutorials */
@@ -919,6 +1017,8 @@
   align-items: center;
   gap: 24px;
 }
+
+
 
 
 /* Purchase Protection */

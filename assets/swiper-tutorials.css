@@ -36,3 +36,8 @@
 .swiper-tutorial-prev::after {
   display: none;
 }
+@media(max-width: 768px) {
+  .swiper-tutorials-slide {
+    padding: 24px !important;
+  }
+}
