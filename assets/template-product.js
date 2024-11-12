@@ -6,12 +6,13 @@ var swiper = new Swiper(".product-gallery-thumbs", {
 });
 var swiper2 = new Swiper(".product-gallery-main", {
   loop: true,
-  // autoplay: {
-  //   delay: 3000,
-  //   disableOnInteraction: false,
-  // },
-  spaceBetween: 8,
+  spaceBetween: 0,
   thumbs: {
     swiper: swiper,
   },
+  breakpoints: {
+    480: {
+      spaceBetween: 8
+    },
+  }
 });

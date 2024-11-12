@@ -1,3 +1,4 @@
+const progressCircle = document.querySelector(".autoplay-progress svg");
 var swiper = new Swiper(".swiper-thumbs", {
   loop: true,
   spaceBetween: 4,
@@ -12,6 +13,12 @@ var swiper2 = new Swiper(".swiper-show", {
   autoplay: {
     delay: 5000,
     disableOnInteraction: false,
+  },
+  on: {
+    autoplayTimeLeft(s, time, progress) {
+      progressCircle.style.setProperty("--progress", 1 - progress);
+      // progressContent.textContent = `${Math.ceil(time / 1000)}s`;
+    },
   },
   pagination: {
     el: ".swiper-pagination",
