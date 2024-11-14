@@ -46,12 +46,13 @@
       <h2 class="product-single-title">{{ product.title }}</h2>
       {% for block in section.blocks %}
 
-        {% if block.type = '@app' %}
-          <div class="review-wrapper">
-            {{ block.settings.content }}
-          </div>
-        {% endif %}
-        
+        {% case block.type %}
+          {% when '@app' %}
+            <div class="review-wrapper">
+              {{ block.settings.content }}
+            </div>
+          {% endcase %}
+      
       {% endfor %}
       <div class="review-wrapper">
         Space for Reviews
