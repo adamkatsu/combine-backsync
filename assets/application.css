@@ -152,6 +152,17 @@ h3 {
   justify-content: space-between;
   color: #000;
 }
+#currency-selector {
+  color: #000;
+}
+.localization-form__item-text, 
+.localization-form__item-text > * {
+  color: #000;
+}
+.localization-form__item-symbol path{
+  color: #000;
+  fill: #000;
+}
 .section-navbar {
   width: 100%;
   background-color: transparent;
