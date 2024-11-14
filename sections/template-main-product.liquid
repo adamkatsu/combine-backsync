@@ -44,7 +44,16 @@
     <div class="product-single-info">
       <span class="txt-500">Backsync</span>
       <h2 class="product-single-title">{{ product.title }}</h2>
-      <div class="review-wrapper">--- space for reviews ---</div>
+      {% for block in section.blocks %}
+
+        {% if block.type = '@app' %}
+          <div class="review-wrapper">
+            {{ block.settings.content }}
+          </div>
+        {% endif %}
+        
+      {% endfor %}
+      
       <div class="product-single-price-wrapper">
         <span class="txt-product-price" class="product-price">{{ product.price | money }}</span>
         <span class="txt-product-price-compare" class="product-price">{{ product.compare_at_price_max | money }}</span>
@@ -229,8 +238,15 @@ document.addEventListener("DOMContentLoaded", function() {
   "name": "SEG-B",
   "blocks": [
     {
-      "type": "@app"
+      "type": "@app",
+      "name": "Customer Reviews",
+      "settings": []
     },
+    {
+      "type": "title",
+      "name": "product_title",
+      "limit": 1
+    }
   ],
   "settings": [
     
