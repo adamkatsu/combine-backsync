@@ -224,6 +224,20 @@
 .product-btn-wrapper > button {
   width: 100%;
 }
+.review-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.star-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
 .product-warranty-wrapper {
   display: flex;
   flex-direction: row;
