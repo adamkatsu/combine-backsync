@@ -127,7 +127,13 @@
     <a href="#main" class="visually-hidden skip-to-content" tabindex="0" data-js-inert>{{ 'general.accessibility_labels.skip_to_content' | t }}</a>
     <div id="screen-reader-info" aria-live="polite" class="visually-hidden"></div>
   
+
+    {% if template == 'index' or (template == 'product' and product.title == 'SEG-B') %}
+      {%- sections 'header-group-new' -%}
+    {% else %}
     {%- sections 'header-group' -%}
+    {% endif %}
+    
   
     {{ 'component-slider.css' | asset_url | stylesheet_tag }}
     <script src="{{ 'section-slider-vertical.js' | asset_url }}"></script>

@@ -1,6 +1,6 @@
 {% if template == 'index' %}
   {% render 'navbar-transparent' %}
-{% else %}
+{% elsif template == 'product' and product.title == 'SEG-B' %}
   {% render 'navbar-white' %}
 {% endif %}
 
@@ -12,6 +12,7 @@
 {
   "name": "Navbar",
   "settings": [
+
   ]
 }
 {% endschema %}

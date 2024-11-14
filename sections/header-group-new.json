@@ -7,18 +7,18 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
+ {
   "type": "header",
   "name": "t:sections.refactor_words.labels.header_group",
   "sections": {
     "announcement": {
-      "type": "announcement-bar",
+      "type": "template-announcement",
       "settings": {
 
       }
     },
     "header": {
-      "type": "header",
+      "type": "template-navbar",
       "settings": {}
     }
   },

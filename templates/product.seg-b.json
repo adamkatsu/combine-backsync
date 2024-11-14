@@ -1,0 +1,182 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "product": {
+      "type": "template-main-product",
+      "settings": {}
+    },
+    "tutorials": {
+      "type": "template-tutorials",
+      "blocks": {
+        "card_N7CMtX": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/videoframe_8134.webp",
+            "vid_url": "https://youtu.be/VGfRoY51_B0?si=v49DaXl8jBCtzcxe",
+            "card_title": "SEG-B Set Up",
+            "card_desc": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."
+          }
+        },
+        "card_xKpBez": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/videoframe_19155.webp",
+            "vid_url": "https://youtu.be/GTMn9LA8HEo?si=AQWN5zd1t9v-jEIx",
+            "card_title": "Glute Bridge",
+            "card_desc": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."
+          }
+        },
+        "card_E9Et8Q": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/videoframe_18987.webp",
+            "vid_url": "https://youtu.be/HDQUdseJcKE?si=zvairtsBNw48DSga",
+            "card_title": "Sit-Ups",
+            "card_desc": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."
+          }
+        },
+        "card_jwnEDt": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/videoframe_17911_0e7f3d69-855d-411d-8264-c674b0b23faf.webp",
+            "vid_url": "https://youtu.be/5WuNmFmZ4dY?si=b8T6ja3DeZTaIXsP",
+            "card_title": "Poor Man’s Reverse Hyper",
+            "card_desc": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."
+          }
+        },
+        "card_77KU6C": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/videoframe_9393.webp",
+            "vid_url": "https://youtu.be/aojOijyT4No?si=r8GgaSMaH_JjBk8x",
+            "card_title": "Segmental Extension",
+            "card_desc": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."
+          }
+        },
+        "card_Adbzr7": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/videoframe_38997.webp",
+            "vid_url": "https://youtu.be/bz9lBHWqwH0?si=BsQCo807h8Ip0T6E",
+            "card_title": "Advanced Sit-up",
+            "card_desc": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."
+          }
+        },
+        "card_P3N6hz": {
+          "type": "card",
+          "settings": {
+            "card_image": "shopify://shop_images/videoframe_2778.webp",
+            "vid_url": "https://youtu.be/ZvJvxYyJM1s?si=BqgPvX7rire_f3Q_",
+            "card_title": "Weighted Glute Bridge",
+            "card_desc": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."
+          }
+        }
+      },
+      "block_order": [
+        "card_N7CMtX",
+        "card_xKpBez",
+        "card_E9Et8Q",
+        "card_jwnEDt",
+        "card_77KU6C",
+        "card_Adbzr7",
+        "card_P3N6hz"
+      ],
+      "settings": {
+        "btn_text": "SHOP SEG-B®",
+        "product_link": "seg-b",
+        "section_title": "Daily Exercises Backed By Experts",
+        "section_heading": "Improve Your Back Health in Just 10 Minutes A Day"
+      }
+    },
+    "section-block": {
+      "type": "template-section-block",
+      "settings": {
+        "vid_thumbnail": "shopify://shop_images/CleanShot_2024-10-21_at_02.06.16_38a5679d-2186-4f34-b289-97f59d09c21d.webp",
+        "video_file_link": "",
+        "block_title": "Product Tutorials",
+        "block_description": "Discover the next generation of spinal training with the SEG-B. Our unique design offers an unparalleled approach to spine health, allowing you to focus on specific spinal segments with precision."
+      }
+    },
+    "community": {
+      "type": "template-community",
+      "blocks": {
+        "slide_nTH3k3": {
+          "type": "slide",
+          "settings": {
+            "community_slide_image": "shopify://shop_images/CleanShot_2024-10-22_at_23.21.12_2x_45d3afee-b97e-4c9d-9513-385495b2830c.webp",
+            "community_slide_name": "MoveU",
+            "community_slide_desc": "Live your life in alignment!💥"
+          }
+        },
+        "slide_XtwqjW": {
+          "type": "slide",
+          "settings": {
+            "community_slide_image": "shopify://shop_images/CleanShot_2024-10-22_at_23.45.25_2x_aed36549-fa84-4427-81d2-298ce5ed8eec.webp",
+            "community_slide_name": "Grayson Strange",
+            "community_slide_desc": "Gym/coach consultation"
+          }
+        },
+        "slide_cfVbGw": {
+          "type": "slide",
+          "settings": {
+            "community_slide_image": "shopify://shop_images/image-3.webp",
+            "community_slide_name": "Ravash Nahavandi",
+            "community_slide_desc": "I help humans become PAIN FREE"
+          }
+        },
+        "slide_KaFwaF": {
+          "type": "slide",
+          "settings": {
+            "community_slide_image": "shopify://shop_images/image-2.webp",
+            "community_slide_name": "Grace Witthuhn",
+            "community_slide_desc": "Mobility & Performance Coach"
+          }
+        },
+        "slide_Jx3wbq": {
+          "type": "slide",
+          "settings": {
+            "community_slide_image": "shopify://shop_images/image-1.webp",
+            "community_slide_name": "Mike Piekarski, PT, DPT, OCS",
+            "community_slide_desc": "Doctor of Physical Therapy"
+          }
+        },
+        "slide_q7z9AA": {
+          "type": "slide",
+          "settings": {
+            "community_slide_image": "shopify://shop_images/image.webp",
+            "community_slide_name": "Kat Iliff movere.wellness",
+            "community_slide_desc": "Certified Personal Trainer"
+          }
+        }
+      },
+      "block_order": [
+        "slide_nTH3k3",
+        "slide_XtwqjW",
+        "slide_cfVbGw",
+        "slide_KaFwaF",
+        "slide_Jx3wbq",
+        "slide_q7z9AA"
+      ],
+      "settings": {
+        "community_title": "#BACKSYNC",
+        "community_heading": "Trusted By The Fitness Community",
+        "btn_text": "SHOP SEG-B®",
+        "product_link": ""
+      }
+    }
+  },
+  "order": [
+    "product",
+    "tutorials",
+    "section-block",
+    "community"
+  ]
+}
