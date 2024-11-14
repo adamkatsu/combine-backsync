@@ -17,7 +17,6 @@ var swiper2 = new Swiper(".swiper-show", {
   on: {
     autoplayTimeLeft(s, time, progress) {
       progressCircle.style.setProperty("--progress", 1 - progress);
-      // progressContent.textContent = `${Math.ceil(time / 1000)}s`;
     },
   },
   pagination: {
