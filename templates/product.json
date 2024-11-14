@@ -7,176 +7,242 @@
  * made to this file may be overwritten.
  * ------------------------------------------------------------
  */
-{
+ {
   "sections": {
-    "product": {
-      "type": "template-main-product",
-      "settings": {}
-    },
-    "tutorials": {
-      "type": "template-tutorials",
+    "main": {
+      "type": "main-product",
       "blocks": {
-        "card_N7CMtX": {
-          "type": "card",
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_weT4iT": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "disabled": true,
+          "settings": {}
+        },
+        "variant_picker": {
+          "type": "variant_picker",
           "settings": {
-            "card_image": "shopify://shop_images/videoframe_8134.webp",
-            "vid_url": "https://youtu.be/VGfRoY51_B0?si=v49DaXl8jBCtzcxe",
-            "card_title": "SEG-B Set Up",
-            "card_desc": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."
+            "heading": "Choose variants",
+            "variants_style": "radio",
+            "variant_labels": true,
+            "color_swatches": true,
+            "style": "outline",
+            "unavailable_variants": "hide"
           }
         },
-        "card_xKpBez": {
-          "type": "card",
+        "buy_buttons": {
+          "type": "buy_buttons",
           "settings": {
-            "card_image": "shopify://shop_images/videoframe_19155.webp",
-            "vid_url": "https://youtu.be/GTMn9LA8HEo?si=AQWN5zd1t9v-jEIx",
-            "card_title": "Glute Bridge",
-            "card_desc": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."
+            "show_quantity_selector": true,
+            "show_preorder": false,
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false,
+            "show_price": true,
+            "style": "outline"
           }
         },
-        "card_E9Et8Q": {
-          "type": "card",
+        "description": {
+          "type": "description",
           "settings": {
-            "card_image": "shopify://shop_images/videoframe_18987.webp",
-            "vid_url": "https://youtu.be/HDQUdseJcKE?si=zvairtsBNw48DSga",
-            "card_title": "Sit-Ups",
-            "card_desc": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."
+            "product_description_truncated": "full"
           }
         },
-        "card_jwnEDt": {
-          "type": "card",
+        "collapsible_tab_Hc3XHr": {
+          "type": "collapsible_tab",
           "settings": {
-            "card_image": "shopify://shop_images/videoframe_17911_0e7f3d69-855d-411d-8264-c674b0b23faf.webp",
-            "vid_url": "https://youtu.be/5WuNmFmZ4dY?si=b8T6ja3DeZTaIXsP",
-            "card_title": "Poor Man’s Reverse Hyper",
-            "card_desc": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."
+            "heading": "Key Features",
+            "content": "<ul><li>Segmental Mastery: Train specific vertebral levels, improving strength and control for optimal spinal wellness.</li><li>Instant Feedback: Benefit from immediate auditory, tactile, and visual feedback during spinal exercises, pinpointing areas that require attention and refinement.</li><li>Greater Mobility: Identify and address limitations in spinal mobility, leading to increased flexibility and a broader range of motion.</li><li>Universal Design: Suitable for users of all ages and fitness backgrounds, including injury recovery, postural improvement, and athletic performance enhancement.</li><li>User-friendly: Seamlessly integrate the SEG-B®️ into your daily routine and workout plan with its intuitive and easy-to-use design.</li></ul><p><br/>Invest in your spinal health and unlock your body's full potential with the Backsync SEG-B®️. Experience the difference and join the movement revolution today!</p>",
+            "page": "",
+            "hide_block_if": false
           }
         },
-        "card_77KU6C": {
-          "type": "card",
+        "collapsible_tab_JJgmGp": {
+          "type": "collapsible_tab",
           "settings": {
-            "card_image": "shopify://shop_images/videoframe_9393.webp",
-            "vid_url": "https://youtu.be/aojOijyT4No?si=r8GgaSMaH_JjBk8x",
-            "card_title": "Segmental Extension",
-            "card_desc": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."
+            "heading": "Shipping & Returns",
+            "content": "<p>For a limited time, we are offering Free Shipping on all Domestic orders. All orders are processed and fulfilled within three business days. </p><p>We want you to be 100% satisfied with your purchase. Therefore, All Items can be returned or exchanged for free within 30 days of delivery.</p>",
+            "page": "",
+            "hide_block_if": false
           }
         },
-        "card_Adbzr7": {
-          "type": "card",
+        "collapsible_tab_xnXkWJ": {
+          "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
-            "card_image": "shopify://shop_images/videoframe_38997.webp",
-            "vid_url": "https://youtu.be/bz9lBHWqwH0?si=BsQCo807h8Ip0T6E",
-            "card_title": "Advanced Sit-up",
-            "card_desc": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."
+            "heading": "Ask a Question",
+            "content": "<p>Write relevant information about your products here.</p>",
+            "page": "contact",
+            "hide_block_if": false
           }
         },
-        "card_P3N6hz": {
-          "type": "card",
+        "share": {
+          "type": "share",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "judge_me_reviews_preview_badge_weT4iT",
+        "price",
+        "variant_picker",
+        "buy_buttons",
+        "description",
+        "collapsible_tab_Hc3XHr",
+        "collapsible_tab_JJgmGp",
+        "collapsible_tab_xnXkWJ",
+        "share"
+      ],
+      "settings": {
+        "gallery_layout": "two-cols scroll",
+        "gallery_desktop_width": "one-half",
+        "gallery_mobile_width": 100,
+        "gallery_mobile_margin": false,
+        "gallery_aspect_ratio": "1",
+        "gallery_fit": false,
+        "gallery_padding": 0,
+        "gallery_background": "rgba(0,0,0,0)",
+        "gallery_border": "rgba(0,0,0,0)",
+        "border_radius": 0,
+        "show_thumbnails": false,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "default_to_first_variant": true,
+        "sticky_add_to_cart": false,
+        "sticky_atc_style": "wide",
+        "sticky_bar_bgcolor": "#ffffff",
+        "sticky_bar_txtcolor": "#111111"
+      }
+    },
+    "image_with_hotspots_z3pApm": {
+      "type": "image-with-hotspots",
+      "blocks": {
+        "product_LjjLDR": {
+          "type": "product",
+          "disabled": true,
           "settings": {
-            "card_image": "shopify://shop_images/videoframe_2778.webp",
-            "vid_url": "https://youtu.be/ZvJvxYyJM1s?si=BqgPvX7rire_f3Q_",
-            "card_title": "Weighted Glute Bridge",
-            "card_desc": "Lorem ipsum dolor sit amet consectetur. Eleifend etiam sit parturient ut tortor ut cras."
+            "product": "",
+            "vertical_offset_desktop": 50,
+            "horizontal_offset_desktop": 50,
+            "vertical_offset_mobile": 50,
+            "horizontal_offset_mobile": 50,
+            "tooltip_position_desktop": "top",
+            "tooltip_position_mobile": "top"
           }
         }
       },
       "block_order": [
-        "card_N7CMtX",
-        "card_xKpBez",
-        "card_E9Et8Q",
-        "card_jwnEDt",
-        "card_77KU6C",
-        "card_Adbzr7",
-        "card_P3N6hz"
+        "product_LjjLDR"
       ],
       "settings": {
-        "btn_text": "SHOP SEG-B®",
-        "product_link": "seg-b",
-        "section_title": "Daily Exercises Backed By Experts",
-        "section_heading": "Improve Your Back Health in Just 10 Minutes A Day"
+        "heading": "The world's first spinal segmentation training device",
+        "subheading": "Empower yourself with the SEG-B® to optimize spinal health and enhance your daily performance. Experience the freedom of a mobile, pain-free life. Start your transformation now!",
+        "section_heading_size": "text-size--large",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "image": "shopify://shop_images/SEG-B_16x9_15second.00_00_07_07.Still013.jpg",
+        "border_radius": 0,
+        "color_text": "#000000",
+        "color_background": "#ffffff",
+        "gutter_decrease": false,
+        "seo_h_tag": "h3"
       }
     },
-    "section-block": {
-      "type": "template-section-block",
+    "video_QibabN": {
+      "type": "video",
       "settings": {
-        "vid_thumbnail": "shopify://shop_images/CleanShot_2024-10-21_at_02.06.16_38a5679d-2186-4f34-b289-97f59d09c21d.webp",
-        "video_file_link": "",
-        "block_title": "Product Tutorials",
-        "block_description": "Discover the next generation of spinal training with the SEG-B. Our unique design offers an unparalleled approach to spine health, allowing you to focus on specific spinal segments with precision."
+        "heading": "Dr. Mike, MoveU",
+        "subheading": "\"An amazing product that we’ve been using for a while that helps you learn to segmentally control your spine! When you can articulate segments of the spine, it helps create body control and stabilization. It helps develop awareness between core and spine. It helps you keep the spine mobile. Ultimately you want to maintain a neutral curve to your spine most of the time. This helps you with balance and stability.\"",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--two-rows",
+        "video": "https://youtu.be/Mb1LhyHxEBI?si=NTLHH7mVT33unEpN",
+        "image": "shopify://shop_images/videoframe_39346_bd31f353-33c4-46ac-a838-d2137d6b5635.png",
+        "video_title": "",
+        "title_size": "heading-size--large",
+        "color_background_main": "#141d29",
+        "color_text_main": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "seo_h_tag": "h3"
       }
     },
-    "community": {
-      "type": "template-community",
+    "1718907783bbcfc02b": {
+      "type": "apps",
       "blocks": {
-        "slide_nTH3k3": {
-          "type": "slide",
-          "settings": {
-            "community_slide_image": "shopify://shop_images/CleanShot_2024-10-22_at_23.21.12_2x_45d3afee-b97e-4c9d-9513-385495b2830c.webp",
-            "community_slide_name": "MoveU",
-            "community_slide_desc": "Live your life in alignment!💥"
-          }
+        "judge_me_reviews_review_widget_Hd6c9C": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_Hd6c9C"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "cta_label": "",
+        "cta_url": "",
+        "full_width": false,
+        "remove_margin": false,
+        "seo_h_tag": "h2"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "blocks": {
+        "price": {
+          "type": "price",
+          "settings": {}
         },
-        "slide_XtwqjW": {
-          "type": "slide",
-          "settings": {
-            "community_slide_image": "shopify://shop_images/CleanShot_2024-10-22_at_23.45.25_2x_aed36549-fa84-4427-81d2-298ce5ed8eec.webp",
-            "community_slide_name": "Grayson Strange",
-            "community_slide_desc": "Gym/coach consultation"
-          }
+        "title": {
+          "type": "title",
+          "settings": {}
         },
-        "slide_cfVbGw": {
-          "type": "slide",
+        "product_link": {
+          "type": "product_link",
           "settings": {
-            "community_slide_image": "shopify://shop_images/image-3.webp",
-            "community_slide_name": "Ravash Nahavandi",
-            "community_slide_desc": "I help humans become PAIN FREE"
-          }
-        },
-        "slide_KaFwaF": {
-          "type": "slide",
-          "settings": {
-            "community_slide_image": "shopify://shop_images/image-2.webp",
-            "community_slide_name": "Grace Witthuhn",
-            "community_slide_desc": "Mobility & Performance Coach"
-          }
-        },
-        "slide_Jx3wbq": {
-          "type": "slide",
-          "settings": {
-            "community_slide_image": "shopify://shop_images/image-1.webp",
-            "community_slide_name": "Mike Piekarski, PT, DPT, OCS",
-            "community_slide_desc": "Doctor of Physical Therapy"
-          }
-        },
-        "slide_q7z9AA": {
-          "type": "slide",
-          "settings": {
-            "community_slide_image": "shopify://shop_images/image.webp",
-            "community_slide_name": "Kat Iliff movere.wellness",
-            "community_slide_desc": "Certified Personal Trainer"
+            "button_label": "View product"
           }
         }
       },
       "block_order": [
-        "slide_nTH3k3",
-        "slide_XtwqjW",
-        "slide_cfVbGw",
-        "slide_KaFwaF",
-        "slide_Jx3wbq",
-        "slide_q7z9AA"
+        "price",
+        "title",
+        "product_link"
       ],
+      "disabled": true,
       "settings": {
-        "community_title": "#BACKSYNC",
-        "community_heading": "Trusted By The Fitness Community",
-        "btn_text": "SHOP SEG-B®",
-        "product_link": ""
+        "heading": "Recommended",
+        "subheading": "You may also <strong>like</strong> these products",
+        "section_heading_size": "text-size--regular",
+        "section_heading_layout": "section-heading--left section-heading--one-row",
+        "layout_desktop": "four-columns",
+        "layout_mobile": "grid-palm-2",
+        "section_background_color": "rgba(0,0,0,0)",
+        "section_background_gradient": "",
+        "section_heading_color": "rgba(0,0,0,0)",
+        "gutter_decrease": false,
+        "remove_bottom_margin": false
       }
     }
   },
   "order": [
-    "product",
-    "tutorials",
-    "section-block",
-    "community"
+    "main",
+    "image_with_hotspots_z3pApm",
+    "video_QibabN",
+    "1718907783bbcfc02b",
+    "product-recommendations"
   ]
 }

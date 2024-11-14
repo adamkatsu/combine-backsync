@@ -11,6 +11,8 @@
   "sections": {
     "product": {
       "type": "template-main-product",
+      "blocks": {},
+      
       "settings": {}
     },
     "tutorials": {
