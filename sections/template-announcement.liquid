@@ -10,7 +10,7 @@
 
 <div class="section-announcement">
   <div class="container-announcement">
-    <span>+123-456-789</span>
+    <span>{{ section.settings.phone_number }}</span>
     <span class="txt-announcement">Limited Time <span style="font-weight: 700">Free Shipping</span> on all US Orders!</span>
     <div id="currency-selector">
       <div class="announcement-bar__localization-form lap-hide">
@@ -21,22 +21,30 @@
   </div>
 </div>
 
+
+
 {% schema %}
 {
   "name": "t:sections.announcement-bar.name",
   "settings": [
     {
-        "type": "checkbox",
-        "id": "show_country_selector",
-        "label": "t:sections.footer.settings.country_selector_show.label",
-        "default": true
-      },
-      {
-        "type": "checkbox",
-        "id": "show_locale_selector",
-        "label": "t:sections.footer.settings.language_selector_show.label",
-        "default": true
-      }
-    ]
+      "type": "checkbox",
+      "id": "show_country_selector",
+      "label": "t:sections.footer.settings.country_selector_show.label",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_locale_selector",
+      "label": "t:sections.footer.settings.language_selector_show.label",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "phone_number",
+      "label": "Phone Number",
+      "default": "+123-456-789"
+    }
+  ]
 }
 {% endschema %}

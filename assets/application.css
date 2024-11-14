@@ -1,36 +1,43 @@
 @font-face {
   font-family: 'Aeonik';
-  src: url('{{ "assets/Aeonik-Bold.ttf" | asset_url }}') format('ttf');
-  font-weight: 700;
-  font-style: normal;
-}
-@font-face {
-  font-family: 'Aeonik';
-  src: url('{{ "assets/ Aeonik-Light.ttf" | asset_url }}') format('ttf');
+  src: url('/cdn/shop/t/3/assets/Aeonik-Light.woff2') format('woff2'),
+       url('/cdn/shop/t/3/assets/Aeonik-Light.woff') format('woff');
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: 'Aeonik';
-  src: url('{{ "assets/Aeonik-Medium.ttf" | asset_url }}') format('ttf');
+  src: url('/cdn/shop/t/3/assets/Aeonik-Regular.woff2') format('woff2'),
+       url('/cdn/shop/t/3/assets/Aeonik-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/cdn/shop/t/3/assets/Aeonik-Medium.woff2') format('woff2'),
+       url('/cdn/shop/t/3/assets/Aeonik-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: 'Aeonik';
-  src: url('{{ "assets/Aeonik-Regular.ttf" | asset_url }}') format('ttf');
-  font-weight: 400;
+  src: url('/cdn/shop/t/3/assets/Aeonik-Bold.woff2') format('woff2'),
+       url('/cdn/shop/t/3/assets/Aeonik-Bold.woff') format('woff');
+
+  font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: 'Rubik';
-  src: url('{{ "assets/Rubik-Medium.ttf" | asset_url }}') format('ttf');
+  src: url('/cdn/shop/t/3/assets/Rubik-Medium.woff2') format('woff2'),
+       url('/cdn/shop/t/3/assets/Rubik-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: 'Rubik';
-  src: url('{{ "assets/Rubik-Regular.ttf" | asset_url }}') format('ttf');
+  src: url('/cdn/shop/t/3/assets/Rubik-Regular.woff2') format('woff2'),
+       url('/cdn/shop/t/3/assets/Rubik-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
@@ -132,6 +139,7 @@ h3 {
 }
 .btn-submit {
   padding: 8px 24px;
+  font-family: 'Rubik', sans-serif !important;
 }
 .uppercase {
   text-transform: uppercase;
@@ -159,7 +167,7 @@ h3 {
 .localization-form__item-text > * {
   color: #000;
 }
-.localization-form__item-symbol path{
+.localization-form__item-symbol path {
   color: #000;
   fill: #000;
 }
