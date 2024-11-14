@@ -44,14 +44,14 @@
     <div class="product-single-info">
       <span class="txt-500">Backsync</span>
       <h2 class="product-single-title">{{ product.title }}</h2>
-      {% comment %} {% for block in section.blocks %}
+      {% for block in section.blocks %}
 
         {% case block.type %}
           {% when '@app' %}
-            {%- render block -%}
+            {{ block.settings.content }}
         {% endcase %}
         
-      {% endfor %} {% endcomment %}
+      {% endfor %}
       <div class="review-wrapper">
         Space for Reviews
       </div>
