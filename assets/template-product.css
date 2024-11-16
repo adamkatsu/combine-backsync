@@ -321,6 +321,7 @@
   .product-single-tutorial {
     flex-direction: column;
     padding: 8px;
+    padding-top: 24px;
   }
   .product-single-tutorial > * {
     width: 100%;

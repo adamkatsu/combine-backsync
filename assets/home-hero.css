@@ -132,8 +132,12 @@
   .scroll-indicator {
     position: relative;
   }
-  .scroll-indicator {
+  .thumbnail-wrapper {
     margin-top: auto;
+    margin-bottom: -40px;
+  }
+  .scroll-indicator {
+    margin-top: 0;
     margin-bottom: 0;
   }
   .home-hero-cont,

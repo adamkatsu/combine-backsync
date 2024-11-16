@@ -269,9 +269,6 @@ span#nav-cart-count.nav-cart-count {
 .nav-open-btn {
   display: none;
 }
-.txt-announcement.mobile {
-  display: none;
-}
 @media(max-width: 768px) {
   .section-announcement {
     padding: 8px 16px;
@@ -327,16 +324,13 @@ span#nav-cart-count.nav-cart-count {
   .nav-menu-mobile svg {
     color: #000000;
   }
-  .txt-announcement {
-    display: none;
-  }
   .txt-announcement.mobile {
     display: block;
     width: 100%;
     text-align: center;
   }
   .container-announcement {
-    flex-wrap: wrap;
+    flex-direction: column-reverse;
   }
 }
 @media(max-width: 480px) {

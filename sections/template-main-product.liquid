@@ -73,7 +73,7 @@
       <span>Variant: Black</span>
       <div class="product-action-wrapper">
         {% form 'product', product, id:"product-form-{{ product.id }}" %}
-        {% comment %} <form id="product-form-{{ product.id }}" action="/cart/add" method="post" enctype="multipart/form-data" class="product-action-form"> {% endcomment %}
+
           <input type="hidden" name="id" value="{{ product.variants.first.id }}" />
           
           <div class="product-quantity-wrapper">
@@ -138,7 +138,6 @@
             </div>
           </div>
           
-      {% comment %} </form> {% endcomment %}
       {% endform %}
 
       </div>
